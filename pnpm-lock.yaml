@@ -97,7 +97,7 @@ catalogs:
       specifier: 4.1.0
       version: 4.1.0
     wrangler:
-      specifier: ^4
+      specifier: ^4.75.0
       version: 4.75.0
 
 packageExtensionsChecksum: sha256-pFcXuGlxakKcYCjV9xvCfezGQI6AtR/gdurzmHaxxI4=
@@ -201,6 +201,9 @@ importers:
       typescript:
         specifier: 'catalog:'
         version: 5.9.3
+      wrangler:
+        specifier: 'catalog:'
+        version: 4.75.0(@cloudflare/workers-types@4.20260317.1)
 
   packages/db:
     dependencies:
