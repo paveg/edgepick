@@ -17,6 +17,7 @@
     "build": "tsc --noEmit",
     "generate": "drizzle-kit generate",
     "migrate": "drizzle-kit migrate",
+    "validate": "tsx seed/validate.ts",
     "scrape": "tsx seed/scrape.ts",
     "seed": "tsx seed/seed.ts",
     "seed:local": "tsx seed/seed.ts",

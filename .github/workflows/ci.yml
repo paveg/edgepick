@@ -29,6 +29,9 @@ jobs:
       - name: Format & Lint & Test & Build
         run: pnpm -w run ready
 
+      - name: Validate seed data
+        run: pnpm --filter db validate
+
   deploy:
     name: Deploy to Cloudflare
     needs: ready

@@ -163,7 +163,17 @@
           "noseWidthMm": 125,
           "tailWidthMm": 110,
           "sidecutRadiusM": 15.4,
+          "weightG": 1310,
           "displayOrder": 3
+        },
+        {
+          "id": "01KMGAWTVG7H87MXANGC61299N",
+          "lengthCm": 171,
+          "waistWidthMm": 80.5,
+          "noseWidthMm": 125,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 16.7,
+          "displayOrder": 4
         }
       ]
     },
