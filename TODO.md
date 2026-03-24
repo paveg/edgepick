@@ -15,16 +15,17 @@
 
 ## P1: 本番環境構築
 
-- [ ] Cloudflare D1 本番 DB 作成 (`wrangler d1 create edgepick-db`)
-- [ ] `apps/api/wrangler.jsonc` に本番 `database_id` 設定
-- [ ] 本番 DB マイグレーション (`pnpm --filter db migrate --remote`)
-- [ ] 本番 DB シード投入 (`pnpm --filter db seed --remote`)
-- [ ] CD: GitHub Actions で main マージ時に `wrangler deploy`
-  - [ ] API (Workers)
-  - [ ] Web (Workers + Static Assets)
-- [ ] GitHub Secrets 登録: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`
-- [ ] Web ビルド時の `API_URL` を本番 Workers URL に設定
-- [ ] CORS を本番ドメインに制限（現状 `cors()` で全オリジン許可）
+- [x] Cloudflare D1 本番 DB 作成
+- [x] `apps/api/wrangler.jsonc` に本番 `database_id` 設定
+- [x] 本番 DB マイグレーション
+- [x] 本番 DB シード投入
+- [x] API デプロイ (Workers) — https://edgepick-api.pavegy.workers.dev
+- [x] Web デプロイ (Workers + Static Assets) — https://edgepick-web.pavegy.workers.dev
+- [x] Service Binding で Worker 間通信（error 1042 回避）
+- [x] CD: GitHub Actions で main push 時に自動デプロイ
+- [x] GitHub Secrets 登録: `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`
+- [x] スクレイピング自動化パイプライン（firecrawl + brands.ts + scrape.ts）
+- [x] seed `--brand <slug>` フィルター / `--dry-run` フラグ
 
 ## P2: 収益化・機能強化
 
@@ -34,9 +35,8 @@
   - [ ] `handleModelDetail` レスポンスに `affiliateLinks` 追加
   - [ ] 詳細ページ・比較ページに購入リンク UI 追加
   - [ ] 対応 ASP: Amazon JP, 楽天市場, Yahoo ショッピング
-- [ ] seed `--brand <slug>` フィルター（特定ブランドだけ投入）
-- [ ] seed `--dry-run` フラグ（SQL 出力のみ）
 - [ ] カスタムドメイン設定
+- [ ] データ品質改善（カテゴリ分類の修正、setbackMm 補完）
 
 ## P3: 将来
 
