@@ -146,31 +146,13 @@
           "displayOrder": 3
         },
         {
-          "id": "01KMG3TP5CX4HJW1JJ7R10CE9H",
-          "lengthCm": 155,
-          "waistWidthMm": 258,
-          "noseWidthMm": 304,
-          "tailWidthMm": 304,
-          "sidecutRadiusM": 6.7,
-          "displayOrder": 4
-        },
-        {
           "id": "01KMG3TP5C001DHNVMR25Z0ZK2",
           "lengthCm": 157,
           "waistWidthMm": 254,
           "noseWidthMm": 300,
           "tailWidthMm": 300,
           "sidecutRadiusM": 6.8,
-          "displayOrder": 5
-        },
-        {
-          "id": "01KMG3TP5CB7CPZ76C1H082NM9",
-          "lengthCm": 160,
-          "waistWidthMm": 264,
-          "noseWidthMm": 311,
-          "tailWidthMm": 311,
-          "sidecutRadiusM": 6.9,
-          "displayOrder": 6
+          "displayOrder": 4
         },
         {
           "id": "01KMG3TP5C3EWE7AEP04EE6ZQ4",
@@ -179,16 +161,7 @@
           "noseWidthMm": 304,
           "tailWidthMm": 304,
           "sidecutRadiusM": 6.9,
-          "displayOrder": 7
-        },
-        {
-          "id": "01KMG3TP5CCD9JXV2CNXH9736G",
-          "lengthCm": 164,
-          "waistWidthMm": 266,
-          "noseWidthMm": 315,
-          "tailWidthMm": 315,
-          "sidecutRadiusM": 7.0,
-          "displayOrder": 8
+          "displayOrder": 5
         }
       ]
     },
@@ -231,31 +204,13 @@
           "displayOrder": 2
         },
         {
-          "id": "01KMG3TP5CNEGEN61R730H01QC",
-          "lengthCm": 157,
-          "waistWidthMm": 255,
-          "noseWidthMm": 306,
-          "tailWidthMm": 298,
-          "sidecutRadiusM": 7.8,
-          "displayOrder": 3
-        },
-        {
           "id": "01KMG3TP5C9VJ173ZXMZGTMQQQ",
           "lengthCm": 159,
           "waistWidthMm": 249,
           "noseWidthMm": 300,
           "tailWidthMm": 292,
           "sidecutRadiusM": 8.0,
-          "displayOrder": 4
-        },
-        {
-          "id": "01KMG3TP5CHVA31YQH003GYMHY",
-          "lengthCm": 160,
-          "waistWidthMm": 257,
-          "noseWidthMm": 308,
-          "tailWidthMm": 300,
-          "sidecutRadiusM": 8.0,
-          "displayOrder": 5
+          "displayOrder": 3
         },
         {
           "id": "01KMG3TP5CN761NT4N4DP3S8BQ",
@@ -264,16 +219,7 @@
           "noseWidthMm": 302,
           "tailWidthMm": 294,
           "sidecutRadiusM": 8.2,
-          "displayOrder": 6
-        },
-        {
-          "id": "01KMG3TP5CR7CMSYVK77CD97TQ",
-          "lengthCm": 163,
-          "waistWidthMm": 259,
-          "noseWidthMm": 310,
-          "tailWidthMm": 302,
-          "sidecutRadiusM": 8.2,
-          "displayOrder": 7
+          "displayOrder": 4
         },
         {
           "id": "01KMG3TP5CDBF7XNKTZRXSMFAQ",
@@ -282,16 +228,7 @@
           "noseWidthMm": 304,
           "tailWidthMm": 296,
           "sidecutRadiusM": 8.4,
-          "displayOrder": 8
-        },
-        {
-          "id": "01KMG3TP5CJT80XK9CHKAZCQ6K",
-          "lengthCm": 167,
-          "waistWidthMm": 261,
-          "noseWidthMm": 312,
-          "tailWidthMm": 304,
-          "sidecutRadiusM": 8.4,
-          "displayOrder": 9
+          "displayOrder": 5
         }
       ]
     },
@@ -343,31 +280,13 @@
           "displayOrder": 3
         },
         {
-          "id": "01KMG3TP5CSPJ040Q3BZNADPFX",
-          "lengthCm": 155,
-          "waistWidthMm": 258,
-          "noseWidthMm": 304,
-          "tailWidthMm": 304,
-          "sidecutRadiusM": 6.7,
-          "displayOrder": 4
-        },
-        {
           "id": "01KMG3TP5C4Y9MS3FBPT7VB2BH",
           "lengthCm": 157,
           "waistWidthMm": 254,
           "noseWidthMm": 300,
           "tailWidthMm": 300,
           "sidecutRadiusM": 6.8,
-          "displayOrder": 5
-        },
-        {
-          "id": "01KMG3TP5CFZ61HH5GDXAQ9P38",
-          "lengthCm": 160,
-          "waistWidthMm": 264,
-          "noseWidthMm": 311,
-          "tailWidthMm": 311,
-          "sidecutRadiusM": 6.9,
-          "displayOrder": 6
+          "displayOrder": 4
         },
         {
           "id": "01KMG3TP5CN6MZK24CCFJ14Y7Y",
@@ -376,16 +295,7 @@
           "noseWidthMm": 304,
           "tailWidthMm": 304,
           "sidecutRadiusM": 6.9,
-          "displayOrder": 7
-        },
-        {
-          "id": "01KMG3TP5CR3FXHJCZY7Y13NW7",
-          "lengthCm": 164,
-          "waistWidthMm": 266,
-          "noseWidthMm": 315,
-          "tailWidthMm": 315,
-          "sidecutRadiusM": 7.0,
-          "displayOrder": 8
+          "displayOrder": 5
         }
       ]
     },

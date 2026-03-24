@@ -122,7 +122,7 @@
       "name": "Greats",
       "slug": "greats",
       "sport": "snowboard",
-      "level": "intermediate",
+      "level": "advanced",
       "season": "2025-2026",
       "sourceUrl": "https://www.evo.com/snowboards/yes-greats-snowboard",
       "description": "YES.ラインナップの中で急速に人気を集めるオールマウンテンフリースタイルボード。Asym MidBiteデザインでエッジホールドとレスポンスを強化し、ターン精度とプレイフルさを両立。Air Lカーボン補強で軽量かつ高いポップを実現。",
@@ -231,31 +231,13 @@
           "displayOrder": 3
         },
         {
-          "id": "01KMG3V3REZQNMQFZNXD4Y814D",
-          "lengthCm": 156,
-          "waistWidthMm": 259,
-          "noseWidthMm": 303,
-          "tailWidthMm": 303,
-          "sidecutRadiusM": 7.85,
-          "displayOrder": 4
-        },
-        {
           "id": "01KMG3V3RESC5TN7XXY9B2FYQT",
           "lengthCm": 158,
           "waistWidthMm": 253,
           "noseWidthMm": 298,
           "tailWidthMm": 298,
           "sidecutRadiusM": 7.95,
-          "displayOrder": 5
-        },
-        {
-          "id": "01KMG3V3REA6P85W8HXWR0JHYZ",
-          "lengthCm": 159,
-          "waistWidthMm": 261,
-          "noseWidthMm": 306,
-          "tailWidthMm": 306,
-          "sidecutRadiusM": 7.95,
-          "displayOrder": 6
+          "displayOrder": 4
         },
         {
           "id": "01KMG3V3RE200G1AZGRF4K53JP",
@@ -264,16 +246,7 @@
           "noseWidthMm": 299,
           "tailWidthMm": 299,
           "sidecutRadiusM": 8.15,
-          "displayOrder": 7
-        },
-        {
-          "id": "01KMG3V3RENKXS84J3Z9TFSGN5",
-          "lengthCm": 163,
-          "waistWidthMm": 263,
-          "noseWidthMm": 308,
-          "tailWidthMm": 308,
-          "sidecutRadiusM": 8.25,
-          "displayOrder": 8
+          "displayOrder": 5
         }
       ]
     },

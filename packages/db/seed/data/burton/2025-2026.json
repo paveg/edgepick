@@ -43,7 +43,7 @@
       "description": "Burtonを代表するオールマウンテンボード。ポップで万能なキャンバーシェイプ。ツインフレックスで前後均等。",
       "specs": {
         "id": "01KM2W47DWNZQRV047T3WB166Q",
-        "shape": "Directional",
+        "shape": "Twin",
         "bendProfile": "Camber",
         "flexRating": 6,
         "coreMaterial": "Super Fly II 700G Core with Dualzone EGD",
@@ -161,73 +161,6 @@
           "noseWidthMm": 300.5,
           "tailWidthMm": 300.5,
           "sidecutRadiusM": 8.2,
-          "displayOrder": 5
-        }
-      ]
-    },
-    {
-      "id": "01KM2W47DXCXT8Z8DKJ5E60192",
-      "categorySlug": "freestyle",
-      "name": "Process",
-      "slug": "process",
-      "sport": "snowboard",
-      "level": "intermediate",
-      "season": "2025-2026",
-      "sourceUrl": "https://www.burton.com/us/en/p/mens-burton-process-flying-v-snowboard/W26-107121.html",
-      "description": "フリースタイル向けのツインシェイプ。Flying Vベンドで遊びやすく、パークからパウダーまで対応する万能ボード。",
-      "specs": {
-        "id": "01KM2W47DXSXJCBXEXDGPHXAJ9",
-        "shape": "Twin",
-        "bendProfile": "Flying V",
-        "flexRating": 4,
-        "coreMaterial": "Super Fly II 700G Core with Dualzone EGD",
-        "baseMaterial": "Sintered",
-        "mounting": "The Channel"
-      },
-      "sizes": [
-        {
-          "id": "01KM2W47DXMD5C72RFY9KZX868",
-          "lengthCm": 152,
-          "waistWidthMm": 249,
-          "noseWidthMm": 290.1,
-          "tailWidthMm": 290.1,
-          "sidecutRadiusM": 7.7,
-          "displayOrder": 1
-        },
-        {
-          "id": "01KM2W47DX4SSG95216Q8QFMJQ",
-          "lengthCm": 155,
-          "waistWidthMm": 251,
-          "noseWidthMm": 293.2,
-          "tailWidthMm": 293.2,
-          "sidecutRadiusM": 7.9,
-          "displayOrder": 2
-        },
-        {
-          "id": "01KM2W47DXGAJG2QGQ3BCF0M1P",
-          "lengthCm": 157,
-          "waistWidthMm": 252,
-          "noseWidthMm": 294.9,
-          "tailWidthMm": 294.9,
-          "sidecutRadiusM": 8.1,
-          "displayOrder": 3
-        },
-        {
-          "id": "01KM2W47DXP5NWB6GJ1NJSM3TF",
-          "lengthCm": 159,
-          "waistWidthMm": 255,
-          "noseWidthMm": 298.6,
-          "tailWidthMm": 298.6,
-          "sidecutRadiusM": 8.2,
-          "displayOrder": 4
-        },
-        {
-          "id": "01KM2W47DXJ2AM5YK7KM3C4VNQ",
-          "lengthCm": 162,
-          "waistWidthMm": 257,
-          "noseWidthMm": 301.8,
-          "tailWidthMm": 301.8,
-          "sidecutRadiusM": 8.4,
           "displayOrder": 5
         }
       ]
