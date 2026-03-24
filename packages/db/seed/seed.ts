@@ -63,7 +63,7 @@ for (const file of files) {
   writeFileSync(tmpFile, sql);
 
   const args = ["wrangler", "d1", "execute", dbName, "--file", tmpFile];
-  if (!isRemote) args.push("--local");
+  args.push(isRemote ? "--remote" : "--local");
 
   try {
     execFileSync("pnpm", args, { stdio: "inherit", cwd: apiDir });

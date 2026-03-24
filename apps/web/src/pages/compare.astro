@@ -2,8 +2,8 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import { apiFetch } from "../lib/api";
 
-const API_URL = import.meta.env.API_URL || "http://localhost:8787";
 
 type SkiSpecs = {
   rockerType: string | null;
@@ -71,7 +71,7 @@ let sportMismatch = false;
 if (modelKeys.length > 0) {
   try {
     const responses = await Promise.all(
-      modelKeys.map((key) => fetch(`${API_URL}/models/${key}`)),
+      modelKeys.map((key) => apiFetch(`/models/${key}`)),
     );
     const results = await Promise.all(
       responses.map(async (res) => {

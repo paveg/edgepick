@@ -1,9 +1,10 @@
 ---
-const API_URL = import.meta.env.API_URL || "http://localhost:8787";
+import { apiFetch } from "../../../../lib/api";
+
 const { brandSlug, modelSlug } = Astro.params;
 
 try {
-  const res = await fetch(`${API_URL}/models/${brandSlug}/${modelSlug}`);
+  const res = await apiFetch(`/models/${brandSlug}/${modelSlug}`);
   if (res.ok) {
     const model = await res.json();
     return Astro.redirect(`/snowboard/${brandSlug}/${modelSlug}/${model.season}`, 302);

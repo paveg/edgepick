@@ -2,8 +2,8 @@
 import Layout from "../../../../layouts/Layout.astro";
 import Header from "../../../../components/Header.astro";
 import Footer from "../../../../components/Footer.astro";
+import { apiFetch } from "../../../../lib/api";
 
-const API_URL = import.meta.env.API_URL || "http://localhost:8787";
 const { brandSlug, modelSlug, season } = Astro.params;
 
 type Size = {
@@ -46,7 +46,7 @@ let notFound = false;
 let fetchError = false;
 
 try {
-  const res = await fetch(`${API_URL}/models/${brandSlug}/${modelSlug}/${season}`);
+  const res = await apiFetch(`/models/${brandSlug}/${modelSlug}/${season}`);
   if (res.status === 404) {
     notFound = true;
   } else {

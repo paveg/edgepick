@@ -2,8 +2,8 @@
 import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import { apiFetch } from "../lib/api";
 
-const API_URL = import.meta.env.API_URL || "http://localhost:8787";
 
 type Brand = {
   id: string;
@@ -87,9 +87,9 @@ try {
   if (activeWeightMax) params.set("weight_max", activeWeightMax);
 
   const [brandRes, catRes, modelRes] = await Promise.all([
-    fetch(`${API_URL}/brands?sport=ski`),
-    fetch(`${API_URL}/categories?sport=ski`),
-    fetch(`${API_URL}/models?${params}`),
+    apiFetch(`/brands?sport=ski`),
+    apiFetch(`/categories?sport=ski`),
+    apiFetch(`/models?${params}`),
   ]);
   allBrands = (await brandRes.json()).data;
   categories = (await catRes.json()).data;

@@ -7,7 +7,7 @@
     {
       "binding": "DB",
       "database_name": "edgepick-db",
-      "database_id": "local",
+      "database_id": "851261bf-3ebe-4b45-a55f-a425374e9cb0",
       "migrations_dir": "../../packages/db/drizzle",
     },
   ],

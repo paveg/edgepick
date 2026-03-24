@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "edgepick-web",
+  "compatibility_date": "2025-03-14",
+  "services": [
+    {
+      "binding": "API",
+      "service": "edgepick-api",
+    },
+  ],
+}
