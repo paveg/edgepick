@@ -2,16 +2,16 @@
 
 ## P0: リリースブロッカー
 
-- [ ] GitHub リポジトリ作成 (`paveg/edgepick`) + 初回 push
-- [ ] `.gitignore` 更新（`.claude/`, `.firecrawl/`, `.wrangler/`, `tools/scrape-test/.venv/`）
-- [ ] CI: GitHub Actions で PR ごとに `pnpm -w run ready` (fmt/lint/test/build)
-- [ ] スノーボード データ追加（現状 3 ブランド → 最低 8 ブランドへ）
-  - [ ] GNU — スクレイピング + シード化
-  - [ ] Capita — スクレイピング + シード化
-  - [ ] Ride — スクレイピング + シード化
-  - [ ] YES. — スクレイピング + シード化
-  - [ ] Nitro — スクレイピング + シード化
-  - [ ] `setbackMm` フィールドの埋め込み（既存 Burton/Jones/Lib Tech 含む）
+- [x] GitHub リポジトリ作成 (`paveg/edgepick`) + 初回 push
+- [x] `.gitignore` 更新（`.firecrawl/`, `.wrangler/`, `tools/scrape-test/.venv/`）
+- [x] CI: GitHub Actions で PR ごとに `pnpm -w run ready` (fmt/lint/test/build)
+- [x] スノーボード データ追加（3 → 8 ブランド、28 → 56 モデル）
+  - [x] GNU — 6 モデル
+  - [x] Capita — 5 モデル
+  - [x] Ride — 6 モデル
+  - [x] YES. — 5 モデル
+  - [x] Nitro — 6 モデル
+  - [ ] `setbackMm` フィールドの埋め込み（既存含む全ブランド）
 
 ## P1: 本番環境構築
 
