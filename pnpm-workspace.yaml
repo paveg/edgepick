@@ -33,6 +33,7 @@ catalog:
   typescript: ^5
   ulidx: ^2
   valibot: ^1
+  vite: 8.0.2
   vite-plus: 0.1.13
   vitest: 4.1.0
   wrangler: ^4
