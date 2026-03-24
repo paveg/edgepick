@@ -1,0 +1,869 @@
+{
+  "brand": {
+    "id": "01KM2Y0C1P0VFDFZ6X6C9EW17W",
+    "name": "Lib Tech",
+    "slug": "lib-tech",
+    "country": "US",
+    "websiteUrl": "https://www.lib-tech.com",
+    "description": "ワシントン州で手作りされるスノーボードブランド。Magne-Tractionエッジ技術とエコフレンドリーな製造で知られる。T.Rice OrcaとSkate Bananaが代表モデル。"
+  },
+  "categories": [
+    {
+      "id": "01KM2W47DWC9NAVB9A32XDEPDD",
+      "sport": "snowboard",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM2W47DW213XHQJXWVHTPTE0",
+      "sport": "snowboard",
+      "name": "フリースタイル",
+      "slug": "freestyle",
+      "displayOrder": 2
+    },
+    {
+      "id": "01KM2W47DWZQ6HVWYC81EEYBRF",
+      "sport": "snowboard",
+      "name": "フリーライド",
+      "slug": "freeride",
+      "displayOrder": 3
+    }
+  ],
+  "models": [
+    {
+      "id": "01KM2Y0C1PVW1H7B6H0QFCTVC3",
+      "categorySlug": "freestyle",
+      "name": "Skate Banana",
+      "slug": "skate-banana",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.lib-tech.com/skate-banana",
+      "description": "Banana Technology（ロッカー/キャンバーハイブリッド）を採用したフリースタイルの定番モデル。Magne-Tractionエッジで安定感を確保。",
+      "specs": {
+        "id": "01KM2Y0C1PBW9TD9MWVXQGF6RN",
+        "shape": "Twin",
+        "bendProfile": "Banana Technology (Rocker/Camber hybrid)",
+        "flexRating": 5,
+        "coreMaterial": "FSC Aspen/Paulownia",
+        "baseMaterial": "Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM2Y0C1P14ZRCBWD5ZBEKA28",
+          "lengthCm": 150,
+          "waistWidthMm": 250,
+          "noseWidthMm": 288,
+          "tailWidthMm": 288,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2Y0C1P00ESFK8TVGZN4B3P",
+          "lengthCm": 152,
+          "waistWidthMm": 252,
+          "noseWidthMm": 289,
+          "tailWidthMm": 289,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2Y0C1PBB76MYMFYJTF337W",
+          "lengthCm": 154,
+          "waistWidthMm": 253,
+          "noseWidthMm": 290,
+          "tailWidthMm": 290,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2Y0C1PCFB4K1CDEWKRY908",
+          "lengthCm": 156,
+          "waistWidthMm": 255,
+          "noseWidthMm": 295,
+          "tailWidthMm": 295,
+          "sidecutRadiusM": 8.3,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2Y0C1PK1R5F4RWT7H2XVBC",
+          "lengthCm": 159,
+          "waistWidthMm": 255,
+          "noseWidthMm": 297,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 8.4,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM2Y0C1PQFPSJZJ65SWPJKGX",
+      "categorySlug": "freeride",
+      "name": "T.Rice Orca II",
+      "slug": "t-rice-orca-ii",
+      "sport": "snowboard",
+      "level": "expert",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.lib-tech.com/t-rice-orca-ii-2627-early-release",
+      "description": "Travis Riceシグネチャーモデル。ボリュームシフトデザインで通常より3-6cm短く乗れる。Whale Tail Technologyでパウダー性能を最大化。",
+      "specs": {
+        "id": "01KM2Y0C1PBSAD4P9YD3SCR73G",
+        "shape": "Directional",
+        "bendProfile": "C2X Contour (Camber/Rocker hybrid)",
+        "flexRating": 7,
+        "coreMaterial": "Makah Hemlock",
+        "baseMaterial": "Sintered (Ocean-bound PBT)",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM2Y0C1PNC5MHENNXEECH0EB",
+          "lengthCm": 144,
+          "waistWidthMm": 250,
+          "noseWidthMm": 296,
+          "tailWidthMm": 286,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2Y0C1PMN8Z02JVZXSY358V",
+          "lengthCm": 150,
+          "waistWidthMm": 255,
+          "noseWidthMm": 304,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2Y0C1PE8XR83JP5BCGT8MA",
+          "lengthCm": 153,
+          "waistWidthMm": 267,
+          "noseWidthMm": 316,
+          "tailWidthMm": 305,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2Y0C1P24GBC2S0K48QGBHG",
+          "lengthCm": 156,
+          "waistWidthMm": 267,
+          "noseWidthMm": 317,
+          "tailWidthMm": 306,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2Y0C1PNBH83NC9NP8R7WW2",
+          "lengthCm": 159,
+          "waistWidthMm": 267,
+          "noseWidthMm": 319,
+          "tailWidthMm": 308,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM2Y0C1P5E8SJPQ39ESWXQV7",
+      "categorySlug": "freeride",
+      "name": "Golden Orca",
+      "slug": "golden-orca",
+      "sport": "snowboard",
+      "level": "expert",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.lib-tech.com/golden-orca-2627-early-release",
+      "description": "T.Rice Orcaの上位モデル。ボリュームシフトでC2Xコンターを採用。Makah Hemlockコアで最高の反応性とパウダー性能を実現。",
+      "specs": {
+        "id": "01KM2Y0C1PR9C1RJWVEXK68FQE",
+        "shape": "Directional",
+        "bendProfile": "C2X Contour (Camber/Rocker hybrid)",
+        "flexRating": 8,
+        "coreMaterial": "Makah Hemlock",
+        "baseMaterial": "Sintered (Ocean-bound PBT)",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM2Y0C1QPAV4A9DX3CFJAEJM",
+          "lengthCm": 150,
+          "waistWidthMm": 260,
+          "noseWidthMm": 305,
+          "tailWidthMm": 296,
+          "sidecutRadiusM": 7.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2Y0C1Q68B3QYG18D2HX8YW",
+          "lengthCm": 153,
+          "waistWidthMm": 263,
+          "noseWidthMm": 307,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2Y0C1Q9M1VXXB2HSNN0081",
+          "lengthCm": 157,
+          "waistWidthMm": 265,
+          "noseWidthMm": 309,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2Y0C1QCSQMGK4VK3F1QADK",
+          "lengthCm": 159,
+          "waistWidthMm": 266,
+          "noseWidthMm": 310,
+          "tailWidthMm": 301,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2Y0C1Q5NG18GMDSMKVPDP0",
+          "lengthCm": 161,
+          "waistWidthMm": 267,
+          "noseWidthMm": 311,
+          "tailWidthMm": 302,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM393B4XGH4RX87X36KTABGR",
+      "categorySlug": "freestyle",
+      "name": "T.Rice Pro",
+      "slug": "t-rice-pro",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.lib-tech.com/t-rice-pro",
+      "description": "Travis Riceのフリースタイルシグネチャーモデル。Jackson Hole設計のHP構造で軽量かつ耐久性に優れ、パークからオールマウンテンまで幅広く対応するバーサタイルな1本。",
+      "specs": {
+        "id": "01KM393B4Y6EW9TF431T81XA5N",
+        "shape": "Twin",
+        "bendProfile": "C2 Contour (Camber/Rocker hybrid)",
+        "flexRating": 6,
+        "coreMaterial": "FSC Aspen/Paulownia",
+        "baseMaterial": "Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM393B4YSN73KMNBABT4YDEG",
+          "lengthCm": 148,
+          "waistWidthMm": 252,
+          "noseWidthMm": 297,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 7.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM393B4Y143V2FMXNDPQEZ8P",
+          "lengthCm": 153,
+          "waistWidthMm": 253,
+          "noseWidthMm": 295,
+          "tailWidthMm": 295,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM393B4YN6N3FEPZEFPSBWE4",
+          "lengthCm": 155,
+          "waistWidthMm": 255,
+          "noseWidthMm": 298,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM393B4Y3RPAMY7C2V8GA7VD",
+          "lengthCm": 157,
+          "waistWidthMm": 258,
+          "noseWidthMm": 301,
+          "tailWidthMm": 301,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM393B4YR46QBSCFVW44SE3M",
+          "lengthCm": 157,
+          "waistWidthMm": 263,
+          "noseWidthMm": 305,
+          "tailWidthMm": 305,
+          "sidecutRadiusM": 8.2,
+          "weightRange": "125+ lbs / 60+ kg",
+          "isWide": true,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM393B4YF8XJY442M97Q2Z80",
+          "lengthCm": 159,
+          "waistWidthMm": 259,
+          "noseWidthMm": 302,
+          "tailWidthMm": 302,
+          "sidecutRadiusM": 8.3,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KM393B4YDDEXVZ7KVGCP72ZT",
+          "lengthCm": 161,
+          "waistWidthMm": 260,
+          "noseWidthMm": 304,
+          "tailWidthMm": 304,
+          "sidecutRadiusM": 8.4,
+          "displayOrder": 7
+        },
+        {
+          "id": "01KM393B4YTE46CFQ8R3FV6KEN",
+          "lengthCm": 161,
+          "waistWidthMm": 265,
+          "noseWidthMm": 311,
+          "tailWidthMm": 311,
+          "sidecutRadiusM": 8.4,
+          "isWide": true,
+          "displayOrder": 8
+        },
+        {
+          "id": "01KM393B4YM090952K0J4KWBRW",
+          "lengthCm": 164,
+          "waistWidthMm": 262,
+          "noseWidthMm": 310,
+          "tailWidthMm": 310,
+          "sidecutRadiusM": 8.5,
+          "displayOrder": 9
+        },
+        {
+          "id": "01KM393B4YGY9YARYNCKTT8C4G",
+          "lengthCm": 164,
+          "waistWidthMm": 267,
+          "noseWidthMm": 312,
+          "tailWidthMm": 312,
+          "sidecutRadiusM": 8.5,
+          "isWide": true,
+          "displayOrder": 10
+        }
+      ]
+    },
+    {
+      "id": "01KM393B4ZQP634TSZ76WR0557",
+      "categorySlug": "freeride",
+      "name": "T.Rice Orca",
+      "slug": "orca",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.lib-tech.com/orca",
+      "description": "Travis Riceが設計したボリュームシフトディレクショナルボード。通常より3-6cm短く乗れる設計で、パウダーからリゾートスラッシングまで対応するオールテレインシュレッダー。",
+      "specs": {
+        "id": "01KM393B4ZM0JASZZJWX0VJFV8",
+        "shape": "Directional",
+        "bendProfile": "C2X Contour (Camber/Rocker hybrid)",
+        "flexRating": 7,
+        "coreMaterial": "FSC Aspen/Paulownia",
+        "baseMaterial": "Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM393B4ZN9PBY90TRD942DG8",
+          "lengthCm": 138,
+          "waistWidthMm": 247,
+          "noseWidthMm": 288,
+          "tailWidthMm": 280,
+          "sidecutRadiusM": 6.8,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM393B4Z09JHE3QFCQNDTQHD",
+          "lengthCm": 144,
+          "waistWidthMm": 250,
+          "noseWidthMm": 296,
+          "tailWidthMm": 286,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM393B4ZRA4459PP1WZ3BHXA",
+          "lengthCm": 147,
+          "waistWidthMm": 252,
+          "noseWidthMm": 298,
+          "tailWidthMm": 288,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM393B4Z6HANSS81WCQF6JXC",
+          "lengthCm": 150,
+          "waistWidthMm": 255,
+          "noseWidthMm": 304,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM393B4ZNA8BXS155JFC9A4E",
+          "lengthCm": 153,
+          "waistWidthMm": 267,
+          "noseWidthMm": 316,
+          "tailWidthMm": 305,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM393B4Z401M055EBXG602QB",
+          "lengthCm": 156,
+          "waistWidthMm": 267,
+          "noseWidthMm": 317,
+          "tailWidthMm": 306,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KM393B4ZKNPSW6XEMFVWXNH4",
+          "lengthCm": 159,
+          "waistWidthMm": 267,
+          "noseWidthMm": 319,
+          "tailWidthMm": 308,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 7
+        },
+        {
+          "id": "01KM393B4ZTDMDAD1G65N9W36T",
+          "lengthCm": 162,
+          "waistWidthMm": 269,
+          "noseWidthMm": 322,
+          "tailWidthMm": 311,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 8
+        }
+      ]
+    },
+    {
+      "id": "01KM398F9YXTQRTDRTJDBA823T",
+      "categorySlug": "freeride",
+      "name": "Apex Orca",
+      "slug": "apex-orca",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.lib-tech.com/apex-orca",
+      "description": "Natural Selection優勝のOrcaをTechno Popカーボン構造で進化させた究極のディレクショナルボード。ユニディレクショナルカーボンとマグネシウムファイバーで超軽量かつ最高のパフォーマンスを実現。",
+      "specs": {
+        "id": "01KM398F9ZHDDKFZWHB6GYW0D4",
+        "shape": "Directional",
+        "bendProfile": "C2X Contour (Camber/Rocker hybrid)",
+        "flexRating": 7,
+        "coreMaterial": "Recycled PET/Paulownia/FSC Aspen",
+        "baseMaterial": "Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM398F9ZW8RFY8EZE4MTKFEN",
+          "lengthCm": 150,
+          "waistWidthMm": 255,
+          "noseWidthMm": 304,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM398F9ZJDQ7C207X8ZQAA62",
+          "lengthCm": 153,
+          "waistWidthMm": 267,
+          "noseWidthMm": 316,
+          "tailWidthMm": 305,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM398F9ZX5F0M443QNFZ53F4",
+          "lengthCm": 156,
+          "waistWidthMm": 267,
+          "noseWidthMm": 317,
+          "tailWidthMm": 306,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM398F9ZV4JPSN87VYCPY0W1",
+          "lengthCm": 159,
+          "waistWidthMm": 267,
+          "noseWidthMm": 319,
+          "tailWidthMm": 308,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM393B50NR5DJQ9WT2NCSP69",
+      "categorySlug": "all-mountain",
+      "name": "Cold Brew",
+      "slug": "cold-brew",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.lib-tech.com/cold-brew",
+      "description": "フリーライド寄りのディレクショナルオールマウンテンボード。フローティなノーズで疲労を軽減しパウダーやクラストでの楽しさを最大化。ミッドワイド幅とMagne-Tractionでカービングとフロートを両立。",
+      "specs": {
+        "id": "01KM393B50M41HM3HYJFTM9PRJ",
+        "shape": "Directional",
+        "bendProfile": "C2 Contour (Camber/Rocker hybrid)",
+        "flexRating": 5,
+        "coreMaterial": "FSC Aspen/Paulownia",
+        "baseMaterial": "Eco Sublimated",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM393B50MCN04P6YJ0YWC6ZX",
+          "lengthCm": 149,
+          "waistWidthMm": 256,
+          "noseWidthMm": 295,
+          "tailWidthMm": 292,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM393B505X1VB65JFSZQEXXZ",
+          "lengthCm": 153,
+          "waistWidthMm": 257,
+          "noseWidthMm": 297,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM393B50Q0C666WH5X21KDWX",
+          "lengthCm": 155,
+          "waistWidthMm": 266,
+          "noseWidthMm": 307,
+          "tailWidthMm": 303,
+          "sidecutRadiusM": 8.2,
+          "isWide": true,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM393B50TTMWAW133ZRWS6P9",
+          "lengthCm": 157,
+          "waistWidthMm": 262,
+          "noseWidthMm": 304,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.3,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM393B50YT6TP8VSMP1ZJ1BK",
+          "lengthCm": 158,
+          "waistWidthMm": 268,
+          "noseWidthMm": 310,
+          "tailWidthMm": 306,
+          "sidecutRadiusM": 8.3,
+          "isWide": true,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM393B50HQGBY4HBGEQDY6NE",
+          "lengthCm": 159,
+          "waistWidthMm": 263,
+          "noseWidthMm": 305,
+          "tailWidthMm": 302,
+          "sidecutRadiusM": 8.3,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KM393B50E8RQ71VMMSSHZBME",
+          "lengthCm": 161,
+          "waistWidthMm": 265,
+          "noseWidthMm": 308,
+          "tailWidthMm": 304,
+          "sidecutRadiusM": 8.4,
+          "displayOrder": 7
+        },
+        {
+          "id": "01KM393B50J4J913RY122MW0YK",
+          "lengthCm": 163,
+          "waistWidthMm": 268,
+          "noseWidthMm": 314,
+          "tailWidthMm": 312,
+          "sidecutRadiusM": 8.4,
+          "isWide": true,
+          "displayOrder": 8
+        }
+      ]
+    },
+    {
+      "id": "01KM393B50X3T80P0RQCC14M1R",
+      "categorySlug": "all-mountain",
+      "name": "Dynamo",
+      "slug": "dynamo",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.lib-tech.com/dynamo",
+      "description": "キャンバーディレクショナルのオールマウンテンフリーライドボード。リラックスしたノーズエントリーとマイルドテーパーでパウダーとクラストを楽にこなし、C3キャンバーとMagne-Tractionでハードパックカービングとポップを保証。",
+      "specs": {
+        "id": "01KM393B50SHY2RS8VGW351FBD",
+        "shape": "Directional",
+        "bendProfile": "C3 Contour (Camber dominant)",
+        "flexRating": 6,
+        "coreMaterial": "FSC Aspen/Paulownia",
+        "baseMaterial": "Eco Sublimated TNT",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM393B50BY1J47B11NE9YVC8",
+          "lengthCm": 150,
+          "waistWidthMm": 243,
+          "noseWidthMm": 282,
+          "tailWidthMm": 278,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM393B50TPWKE0X75NK8YWWZ",
+          "lengthCm": 153,
+          "waistWidthMm": 252,
+          "noseWidthMm": 293,
+          "tailWidthMm": 290,
+          "sidecutRadiusM": 7.9,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM393B501JDJFKR3EEY8D5X2",
+          "lengthCm": 156,
+          "waistWidthMm": 255,
+          "noseWidthMm": 297,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM393B502A1ZPBGRMY4XMMFJ",
+          "lengthCm": 156,
+          "waistWidthMm": 265,
+          "noseWidthMm": 307,
+          "tailWidthMm": 304,
+          "sidecutRadiusM": 8.0,
+          "isWide": true,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM393B508ZY3MS101S1VH9A0",
+          "lengthCm": 159,
+          "waistWidthMm": 257,
+          "noseWidthMm": 300,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM393B50SN23X28QPKW47ASY",
+          "lengthCm": 159,
+          "waistWidthMm": 267,
+          "noseWidthMm": 310,
+          "tailWidthMm": 307,
+          "sidecutRadiusM": 8.1,
+          "isWide": true,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KM393B50PEFQMWDXD5B0P3H3",
+          "lengthCm": 162,
+          "waistWidthMm": 258,
+          "noseWidthMm": 303,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 7
+        },
+        {
+          "id": "01KM393B50XBCYJJ5Q12DB7K8J",
+          "lengthCm": 162,
+          "waistWidthMm": 268,
+          "noseWidthMm": 313,
+          "tailWidthMm": 311,
+          "sidecutRadiusM": 8.2,
+          "isWide": true,
+          "displayOrder": 8
+        },
+        {
+          "id": "01KM393B50Z0807DW566K5EQDB",
+          "lengthCm": 165,
+          "waistWidthMm": 268,
+          "noseWidthMm": 314,
+          "tailWidthMm": 312,
+          "sidecutRadiusM": 8.3,
+          "isWide": true,
+          "displayOrder": 9
+        }
+      ]
+    },
+    {
+      "id": "01KM393B50H9PMGMGV57RANBRE",
+      "categorySlug": "freestyle",
+      "name": "Ejack Knife",
+      "slug": "ejack-knife",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.lib-tech.com/ejack-knife",
+      "description": "Eric Jacksonシグネチャーモデル。C3キャンバーのパワフルなボディにスムーズなアーリーライズノーズとマイルドテーパーテールで、ハードパックからパウダーまでフリースタイルプログレッションを追求。",
+      "specs": {
+        "id": "01KM393B501BK27024XDH77EVJ",
+        "shape": "Directional",
+        "bendProfile": "C3 Contour (Camber dominant)",
+        "flexRating": 6,
+        "coreMaterial": "FSC Aspen/Paulownia",
+        "baseMaterial": "Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM393B50FHV310GRRD9XK5N7",
+          "lengthCm": 154,
+          "waistWidthMm": 251,
+          "noseWidthMm": 293,
+          "tailWidthMm": 290,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM393B50E7B96C3V15HV7RW1",
+          "lengthCm": 157,
+          "waistWidthMm": 253,
+          "noseWidthMm": 301,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM393B50M38SG5ZY7N496JEP",
+          "lengthCm": 159,
+          "waistWidthMm": 254,
+          "noseWidthMm": 302,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM393B5021KSGDF4YYVXJQC2",
+          "lengthCm": 159,
+          "waistWidthMm": 264,
+          "noseWidthMm": 312,
+          "tailWidthMm": 304,
+          "sidecutRadiusM": 8.0,
+          "isWide": true,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM393B50P771MFXF3GK8H7F3",
+          "lengthCm": 162,
+          "waistWidthMm": 265,
+          "noseWidthMm": 317,
+          "tailWidthMm": 306,
+          "sidecutRadiusM": 8.0,
+          "isWide": true,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM393B50J1QE7B2E4J5VJH6Q",
+      "categorySlug": "freeride",
+      "name": "Skunk Ape",
+      "slug": "skunk-ape",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.lib-tech.com/skunk-ape",
+      "description": "大柄なライダーのための究極のパワーフリースタイルボード。リラックスしたロングノーズでパウダーフロートを確保し、ワイド/ウルトラワイド設計でトードラッグなしのアグレッシブなカービングを実現。",
+      "specs": {
+        "id": "01KM393B506Q7PY1ZT0YPSWSHS",
+        "shape": "Directional Twin",
+        "bendProfile": "C2X Contour (Camber/Rocker hybrid)",
+        "flexRating": 7,
+        "coreMaterial": "FSC Aspen/Paulownia",
+        "baseMaterial": "Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM393B50F2KPC5J3DAMZK1FP",
+          "lengthCm": 157,
+          "waistWidthMm": 268,
+          "noseWidthMm": 305,
+          "tailWidthMm": 303,
+          "sidecutRadiusM": 8.5,
+          "isWide": true,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM393B509SMYJYDSBDX2X8VF",
+          "lengthCm": 161,
+          "waistWidthMm": 268,
+          "noseWidthMm": 308,
+          "tailWidthMm": 305,
+          "sidecutRadiusM": 8.5,
+          "isWide": true,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM398F9Z28JV4TC6AKJ5NZQ6",
+          "lengthCm": 163,
+          "waistWidthMm": 280,
+          "noseWidthMm": 325,
+          "tailWidthMm": 322,
+          "sidecutRadiusM": 8.5,
+          "isWide": true,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM398F9Z18VSP71F8X8CCVCR",
+          "lengthCm": 165,
+          "waistWidthMm": 268,
+          "noseWidthMm": 312,
+          "tailWidthMm": 310,
+          "sidecutRadiusM": 8.6,
+          "isWide": true,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM398F9ZX1XHXYVB91D88QFV",
+          "lengthCm": 169,
+          "waistWidthMm": 268,
+          "noseWidthMm": 314,
+          "tailWidthMm": 312,
+          "sidecutRadiusM": 8.6,
+          "isWide": true,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM398F9Z5C4V9WSPXHY5ACZ2",
+          "lengthCm": 170,
+          "waistWidthMm": 285,
+          "noseWidthMm": 329,
+          "tailWidthMm": 326,
+          "sidecutRadiusM": 8.75,
+          "isWide": true,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KM39AQ4VV6PD9ZS8RPYDEFG5",
+          "lengthCm": 173,
+          "waistWidthMm": 285,
+          "noseWidthMm": 332,
+          "tailWidthMm": 330,
+          "sidecutRadiusM": 8.75,
+          "isWide": true,
+          "displayOrder": 7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,408 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+const API_URL = import.meta.env.API_URL || "http://localhost:8787";
+
+type Brand = {
+  id: string;
+  name: string;
+  slug: string;
+};
+
+type Category = {
+  id: string;
+  name: string;
+  slug: string;
+  sport: string;
+  displayOrder: number;
+};
+
+type Size = {
+  lengthCm: number;
+  waistWidthMm: number | null;
+};
+
+type Model = {
+  id: string;
+  name: string;
+  slug: string;
+  level: string;
+  season: string;
+  brandName: string;
+  brandSlug: string;
+  categoryName: string;
+  categorySlug: string;
+  sizes: Size[];
+};
+
+const activeBrand = Astro.url.searchParams.get("brand") ?? "";
+const activeCategory = Astro.url.searchParams.get("category") ?? "";
+const activeWaistMin = Astro.url.searchParams.get("waist_min") ?? "";
+const activeWaistMax = Astro.url.searchParams.get("waist_max") ?? "";
+const activeWeightMin = Astro.url.searchParams.get("weight_min") ?? "";
+const activeWeightMax = Astro.url.searchParams.get("weight_max") ?? "";
+const comparingParam = Astro.url.searchParams.get("comparing") ?? "";
+const comparingModels = comparingParam ? comparingParam.split(",").filter(Boolean) : [];
+const isComparing = comparingModels.length > 0;
+const hasActiveFilter = !!(activeBrand || activeCategory || activeWaistMin || activeWaistMax || activeWeightMin || activeWeightMax);
+
+const compareUrl = (model: Model) => {
+  const key = `${model.brandSlug}/${model.slug}/${model.season}`;
+  const allModels = [...comparingModels, key];
+  return `/compare?models=${allModels.join(",")}`;
+};
+
+// Waist width presets (mm) — snowboard waists are wider
+const waistPresets = [
+  { label: "すべて", min: "", max: "" },
+  { label: "〜245mm", min: "", max: "245" },
+  { label: "245〜255mm", min: "245", max: "255" },
+  { label: "255〜265mm", min: "255", max: "265" },
+  { label: "265mm〜", min: "265", max: "" },
+];
+
+// Weight presets (g)
+const weightPresets = [
+  { label: "すべて", min: "", max: "" },
+  { label: "〜2500g", min: "", max: "2500" },
+  { label: "2500〜3000g", min: "2500", max: "3000" },
+  { label: "3000〜3500g", min: "3000", max: "3500" },
+  { label: "3500g〜", min: "3500", max: "" },
+];
+
+let allBrands: Brand[] = [];
+let categories: Category[] = [];
+let models: Model[] = [];
+let fetchError = false;
+
+try {
+  const params = new URLSearchParams({ sport: "snowboard" });
+  if (activeBrand) params.set("brand", activeBrand);
+  if (activeCategory) params.set("category", activeCategory);
+  if (activeWaistMin) params.set("waist_min", activeWaistMin);
+  if (activeWaistMax) params.set("waist_max", activeWaistMax);
+  if (activeWeightMin) params.set("weight_min", activeWeightMin);
+  if (activeWeightMax) params.set("weight_max", activeWeightMax);
+
+  const [brandRes, catRes, modelRes] = await Promise.all([
+    fetch(`${API_URL}/brands?sport=snowboard`),
+    fetch(`${API_URL}/categories?sport=snowboard`),
+    fetch(`${API_URL}/models?${params}`),
+  ]);
+  allBrands = (await brandRes.json()).data;
+  categories = (await catRes.json()).data;
+  models = (await modelRes.json()).data;
+} catch {
+  fetchError = true;
+}
+
+const levelLabel: Record<string, string> = {
+  beginner: "初級",
+  intermediate: "中級",
+  advanced: "上級",
+  expert: "エキスパート",
+};
+
+/** Build filter URL preserving all other params except the one being changed */
+const buildFilterUrl = (overrides: Record<string, string>) => {
+  const params = new URLSearchParams();
+  const current: Record<string, string> = {
+    brand: activeBrand,
+    category: activeCategory,
+    waist_min: activeWaistMin,
+    waist_max: activeWaistMax,
+    weight_min: activeWeightMin,
+    weight_max: activeWeightMax,
+    comparing: comparingParam,
+  };
+  const merged = { ...current, ...overrides };
+  for (const [k, v] of Object.entries(merged)) {
+    if (v) params.set(k, v);
+  }
+  const qs = params.toString();
+  return qs ? `/snowboard?${qs}` : "/snowboard";
+};
+
+const filterUrl = (key: string, value: string) =>
+  buildFilterUrl({ [key]: value });
+
+const waistFilterUrl = (min: string, max: string) =>
+  buildFilterUrl({ waist_min: min, waist_max: max });
+
+const weightFilterUrl = (min: string, max: string) =>
+  buildFilterUrl({ weight_min: min, weight_max: max });
+---
+
+<Layout title="スノーボード カタログ — Edgepick">
+  <Header />
+
+  <main class="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-10">
+    <h1 class="text-2xl font-bold tracking-tight">スノーボード</h1>
+    <p class="mt-1 text-sm text-muted-foreground">
+      スノーボードのスペックをカテゴリ・ブランドで探す。シェイプ・フレックス・ウエスト幅を比較できます。
+    </p>
+
+    {isComparing && (
+      <div class="mt-4 flex items-center justify-between gap-4 rounded-lg border border-primary/30 bg-primary/5 px-4 py-3">
+        <p class="text-sm">
+          比較に追加するモデルを選択してください（{comparingModels.length}/3 選択中）
+        </p>
+        <a
+          href={`/compare?models=${comparingModels.join(",")}`}
+          class="shrink-0 rounded-full bg-primary px-3 py-1 text-xs font-medium text-primary-foreground transition-colors hover:bg-primary/90"
+        >
+          比較ページに戻る
+        </a>
+      </div>
+    )}
+
+    <!-- Filters -->
+    <details class="group mt-6" open={hasActiveFilter || undefined}>
+      <summary class="flex cursor-pointer items-center gap-2 text-sm font-medium text-muted-foreground select-none list-none [&::-webkit-details-marker]:hidden">
+        <svg class="size-4 transition-transform group-open:rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        絞り込み
+        {hasActiveFilter && (
+          <span class="rounded-full bg-primary px-1.5 py-0.5 text-[10px] font-medium leading-none text-primary-foreground">ON</span>
+        )}
+      </summary>
+
+      <div class="mt-4 space-y-4">
+        {categories.length > 0 && (
+          <section>
+            <h2 class="text-xs font-medium text-muted-foreground uppercase tracking-wide">カテゴリ</h2>
+            <div class="mt-2 flex flex-wrap gap-1.5">
+              <a
+                href={filterUrl("category", "")}
+                class:list={[
+                  "rounded-full px-3 py-1 text-xs font-medium transition-colors",
+                  !activeCategory
+                    ? "bg-primary text-primary-foreground"
+                    : "border border-border text-muted-foreground hover:border-primary/40 hover:text-foreground",
+                ]}
+              >
+                すべて
+              </a>
+              {categories.map((cat) => (
+                <a
+                  href={filterUrl("category", cat.slug)}
+                  class:list={[
+                    "rounded-full px-3 py-1 text-xs font-medium transition-colors",
+                    activeCategory === cat.slug
+                      ? "bg-primary text-primary-foreground"
+                      : "border border-border text-muted-foreground hover:border-primary/40 hover:text-foreground",
+                  ]}
+                >
+                  {cat.name}
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {allBrands.length > 0 && (
+          <section>
+            <h2 class="text-xs font-medium text-muted-foreground uppercase tracking-wide">ブランド</h2>
+            <div class="mt-2 flex flex-wrap gap-1.5">
+              <a
+                href={filterUrl("brand", "")}
+                class:list={[
+                  "rounded-full px-3 py-1 text-xs font-medium transition-colors",
+                  !activeBrand
+                    ? "bg-primary text-primary-foreground"
+                    : "border border-border text-muted-foreground hover:border-primary/40 hover:text-foreground",
+                ]}
+              >
+                すべて
+              </a>
+              {allBrands.map((b) => (
+                <a
+                  href={filterUrl("brand", b.slug)}
+                  class:list={[
+                    "rounded-full px-3 py-1 text-xs font-medium transition-colors",
+                    activeBrand === b.slug
+                      ? "bg-primary text-primary-foreground"
+                      : "border border-border text-muted-foreground hover:border-primary/40 hover:text-foreground",
+                  ]}
+                >
+                  {b.name}
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+
+        <section>
+          <h2 class="text-xs font-medium text-muted-foreground uppercase tracking-wide">ウエスト幅</h2>
+          <div class="mt-2 flex flex-wrap gap-1.5">
+            {waistPresets.map((preset) => {
+              const isActive = activeWaistMin === preset.min && activeWaistMax === preset.max;
+              return (
+                <a
+                  href={waistFilterUrl(preset.min, preset.max)}
+                  class:list={[
+                    "rounded-full px-3 py-1 text-xs font-medium transition-colors",
+                    isActive
+                      ? "bg-primary text-primary-foreground"
+                      : "border border-border text-muted-foreground hover:border-primary/40 hover:text-foreground",
+                  ]}
+                >
+                  {preset.label}
+                </a>
+              );
+            })}
+          </div>
+        </section>
+
+        <section>
+          <h2 class="text-xs font-medium text-muted-foreground uppercase tracking-wide">重量</h2>
+          <div class="mt-2 flex flex-wrap gap-1.5">
+            {weightPresets.map((preset) => {
+              const isActive = activeWeightMin === preset.min && activeWeightMax === preset.max;
+              return (
+                <a
+                  href={weightFilterUrl(preset.min, preset.max)}
+                  class:list={[
+                    "rounded-full px-3 py-1 text-xs font-medium transition-colors",
+                    isActive
+                      ? "bg-primary text-primary-foreground"
+                      : "border border-border text-muted-foreground hover:border-primary/40 hover:text-foreground",
+                  ]}
+                >
+                  {preset.label}
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      </div>
+    </details>
+
+    <!-- Model List -->
+    <section class="mt-8">
+      <div class="flex items-baseline justify-between">
+        <h2 class="font-semibold">
+          モデル一覧
+          <span class="ml-2 text-xs font-normal text-muted-foreground">
+            {models.length} 件
+          </span>
+        </h2>
+        <span class="text-xs text-muted-foreground">2025-2026 シーズン</span>
+      </div>
+
+      {fetchError ? (
+        <p class="mt-4 text-sm text-muted-foreground">
+          データの取得に失敗しました。API サーバーが起動しているか確認してください。
+        </p>
+      ) : models.length === 0 ? (
+        <p class="mt-4 text-sm text-muted-foreground">
+          条件に一致するモデルはありません。
+        </p>
+      ) : (
+        <>
+          {/* Desktop: Table */}
+          <div class="mt-4 hidden md:block overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead>
+                <tr class="border-b border-border text-xs text-muted-foreground">
+                  <th class="pb-2 pr-4 font-medium">ブランド</th>
+                  <th class="pb-2 pr-4 font-medium">モデル</th>
+                  <th class="pb-2 pr-4 font-medium">カテゴリ</th>
+                  <th class="pb-2 pr-4 font-medium">レベル</th>
+                  <th class="pb-2 pr-4 font-medium text-right">ウエスト (mm)</th>
+                  <th class="pb-2 font-medium">サイズ展開 (cm)</th>
+                  <th class="pb-2 font-medium text-center">比較</th>
+                </tr>
+              </thead>
+              <tbody>
+                {models.map((model) => (
+                  <tr class="border-b border-border/50 transition-colors hover:bg-muted/30">
+                    <td class="py-3 pr-4 text-muted-foreground whitespace-nowrap">
+                      {model.brandName}
+                    </td>
+                    <td class="py-3 pr-4 font-medium whitespace-nowrap">
+                      <a href={`/snowboard/${model.brandSlug}/${model.slug}`} class="hover:text-primary hover:underline">
+                        {model.name}
+                      </a>
+                    </td>
+                    <td class="py-3 pr-4">
+                      <span class="inline-flex items-center rounded-full bg-secondary px-2 py-0.5 text-xs font-medium text-secondary-foreground whitespace-nowrap">
+                        {model.categoryName}
+                      </span>
+                    </td>
+                    <td class="py-3 pr-4 text-xs text-muted-foreground whitespace-nowrap">
+                      {levelLabel[model.level] ?? model.level}
+                    </td>
+                    <td class="py-3 pr-4 text-right tabular-nums">
+                      {model.sizes[0]?.waistWidthMm ?? "—"}
+                    </td>
+                    <td class="py-3 text-xs tabular-nums text-muted-foreground">
+                      {model.sizes.map((s) => s.lengthCm).join(" / ")}
+                    </td>
+                    <td class="py-3 pl-2 text-center">
+                      <a
+                        href={compareUrl(model)}
+                        class:list={[
+                          "inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium transition-colors whitespace-nowrap",
+                          isComparing
+                            ? "bg-primary text-primary-foreground hover:bg-primary/90"
+                            : "border border-accent/40 text-accent hover:bg-accent hover:text-accent-foreground",
+                        ]}
+                      >
+                        {isComparing ? "+ 追加" : "比較"}
+                      </a>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile: Cards */}
+          <div class="mt-4 grid gap-3 md:hidden">
+            {models.map((model) => (
+              <div class="rounded-lg border border-border p-4 transition-colors hover:border-primary/40 hover:bg-muted/20">
+                <div class="flex items-start justify-between gap-2">
+                  <a href={`/snowboard/${model.brandSlug}/${model.slug}`} class="min-w-0">
+                    <p class="text-xs text-muted-foreground">{model.brandName}</p>
+                    <p class="font-medium leading-tight hover:text-primary">{model.name}</p>
+                  </a>
+                  <span class="shrink-0 rounded-full bg-secondary px-2 py-0.5 text-xs font-medium text-secondary-foreground">
+                    {model.categoryName}
+                  </span>
+                </div>
+                <div class="mt-3 flex items-center justify-between">
+                  <div class="flex items-center gap-4 text-xs text-muted-foreground">
+                    <span>{levelLabel[model.level] ?? model.level}</span>
+                    <span class="tabular-nums">
+                      W {model.sizes[0]?.waistWidthMm ?? "—"}mm
+                    </span>
+                    <span class="tabular-nums">
+                      {model.sizes.length > 0
+                        ? `${model.sizes[0].lengthCm}–${model.sizes[model.sizes.length - 1].lengthCm}cm`
+                        : "—"}
+                    </span>
+                  </div>
+                  <a
+                    href={compareUrl(model)}
+                    class:list={[
+                      "shrink-0 rounded-full px-2.5 py-1 text-xs font-medium transition-colors",
+                      isComparing
+                        ? "bg-primary text-primary-foreground hover:bg-primary/90"
+                        : "border border-accent/40 text-accent hover:bg-accent hover:text-accent-foreground",
+                    ]}
+                  >
+                    {isComparing ? "+ 追加" : "比較"}
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

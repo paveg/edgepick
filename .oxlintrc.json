@@ -1,0 +1,4 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nicolo-ribaudo/oxc/json-schema-for-oxlint/npm/oxlint/configuration_schema.json",
+  "ignorePatterns": [".astro"]
+}

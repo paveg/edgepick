@@ -1,0 +1,433 @@
+{
+  "brand": {
+    "id": "01KM2YQGVG2660252HBQARPBBZ",
+    "name": "Atomic",
+    "slug": "atomic",
+    "country": "AT",
+    "websiteUrl": "https://www.atomic.com"
+  },
+  "categories": [
+    {
+      "id": "01KM0YM2TXVM9AJJ1R5CYS7ZP9",
+      "sport": "ski",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM3926H2MPTHK547AEPZRWPF",
+      "sport": "ski",
+      "name": "パウダー",
+      "slug": "powder",
+      "displayOrder": 2
+    }
+  ],
+  "models": [
+    {
+      "id": "01KM2YQGVGZ80C7VQE3W0EF6AJ",
+      "categorySlug": "all-mountain",
+      "name": "Bent 100",
+      "slug": "bent-100",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/skis/atomic-bent-100",
+      "description": "Atomicのオールマウンテンスキー。HRZN Tech搭載で遊び心とパフォーマンスを両立。",
+      "specs": {
+        "id": "01KM2YQGVGDT2QZ5MZJ7HFJA7W",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Light Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Dura Cap"
+      },
+      "sizes": [
+        {
+          "id": "01KM2YQGVGC410JSEV0ANPJ5XM",
+          "lengthCm": 158,
+          "waistWidthMm": 100,
+          "noseWidthMm": 124.5,
+          "tailWidthMm": 115,
+          "sidecutRadiusM": 16.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2YQGVHHG0PC8Q59M6MJ8DQ",
+          "lengthCm": 165,
+          "waistWidthMm": 100,
+          "noseWidthMm": 126,
+          "tailWidthMm": 116.5,
+          "sidecutRadiusM": 17,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2YQGVHQYSASW6A85GQYXFW",
+          "lengthCm": 172,
+          "waistWidthMm": 100,
+          "noseWidthMm": 127.5,
+          "tailWidthMm": 118,
+          "sidecutRadiusM": 18,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2YQGVHVG8ENPN2PR28TRAY",
+          "lengthCm": 179,
+          "waistWidthMm": 100,
+          "noseWidthMm": 128.5,
+          "tailWidthMm": 119,
+          "sidecutRadiusM": 19,
+          "weightG": 1700,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2YQGVHEZNJ1TBQ02AGSXT5",
+          "lengthCm": 186,
+          "waistWidthMm": 100,
+          "noseWidthMm": 129.5,
+          "tailWidthMm": 120,
+          "sidecutRadiusM": 19.5,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM2YQGVHP8G8365SNTZ4N8A8",
+      "categorySlug": "all-mountain",
+      "name": "Bent 110",
+      "slug": "bent-110",
+      "sport": "ski",
+      "level": "expert",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/skis/atomic-bent-110",
+      "description": "Bentシリーズのワイドモデル。パウダーでの浮力を重視しつつゲレンデでも扱いやすい。",
+      "specs": {
+        "id": "01KM2YQGVHF35X68PKYJG81GW4",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Light Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Dura Cap"
+      },
+      "sizes": [
+        {
+          "id": "01KM2YQGVHT5BQC376F6FRW17S",
+          "lengthCm": 164,
+          "waistWidthMm": 110,
+          "noseWidthMm": 131,
+          "tailWidthMm": 122,
+          "sidecutRadiusM": 14.4,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2YQGVH6P5EGMDC1T2S9TH6",
+          "lengthCm": 172,
+          "waistWidthMm": 110,
+          "noseWidthMm": 132,
+          "tailWidthMm": 123,
+          "sidecutRadiusM": 16,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2YQGVHV7T55D13CT8EP40C",
+          "lengthCm": 180,
+          "waistWidthMm": 110,
+          "noseWidthMm": 133,
+          "tailWidthMm": 124,
+          "sidecutRadiusM": 18,
+          "weightG": 1750,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2YQGVH1BJ9WSRMJ7H8H87F",
+          "lengthCm": 188,
+          "waistWidthMm": 110,
+          "noseWidthMm": 134,
+          "tailWidthMm": 125,
+          "sidecutRadiusM": 19,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM3926H3BX6B596QJYKTSF7B",
+      "categorySlug": "all-mountain",
+      "name": "Maverick 115 CTI",
+      "slug": "maverick-115-cti",
+      "sport": "ski",
+      "level": "expert",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.atomic.com/en-us/shop/product/maverick-115-cti-aa7352.html",
+      "description": "Freeride World Tourで実績のあるオールマウンテンスキー。CTI Powered構造でカーボンとチタナルの理想的なバランスを実現し、パウダーでの浮力とフリーライドパフォーマンスを両立。",
+      "specs": {
+        "id": "01KM3926H321Y97W9ZQF22FHJ1",
+        "rockerType": "Powder Rocker 30/50/20",
+        "tailType": "Directional",
+        "coreMaterial": "Power Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Dura Cap"
+      },
+      "sizes": [
+        {
+          "id": "01KM3926H3T40A998972PQ6RGA",
+          "lengthCm": 177,
+          "waistWidthMm": 115,
+          "noseWidthMm": 139.5,
+          "tailWidthMm": 128.5,
+          "sidecutRadiusM": 17,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3926H3M2X6P7G73TBET28M",
+          "lengthCm": 185,
+          "waistWidthMm": 115,
+          "noseWidthMm": 140.5,
+          "tailWidthMm": 129.5,
+          "sidecutRadiusM": 18,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3926H3KPZGSBWT3XHWFFBK",
+          "lengthCm": 193,
+          "waistWidthMm": 115,
+          "noseWidthMm": 141.5,
+          "tailWidthMm": 130.5,
+          "sidecutRadiusM": 19,
+          "weightG": 2150,
+          "displayOrder": 3
+        }
+      ]
+    },
+    {
+      "id": "01KM3926H3SQNY9CXSRN8MBPWA",
+      "categorySlug": "all-mountain",
+      "name": "Maverick 105 CTI",
+      "slug": "maverick-105-cti",
+      "sport": "ski",
+      "level": "expert",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.atomic.com/en-us/shop/product/maverick-105-cti-aa7353.html",
+      "description": "オールマウンテン・オールコンディションのフリーライドスキーの新基準。CTI Powered構造とPower Woodcoreで安定性と振動吸収を高め、あらゆるゲレンデ・雪質に対応。",
+      "specs": {
+        "id": "01KM3926H3K3APS25JJG3WSGER",
+        "rockerType": "All Mountain Rocker 20/65/15",
+        "tailType": "Directional",
+        "coreMaterial": "Power Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Dura Cap"
+      },
+      "sizes": [
+        {
+          "id": "01KM3926H36EXK1DKQYGXFHBWM",
+          "lengthCm": 170,
+          "waistWidthMm": 103.5,
+          "noseWidthMm": 130.5,
+          "tailWidthMm": 119.5,
+          "sidecutRadiusM": 17,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3926H35ZX76D80Y6GD4TWE",
+          "lengthCm": 178,
+          "waistWidthMm": 104,
+          "noseWidthMm": 132.5,
+          "tailWidthMm": 121.5,
+          "sidecutRadiusM": 18,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3926H3EXCR2BCB091CBF17",
+          "lengthCm": 185,
+          "waistWidthMm": 104.5,
+          "noseWidthMm": 134.5,
+          "tailWidthMm": 123.5,
+          "sidecutRadiusM": 19,
+          "weightG": 2050,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3926H34A2ZM25VAKSPV6BM",
+          "lengthCm": 191,
+          "waistWidthMm": 105,
+          "noseWidthMm": 136,
+          "tailWidthMm": 125,
+          "sidecutRadiusM": 20,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM3926H36SAA919FHE05RX6A",
+      "categorySlug": "all-mountain",
+      "name": "Maverick 96 CTI",
+      "slug": "maverick-96-cti",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.atomic.com/en-us/shop/product/maverick-96-cti-aa7354.html",
+      "description": "境界のないオールマウンテンスキー。CTI Powered構造のカーボンとチタナルで剛性とフレックスの理想的なバランスを実現し、あらゆる斜面と雪質に対応。",
+      "specs": {
+        "id": "01KM3926H4QJ1AYN1YTWQDWRN7",
+        "rockerType": "All Mountain Rocker 20/65/15",
+        "tailType": "Directional",
+        "coreMaterial": "Power Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Dura Cap"
+      },
+      "sizes": [
+        {
+          "id": "01KM3926H4RRW20PRJMKNP29XF",
+          "lengthCm": 165,
+          "waistWidthMm": 95,
+          "noseWidthMm": 126,
+          "tailWidthMm": 111.5,
+          "sidecutRadiusM": 16,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3926H4W23KCYV11Q6692XY",
+          "lengthCm": 172,
+          "waistWidthMm": 95.5,
+          "noseWidthMm": 127.5,
+          "tailWidthMm": 113,
+          "sidecutRadiusM": 17,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3926H4D405X5M10VQXGN71",
+          "lengthCm": 179,
+          "waistWidthMm": 96,
+          "noseWidthMm": 129,
+          "tailWidthMm": 114.5,
+          "sidecutRadiusM": 18,
+          "weightG": 1900,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3926H4NCCG5ANKP589AKS8",
+          "lengthCm": 186,
+          "waistWidthMm": 96.5,
+          "noseWidthMm": 130.5,
+          "tailWidthMm": 116,
+          "sidecutRadiusM": 19,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM3926H427MFYFPCY2QRX0T9",
+      "categorySlug": "all-mountain",
+      "name": "Maverick 88 CTI",
+      "slug": "maverick-88-cti",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.atomic.com/en-us/shop/product/maverick-88-cti-aa7355.html",
+      "description": "安定性に優れたオールマウンテンスキー。CTI Powered構造でパワー・精度・遊び心の理想的なバランスを実現し、ハードパックでの確実なパフォーマンスを発揮。",
+      "specs": {
+        "id": "01KM3926H462WA5PM5DSJ55V4V",
+        "rockerType": "All Mountain Rocker 15/75/10",
+        "tailType": "Directional",
+        "coreMaterial": "Power Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Dura Cap"
+      },
+      "sizes": [
+        {
+          "id": "01KM3926H4GE7ZH7GVXDDA8Y6B",
+          "lengthCm": 159,
+          "waistWidthMm": 87,
+          "noseWidthMm": 119,
+          "tailWidthMm": 104,
+          "sidecutRadiusM": 15,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3926H4YM2AF707XVX7YKK7",
+          "lengthCm": 165,
+          "waistWidthMm": 87.5,
+          "noseWidthMm": 121,
+          "tailWidthMm": 106,
+          "sidecutRadiusM": 15.5,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3926H4XZ427MDDMPVY7JRC",
+          "lengthCm": 172,
+          "waistWidthMm": 88,
+          "noseWidthMm": 123,
+          "tailWidthMm": 108,
+          "sidecutRadiusM": 16,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3926H4EBQ6EFNSHDN4JNQB",
+          "lengthCm": 179,
+          "waistWidthMm": 88.5,
+          "noseWidthMm": 125,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 16.5,
+          "weightG": 1770,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM3926H4YHFT3DSQ59JV4SQQ",
+          "lengthCm": 186,
+          "waistWidthMm": 89,
+          "noseWidthMm": 127,
+          "tailWidthMm": 112,
+          "sidecutRadiusM": 17,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM3926H48PQP25EKFYPB4KFZ",
+      "categorySlug": "powder",
+      "name": "Bent Chetler 120",
+      "slug": "bent-chetler-120",
+      "sport": "ski",
+      "level": "expert",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.atomic.com/en-us/shop/product/bent-chetler-120-aa7364.html",
+      "description": "Chris Benchetlerシグネチャーモデル。次世代HRZN 3Dのフルラップチップ/テール構造で最高の浮力と遊び心を実現する、Bentファミリーの最上位パウダースキー。",
+      "specs": {
+        "id": "01KM3926H4DSKBBC2J6JDK9BPD",
+        "rockerType": "Powder Rocker 30/40/30",
+        "tailType": "Directional",
+        "coreMaterial": "Light Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Dura Cap"
+      },
+      "sizes": [
+        {
+          "id": "01KM3926H4X0RXCKPZNCJ69JHG",
+          "lengthCm": 176,
+          "waistWidthMm": 120,
+          "noseWidthMm": 142,
+          "tailWidthMm": 133,
+          "sidecutRadiusM": 18,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3926H4JPFVG5S5CM53801K",
+          "lengthCm": 184,
+          "waistWidthMm": 120,
+          "noseWidthMm": 143,
+          "tailWidthMm": 134,
+          "sidecutRadiusM": 19,
+          "weightG": 1800,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3926H438Q0GT6ZFNCW5S8T",
+          "lengthCm": 192,
+          "waistWidthMm": 120,
+          "noseWidthMm": 144,
+          "tailWidthMm": 135,
+          "sidecutRadiusM": 20,
+          "displayOrder": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "brand": {
+    "id": "01KM0YM2TXXJEYC0X57KMVGP81",
+    "name": "Nordica",
+    "slug": "nordica",
+    "country": "IT",
+    "websiteUrl": "https://www.nordica.com"
+  },
+  "categories": [
+    {
+      "id": "01KM0YM2TXVM9AJJ1R5CYS7ZP9",
+      "sport": "ski",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    }
+  ],
+  "models": [
+    {
+      "id": "01KM0YM2TX628WDQJ94VR80R0N",
+      "categorySlug": "all-mountain",
+      "name": "Enforcer 89",
+      "slug": "enforcer-89",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.nordica.com/usa/en/collection/men/skis/enforcer/enforcer-89",
+      "description": "Enforcerシリーズの最もナロー幅のモデル。カービングとオールマウンテン性能のバランスに優れ、硬めのバーンでの安定感が特徴。",
+      "specs": {
+        "id": "01KM0YM2TX5SCN8489F6DK6ACF",
+        "rockerType": "All Mountain Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Energy 2 Ti (Performance Wood + Metal + Pulse Core)",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich Full Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM0YM2TXGV6YCYKMEMEHX1XH",
+          "lengthCm": 167,
+          "waistWidthMm": 89,
+          "noseWidthMm": 120,
+          "tailWidthMm": 108,
+          "sidecutRadiusM": 16.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM0YM2TXYHVQ57ZSTWNW8B8J",
+          "lengthCm": 173,
+          "waistWidthMm": 89,
+          "noseWidthMm": 120,
+          "tailWidthMm": 108,
+          "sidecutRadiusM": 17,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM0YM2TX6BC9KV1AFVBYZEYC",
+          "lengthCm": 179,
+          "waistWidthMm": 89,
+          "noseWidthMm": 120,
+          "tailWidthMm": 108,
+          "sidecutRadiusM": 17.5,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM0YM2TX9H2V13BQ8TACASVW",
+          "lengthCm": 185,
+          "waistWidthMm": 89,
+          "noseWidthMm": 120,
+          "tailWidthMm": 108,
+          "sidecutRadiusM": 18,
+          "weightG": 2060,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM0YM2TXMRPJN9DWF7SZAMRG",
+      "categorySlug": "all-mountain",
+      "name": "Enforcer 94",
+      "slug": "enforcer-94",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.nordica.com/usa/en/collection/men/skis/enforcer/enforcer-94",
+      "description": "94mmウエストのオールマウンテンスキー。グルーミングバーンからオフピステまで幅広い雪質に対応する万能モデル。",
+      "specs": {
+        "id": "01KM0YM2TXFEW2V6PPPG01ECMZ",
+        "rockerType": "All Mountain Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Energy 2 Ti (Performance Wood + Metal + Pulse Core)",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich Full Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM0YM2TX4AC3HPNAETCTNZTA",
+          "lengthCm": 167,
+          "waistWidthMm": 94,
+          "noseWidthMm": 125,
+          "tailWidthMm": 113,
+          "sidecutRadiusM": 16.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM0YM2TYWSS2038BSQXMB2MB",
+          "lengthCm": 173,
+          "waistWidthMm": 94,
+          "noseWidthMm": 125,
+          "tailWidthMm": 113,
+          "sidecutRadiusM": 17,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM0YM2TY5NKNJBRB9RBQ9GHC",
+          "lengthCm": 179,
+          "waistWidthMm": 94,
+          "noseWidthMm": 125,
+          "tailWidthMm": 113,
+          "sidecutRadiusM": 17.5,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM0YM2TY32E6FGQE95ZKDPRM",
+          "lengthCm": 185,
+          "waistWidthMm": 94,
+          "noseWidthMm": 125,
+          "tailWidthMm": 113,
+          "sidecutRadiusM": 18,
+          "weightG": 2130,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM0YM2TXQEJQC9V0K8WV6EZF",
+      "categorySlug": "all-mountain",
+      "name": "Enforcer 99",
+      "slug": "enforcer-99",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.nordica.com/usa/en/collection/men/skis/enforcer/enforcer-99",
+      "description": "Enforcerシリーズの中核モデル（旧Enforcer 100の後継）。パウダーからハードパックまであらゆるコンディションに対応する真のオールマウンテンスキー。",
+      "specs": {
+        "id": "01KM0YM2TXKFA0BT3GVVC8C4HH",
+        "rockerType": "All Mountain Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Energy 2 Ti (Performance Wood + Metal + Pulse Core)",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich Full Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM0YM2TYFPK3RNM3FQ6H2F8N",
+          "lengthCm": 167,
+          "waistWidthMm": 99,
+          "noseWidthMm": 129,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 17,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM0YM2TY8DW8EZX0FTP8ZGZP",
+          "lengthCm": 173,
+          "waistWidthMm": 99,
+          "noseWidthMm": 129,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 17.5,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM0YM2TYCEQ8RXQCMWNQGTKW",
+          "lengthCm": 179,
+          "waistWidthMm": 99,
+          "noseWidthMm": 129,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 18,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM0YM2TYQ5G3T16ACBR9QEBR",
+          "lengthCm": 185,
+          "waistWidthMm": 99,
+          "noseWidthMm": 129,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 18.5,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM0YM2TYSJFRMEXNFGRJ7J1N",
+          "lengthCm": 191,
+          "waistWidthMm": 99,
+          "noseWidthMm": 129,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 19,
+          "weightG": 2270,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM0YM2TXRMQSNC7W369QK514",
+      "categorySlug": "all-mountain",
+      "name": "Enforcer 104",
+      "slug": "enforcer-104",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.nordica.com/usa/en/collection/men/skis/enforcer/enforcer-104",
+      "description": "Enforcerシリーズ最大幅のモデル。ディープパウダーでの浮力を確保しつつ、ハードパックでの安定感も両立するビッグマウンテンスキー。",
+      "specs": {
+        "id": "01KM0YM2TXA26B4CDSX7NVWV87",
+        "rockerType": "All Mountain Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Energy 2 Ti (Performance Wood + Metal + Pulse Core)",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich Full Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM0YM2TY3XAERM0CY3ZQNZ66",
+          "lengthCm": 167,
+          "waistWidthMm": 104,
+          "noseWidthMm": 132.5,
+          "tailWidthMm": 122.5,
+          "sidecutRadiusM": 17.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM0YM2TYVH3SV28SQE5KDJ8Z",
+          "lengthCm": 173,
+          "waistWidthMm": 104,
+          "noseWidthMm": 132.5,
+          "tailWidthMm": 122.5,
+          "sidecutRadiusM": 18,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM0YM2TYFMQVPNA4YK0ZYE9D",
+          "lengthCm": 179,
+          "waistWidthMm": 104,
+          "noseWidthMm": 132.5,
+          "tailWidthMm": 122.5,
+          "sidecutRadiusM": 18.5,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM0YM2TY7VF10T4XMY1QGKVD",
+          "lengthCm": 185,
+          "waistWidthMm": 104,
+          "noseWidthMm": 132.5,
+          "tailWidthMm": 122.5,
+          "sidecutRadiusM": 19,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM0YM2TY21STRX4NTKK194Z5",
+          "lengthCm": 191,
+          "waistWidthMm": 104,
+          "noseWidthMm": 132.5,
+          "tailWidthMm": 122.5,
+          "sidecutRadiusM": 19.5,
+          "weightG": 2330,
+          "displayOrder": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+---
+import Header from "../../../components/Header.astro";
+
+const API_URL = import.meta.env.API_URL || "http://localhost:8787";
+const { brandSlug, modelSlug } = Astro.params;
+
+// Fetch latest season and redirect to canonical URL with season
+try {
+  const res = await fetch(`${API_URL}/models/${brandSlug}/${modelSlug}`);
+  if (res.ok) {
+    const model = await res.json();
+    return Astro.redirect(`/ski/${brandSlug}/${modelSlug}/${model.season}`, 302);
+  }
+} catch {
+  // fall through to 404
+}
+
+return new Response("Not Found", { status: 404 });
+---

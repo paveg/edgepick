@@ -1,0 +1,582 @@
+{
+  "brand": {
+    "id": "01KM2YQGVJ2BYZEYV3X9V4HPZ6",
+    "name": "HEAD",
+    "slug": "head",
+    "country": "AT",
+    "websiteUrl": "https://www.head.com"
+  },
+  "categories": [
+    {
+      "id": "01KM0YM2TXVM9AJJ1R5CYS7ZP9",
+      "sport": "ski",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM312M9ZV5A70SSGY4R8A8FM",
+      "sport": "ski",
+      "name": "パーク&パイプ",
+      "slug": "park-pipe",
+      "displayOrder": 2
+    }
+  ],
+  "models": [
+    {
+      "id": "01KM312MA0KVD3WSQYCH6EXKM5",
+      "categorySlug": "all-mountain",
+      "name": "Kore 118 Ti",
+      "slug": "kore-118-ti",
+      "sport": "ski",
+      "level": "expert",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.head.com/en_US/product/kore-118-ti-315405-set",
+      "description": "HEADのフリーライドスキー。Karuba/Poplarコアとダブルチタナル搭載で、ディープパウダーでの浮力と安定性を両立。",
+      "specs": {
+        "id": "01KM312MA03ZYMW88K8FFSN21Y",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Karuba/Poplar Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM312MA0TVQPJDBEJF2VX0S7",
+          "lengthCm": 177,
+          "waistWidthMm": 117,
+          "noseWidthMm": 144,
+          "tailWidthMm": 129,
+          "sidecutRadiusM": 22.2,
+          "weightG": 2280,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312MA09AEPW9Q9DDNKZ7DE",
+          "lengthCm": 184,
+          "waistWidthMm": 117,
+          "noseWidthMm": 144,
+          "tailWidthMm": 129,
+          "sidecutRadiusM": 24.3,
+          "weightG": 2280,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312MA0TEXPT3RZPWZ4TDYJ",
+          "lengthCm": 191,
+          "waistWidthMm": 117,
+          "noseWidthMm": 144,
+          "tailWidthMm": 129,
+          "sidecutRadiusM": 24.3,
+          "weightG": 2280,
+          "displayOrder": 3
+        }
+      ]
+    },
+    {
+      "id": "01KM312MA0KPPVWZM3V46Z84AP",
+      "categorySlug": "all-mountain",
+      "name": "Kore 112 Ti",
+      "slug": "kore-112-ti",
+      "sport": "ski",
+      "level": "expert",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.head.com/en_US/product/kore-112-ti-315415-set",
+      "description": "HEADのフリーライドスキー。ビッグマウンテンでの機敏性とディープパウダーでの浮力を追求したエキスパート向けモデル。",
+      "specs": {
+        "id": "01KM312MA0NA5BD12ZPM4VGHVG",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Karuba/Poplar Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM312MA01DSYSDACD2Q0T5ND",
+          "lengthCm": 170,
+          "waistWidthMm": 110,
+          "noseWidthMm": 137,
+          "tailWidthMm": 126,
+          "sidecutRadiusM": 17.1,
+          "weightG": 2248,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312MA03M61A113WR5GSQPP",
+          "lengthCm": 177,
+          "waistWidthMm": 110,
+          "noseWidthMm": 137,
+          "tailWidthMm": 126,
+          "sidecutRadiusM": 17.1,
+          "weightG": 2248,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312MA05VYWYWQDN4MNKFKA",
+          "lengthCm": 184,
+          "waistWidthMm": 110,
+          "noseWidthMm": 137,
+          "tailWidthMm": 126,
+          "sidecutRadiusM": 21.0,
+          "weightG": 2248,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM312MA0YTYQ6YJCCZQMQ7KN",
+          "lengthCm": 191,
+          "waistWidthMm": 110,
+          "noseWidthMm": 137,
+          "tailWidthMm": 126,
+          "sidecutRadiusM": 21.0,
+          "weightG": 2248,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM312MA0F9JG4EGFKGQMRGRV",
+      "categorySlug": "all-mountain",
+      "name": "Kore 106 Ti",
+      "slug": "kore-106-ti",
+      "sport": "ski",
+      "level": "expert",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.head.com/en_US/product/kore-106-ti-315425-set",
+      "description": "HEADのフリーライドスキー。ビッグマウンテンとオフピステでの安定性と耐久性を備えたエキスパート向けモデル。",
+      "specs": {
+        "id": "01KM312MA1X9HFZRB4GGFTPNB0",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Karuba/Poplar Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM312MA1KVMP4ZXT28RFRERT",
+          "lengthCm": 163,
+          "waistWidthMm": 103,
+          "noseWidthMm": 131,
+          "tailWidthMm": 123,
+          "sidecutRadiusM": 13.4,
+          "weightG": 2215,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312MA1BQFKQ93V07VKDKRE",
+          "lengthCm": 170,
+          "waistWidthMm": 103,
+          "noseWidthMm": 131,
+          "tailWidthMm": 123,
+          "sidecutRadiusM": 13.4,
+          "weightG": 2215,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312MA14PCYYWM286RF10BT",
+          "lengthCm": 177,
+          "waistWidthMm": 103,
+          "noseWidthMm": 131,
+          "tailWidthMm": 123,
+          "sidecutRadiusM": 18.5,
+          "weightG": 2215,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM312MA19DV4GX3CCN2H7948",
+          "lengthCm": 184,
+          "waistWidthMm": 103,
+          "noseWidthMm": 131,
+          "tailWidthMm": 123,
+          "sidecutRadiusM": 18.5,
+          "weightG": 2215,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM312MA1CJ087FDN6QSHCH4H",
+          "lengthCm": 191,
+          "waistWidthMm": 103,
+          "noseWidthMm": 131,
+          "tailWidthMm": 123,
+          "sidecutRadiusM": 18.5,
+          "weightG": 2215,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM2YQGVJ5TF0PWY1BWG3ZDD5",
+      "categorySlug": "all-mountain",
+      "name": "Kore 100 Ti",
+      "slug": "kore-100-ti",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/skis/head-kore-100-ti",
+      "description": "HEADのオールマウンテンスキー。Karuba/Poplarコアとチタナル搭載で軽量ながら高い安定性を実現。",
+      "specs": {
+        "id": "01KM2YQGVJ8JFA65FHJ990RARQ",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Karuba/Poplar Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM2YQGVJJE56WPN5VSE6QCB4",
+          "lengthCm": 170,
+          "waistWidthMm": 100,
+          "noseWidthMm": 133,
+          "tailWidthMm": 122,
+          "sidecutRadiusM": 17.2,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2YQGVJECHJFD5BEM4M41N4",
+          "lengthCm": 177,
+          "waistWidthMm": 100,
+          "noseWidthMm": 133,
+          "tailWidthMm": 122,
+          "sidecutRadiusM": 17.2,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2YQGVJ7Z0NKEXWPV8TR0MA",
+          "lengthCm": 184,
+          "waistWidthMm": 100,
+          "noseWidthMm": 133,
+          "tailWidthMm": 122,
+          "sidecutRadiusM": 17.2,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2YQGVJQ626AWN2SA2EHTYK",
+          "lengthCm": 191,
+          "waistWidthMm": 100,
+          "noseWidthMm": 133,
+          "tailWidthMm": 122,
+          "sidecutRadiusM": 17.2,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM312MA1NB8Y6S8Z49FF7E9D",
+      "categorySlug": "all-mountain",
+      "name": "Kore 94 Ti",
+      "slug": "kore-94-ti",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.head.com/en_US/product/kore-94-ti-315445-set",
+      "description": "HEADのオールマウンテンスキー。グルームドスロープでのコントロール性とオフピステでの機敏性を両立した上級者向けモデル。",
+      "specs": {
+        "id": "01KM312MA1M0HBD6N9YPJ1DP77",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Karuba/Poplar Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM312MA15MZ6F6SQ2HJKN8EV",
+          "lengthCm": 156,
+          "waistWidthMm": 91,
+          "noseWidthMm": 127,
+          "tailWidthMm": 112,
+          "sidecutRadiusM": 11.8,
+          "weightG": 1905,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312MA1A7JD4JE35FC7CCK7",
+          "lengthCm": 163,
+          "waistWidthMm": 91,
+          "noseWidthMm": 127,
+          "tailWidthMm": 112,
+          "sidecutRadiusM": 11.8,
+          "weightG": 1905,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312MA1GCCPEZPG9JV08DP6",
+          "lengthCm": 170,
+          "waistWidthMm": 91,
+          "noseWidthMm": 127,
+          "tailWidthMm": 112,
+          "sidecutRadiusM": 16.3,
+          "weightG": 1905,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM312MA1W9QGJNQXMT4QG2AQ",
+          "lengthCm": 177,
+          "waistWidthMm": 91,
+          "noseWidthMm": 127,
+          "tailWidthMm": 112,
+          "sidecutRadiusM": 16.3,
+          "weightG": 1905,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM312MA1AMRK77JMKGPXBXR9",
+          "lengthCm": 184,
+          "waistWidthMm": 91,
+          "noseWidthMm": 127,
+          "tailWidthMm": 112,
+          "sidecutRadiusM": 16.3,
+          "weightG": 1905,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM312MA167CJ7VVGQ4NN4S8S",
+          "lengthCm": 191,
+          "waistWidthMm": 91,
+          "noseWidthMm": 127,
+          "tailWidthMm": 112,
+          "sidecutRadiusM": 16.3,
+          "weightG": 1905,
+          "displayOrder": 6
+        }
+      ]
+    },
+    {
+      "id": "01KM312MA1Q4FR26EQJY010W65",
+      "categorySlug": "all-mountain",
+      "name": "Kore 88 Ti",
+      "slug": "kore-88-ti",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.head.com/en_US/product/kore-88-ti-315455-set",
+      "description": "HEADのオールマウンテンスキー。グルームドスロープでの正確なコントロールとオフピステでの遊び心を兼ね備えた上級者向けモデル。",
+      "specs": {
+        "id": "01KM312MA11FMM5V3P06W439F6",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Karuba/Poplar Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM312MA1CYYJGQFPCZ1RK4ZY",
+          "lengthCm": 156,
+          "waistWidthMm": 85,
+          "noseWidthMm": 124,
+          "tailWidthMm": 108,
+          "sidecutRadiusM": 11.9,
+          "weightG": 1840,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312MA1C6ZPCTK4JMC55N7A",
+          "lengthCm": 163,
+          "waistWidthMm": 85,
+          "noseWidthMm": 124,
+          "tailWidthMm": 108,
+          "sidecutRadiusM": 11.9,
+          "weightG": 1840,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312MA1FJTR655Q3E9Q6DBX",
+          "lengthCm": 170,
+          "waistWidthMm": 85,
+          "noseWidthMm": 124,
+          "tailWidthMm": 108,
+          "sidecutRadiusM": 16.0,
+          "weightG": 1840,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM312MA13T68WE917HXGE0RX",
+          "lengthCm": 177,
+          "waistWidthMm": 85,
+          "noseWidthMm": 124,
+          "tailWidthMm": 108,
+          "sidecutRadiusM": 16.0,
+          "weightG": 1840,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM312MA1G9EB685BC13BGEGA",
+          "lengthCm": 184,
+          "waistWidthMm": 85,
+          "noseWidthMm": 124,
+          "tailWidthMm": 108,
+          "sidecutRadiusM": 16.0,
+          "weightG": 1840,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM312MA1M54937B340TFZ33T",
+          "lengthCm": 191,
+          "waistWidthMm": 85,
+          "noseWidthMm": 124,
+          "tailWidthMm": 108,
+          "sidecutRadiusM": 16.0,
+          "weightG": 1840,
+          "displayOrder": 6
+        }
+      ]
+    },
+    {
+      "id": "01KM312MA1CNY6KN9VGBC051AK",
+      "categorySlug": "park-pipe",
+      "name": "Oblivion 116",
+      "slug": "oblivion-116",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.head.com/en_US/product/oblivion-116-315565-set",
+      "description": "HEADのフリースタイルスキー。フルツインチップでプレイフルさとスピードでの安定性を両立したCole Richardsonシグネチャーモデル。",
+      "specs": {
+        "id": "01KM312MA2834BCWSGR8YPV5C1",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Full Twin Tip",
+        "coreMaterial": "Poplar Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM312MA2Q8849TR8HP5BC10W",
+          "lengthCm": 181,
+          "waistWidthMm": 116,
+          "noseWidthMm": 141,
+          "tailWidthMm": 131,
+          "sidecutRadiusM": 27.8,
+          "weightG": 1998,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312MA228PANTE5NRXH0GHR",
+          "lengthCm": 189,
+          "waistWidthMm": 116,
+          "noseWidthMm": 141,
+          "tailWidthMm": 131,
+          "sidecutRadiusM": 30.8,
+          "weightG": 1998,
+          "displayOrder": 2
+        }
+      ]
+    },
+    {
+      "id": "01KM312MA2CCK2BJD0J3NXFKEC",
+      "categorySlug": "park-pipe",
+      "name": "Oblivion 102",
+      "slug": "oblivion-102",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.head.com/en_US/product/oblivion-102-315585-set",
+      "description": "HEADのフリースタイルスキー。ソフトなティップ・テールとタイトなターン半径で、スピードでの安定性と全山でのプレイフルさを実現。",
+      "specs": {
+        "id": "01KM312MA2TDQ8W8XPRFNMSXT5",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Full Twin Tip",
+        "coreMaterial": "Poplar Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM312MA24N8SK9GBE2QYPG94",
+          "lengthCm": 173,
+          "waistWidthMm": 101,
+          "noseWidthMm": 134,
+          "tailWidthMm": 124,
+          "sidecutRadiusM": 21.0,
+          "weightG": 1788,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312MA2KZD442AT3A0JR774",
+          "lengthCm": 181,
+          "waistWidthMm": 101,
+          "noseWidthMm": 134,
+          "tailWidthMm": 124,
+          "sidecutRadiusM": 22.8,
+          "weightG": 1788,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312MA2ZB6NRD1T5R4V56R6",
+          "lengthCm": 189,
+          "waistWidthMm": 101,
+          "noseWidthMm": 134,
+          "tailWidthMm": 124,
+          "sidecutRadiusM": 22.8,
+          "weightG": 1788,
+          "displayOrder": 3
+        }
+      ]
+    },
+    {
+      "id": "01KM312MA2WZSV99PHRA94DX6J",
+      "categorySlug": "park-pipe",
+      "name": "Oblivion 94",
+      "slug": "oblivion-94",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.head.com/en_US/product/oblivion-94-315514-set",
+      "description": "HEADのフリースタイルスキー。バックサイドからパークまで自然にトランジションするオールマウンテンパークスキー。",
+      "specs": {
+        "id": "01KM312MA2S6QZRPSNYH1MTWX2",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Full Twin Tip",
+        "coreMaterial": "Poplar Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM312MA2J2DNMS4F9YVDB3RV",
+          "lengthCm": 163,
+          "waistWidthMm": 92,
+          "noseWidthMm": 125,
+          "tailWidthMm": 116,
+          "sidecutRadiusM": 17.6,
+          "weightG": 1873,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312MA21P0GBZVWWBSCQATT",
+          "lengthCm": 170,
+          "waistWidthMm": 92,
+          "noseWidthMm": 125,
+          "tailWidthMm": 116,
+          "sidecutRadiusM": 17.6,
+          "weightG": 1873,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312MA2J1RQFSBC4N5T9Q7B",
+          "lengthCm": 177,
+          "waistWidthMm": 92,
+          "noseWidthMm": 125,
+          "tailWidthMm": 116,
+          "sidecutRadiusM": 22.8,
+          "weightG": 1873,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM312MA2WZQXMMPC4DAEFSV1",
+          "lengthCm": 184,
+          "waistWidthMm": 92,
+          "noseWidthMm": 125,
+          "tailWidthMm": 116,
+          "sidecutRadiusM": 22.8,
+          "weightG": 1873,
+          "displayOrder": 4
+        }
+      ]
+    }
+  ]
+}

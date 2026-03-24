@@ -1,0 +1,258 @@
+---
+import Layout from "../../../../layouts/Layout.astro";
+import Header from "../../../../components/Header.astro";
+import Footer from "../../../../components/Footer.astro";
+
+const API_URL = import.meta.env.API_URL || "http://localhost:8787";
+const { brandSlug, modelSlug, season } = Astro.params;
+
+type Size = {
+  lengthCm: number;
+  waistWidthMm: number | null;
+  noseWidthMm: number | null;
+  tailWidthMm: number | null;
+  sidecutRadiusM: number | null;
+  weightG: number | null;
+  displayOrder: number;
+};
+
+type Specs = {
+  rockerType: string | null;
+  tailType: string | null;
+  coreMaterial: string | null;
+  baseMaterial: string | null;
+  sidewall: string | null;
+} | null;
+
+type ModelDetail = {
+  name: string;
+  slug: string;
+  sport: string;
+  level: string;
+  season: string;
+  description: string | null;
+  brandName: string;
+  brandSlug: string;
+  categoryName: string;
+  specs: Specs;
+  sizes: Size[];
+  availableSeasons: string[];
+};
+
+let model: ModelDetail | null = null;
+let notFound = false;
+let fetchError = false;
+
+try {
+  const res = await fetch(`${API_URL}/models/${brandSlug}/${modelSlug}/${season}`);
+  if (res.status === 404) {
+    notFound = true;
+  } else {
+    model = await res.json();
+  }
+} catch {
+  fetchError = true;
+}
+
+const levelLabel: Record<string, string> = {
+  beginner: "初級",
+  intermediate: "中級",
+  advanced: "上級",
+  expert: "エキスパート",
+};
+---
+
+<Layout title={model ? `${model.brandName} ${model.name} ${model.season} — Edgepick` : "モデル詳細 — Edgepick"}>
+  <Header />
+
+  <main class="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-10">
+    {fetchError ? (
+      <p class="text-sm text-muted-foreground">
+        データの取得に失敗しました。API サーバーが起動しているか確認してください。
+      </p>
+    ) : notFound ? (
+      <div>
+        <p class="text-sm text-muted-foreground">モデルが見つかりませんでした。</p>
+        <a href="/ski" class="mt-4 inline-block text-sm text-primary hover:underline">← スキーカタログに戻る</a>
+      </div>
+    ) : model ? (
+      <>
+        <nav class="text-xs text-muted-foreground">
+          <a href="/ski" class="hover:text-foreground">スキー</a>
+          <span class="mx-1">/</span>
+          <span>{model.brandName}</span>
+          <span class="mx-1">/</span>
+          <span>{model.name}</span>
+        </nav>
+
+        <h1 class="mt-4 text-2xl font-bold tracking-tight">
+          {model.brandName} {model.name}
+        </h1>
+        <div class="mt-2 flex flex-wrap gap-2">
+          <span class="inline-flex items-center rounded-full bg-secondary px-2.5 py-0.5 text-xs font-medium text-secondary-foreground">
+            {model.categoryName}
+          </span>
+          <span class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground">
+            {levelLabel[model.level] ?? model.level}
+          </span>
+          {/* Season selector */}
+          {model.availableSeasons.length > 1 ? (
+            <span class="inline-flex items-center gap-1.5">
+              {model.availableSeasons.map((s) =>
+                s === model!.season ? (
+                  <span class="rounded-full bg-primary px-2.5 py-0.5 text-xs font-medium text-primary-foreground">
+                    {s}
+                  </span>
+                ) : (
+                  <a
+                    href={`/ski/${model!.brandSlug}/${model!.slug}/${s}`}
+                    class="rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground"
+                  >
+                    {s}
+                  </a>
+                )
+              )}
+            </span>
+          ) : (
+            <span class="inline-flex items-center rounded-full border border-border px-2.5 py-0.5 text-xs text-muted-foreground">
+              {model.season}
+            </span>
+          )}
+        </div>
+
+        {model.description && (
+          <p class="mt-4 text-sm text-muted-foreground leading-relaxed">
+            {model.description}
+          </p>
+        )}
+
+        {/* Specs */}
+        {model.specs && (
+          <section class="mt-8">
+            <h2 class="text-sm font-medium text-muted-foreground">スペック</h2>
+            <dl class="mt-3 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-3">
+              {model.specs.rockerType && (
+                <div>
+                  <dt class="text-xs text-muted-foreground">ロッカータイプ</dt>
+                  <dd class="mt-0.5 text-sm">{model.specs.rockerType}</dd>
+                </div>
+              )}
+              {model.specs.tailType && (
+                <div>
+                  <dt class="text-xs text-muted-foreground">テールタイプ</dt>
+                  <dd class="mt-0.5 text-sm">{model.specs.tailType}</dd>
+                </div>
+              )}
+              {model.specs.coreMaterial && (
+                <div>
+                  <dt class="text-xs text-muted-foreground">コア素材</dt>
+                  <dd class="mt-0.5 text-sm">{model.specs.coreMaterial}</dd>
+                </div>
+              )}
+              {model.specs.baseMaterial && (
+                <div>
+                  <dt class="text-xs text-muted-foreground">ベース素材</dt>
+                  <dd class="mt-0.5 text-sm">{model.specs.baseMaterial}</dd>
+                </div>
+              )}
+              {model.specs.sidewall && (
+                <div>
+                  <dt class="text-xs text-muted-foreground">サイドウォール</dt>
+                  <dd class="mt-0.5 text-sm">{model.specs.sidewall}</dd>
+                </div>
+              )}
+            </dl>
+          </section>
+        )}
+
+        {/* Size Chart */}
+        <section class="mt-8">
+          <h2 class="text-sm font-medium text-muted-foreground">サイズチャート</h2>
+
+          {/* Desktop: Full table */}
+          <div class="mt-3 hidden sm:block overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="border-b border-border text-xs text-muted-foreground">
+                  <th class="pb-2 pr-4 text-left font-medium">長さ (cm)</th>
+                  <th class="pb-2 pr-4 text-right font-medium">ウエスト (mm)</th>
+                  <th class="pb-2 pr-4 text-right font-medium">ノーズ (mm)</th>
+                  <th class="pb-2 pr-4 text-right font-medium">テール (mm)</th>
+                  <th class="pb-2 pr-4 text-right font-medium">サイドカット (m)</th>
+                  <th class="pb-2 pr-4 text-right font-medium">片足 (g)</th>
+                  <th class="pb-2 text-right font-medium">ペア (g)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {model.sizes.map((size) => (
+                  <tr class="border-b border-border/50 transition-colors hover:bg-muted/30">
+                    <td class="py-2.5 pr-4 font-medium tabular-nums">{size.lengthCm}</td>
+                    <td class="py-2.5 pr-4 text-right tabular-nums">{size.waistWidthMm ?? "—"}</td>
+                    <td class="py-2.5 pr-4 text-right tabular-nums">{size.noseWidthMm ?? "—"}</td>
+                    <td class="py-2.5 pr-4 text-right tabular-nums">{size.tailWidthMm ?? "—"}</td>
+                    <td class="py-2.5 pr-4 text-right tabular-nums">{size.sidecutRadiusM ?? "—"}</td>
+                    <td class="py-2.5 pr-4 text-right tabular-nums">{size.weightG ?? "—"}</td>
+                    <td class="py-2.5 text-right tabular-nums">{size.weightG ? size.weightG * 2 : "—"}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {/* Mobile: Stacked cards per size */}
+          <div class="mt-3 grid gap-3 sm:hidden">
+            {model.sizes.map((size) => (
+              <div class="rounded-lg border border-border p-3">
+                <p class="font-medium tabular-nums">{size.lengthCm} cm</p>
+                <dl class="mt-2 grid grid-cols-2 gap-x-4 gap-y-1.5 text-xs">
+                  {size.waistWidthMm != null && (
+                    <>
+                      <dt class="text-muted-foreground">ウエスト</dt>
+                      <dd class="text-right tabular-nums">{size.waistWidthMm} mm</dd>
+                    </>
+                  )}
+                  {size.noseWidthMm != null && (
+                    <>
+                      <dt class="text-muted-foreground">ノーズ</dt>
+                      <dd class="text-right tabular-nums">{size.noseWidthMm} mm</dd>
+                    </>
+                  )}
+                  {size.tailWidthMm != null && (
+                    <>
+                      <dt class="text-muted-foreground">テール</dt>
+                      <dd class="text-right tabular-nums">{size.tailWidthMm} mm</dd>
+                    </>
+                  )}
+                  {size.sidecutRadiusM != null && (
+                    <>
+                      <dt class="text-muted-foreground">サイドカット</dt>
+                      <dd class="text-right tabular-nums">{size.sidecutRadiusM} m</dd>
+                    </>
+                  )}
+                  {size.weightG != null && (
+                    <>
+                      <dt class="text-muted-foreground">重量</dt>
+                      <dd class="text-right tabular-nums">{size.weightG}g / {size.weightG * 2}g</dd>
+                    </>
+                  )}
+                </dl>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <div class="mt-8 flex items-center gap-6">
+          <a href="/ski" class="text-sm text-primary hover:underline">← スキーカタログに戻る</a>
+          <a
+            href={`/compare?models=${model.brandSlug}/${model.slug}/${model.season}`}
+            class="text-sm text-primary hover:underline"
+          >
+            他のモデルと比較 →
+          </a>
+        </div>
+      </>
+    ) : null}
+  </main>
+
+  <Footer />
+</Layout>

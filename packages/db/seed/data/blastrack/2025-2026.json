@@ -1,0 +1,381 @@
+{
+  "brand": {
+    "id": "01KM2Z0YWFF9ATCA1RMGD6B7B6",
+    "name": "BLASTRACK",
+    "slug": "blastrack",
+    "country": "JP",
+    "websiteUrl": "https://www.blastrack.jp",
+    "description": "日本製フリースキーブランド。カービングからバックカントリーまで幅広いラインナップを展開。Made in Japan。"
+  },
+  "categories": [
+    {
+      "id": "01KM0YM2TXVM9AJJ1R5CYS7ZP9",
+      "sport": "ski",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM2Z0YWGSAWXYBGE9156PF7T",
+      "sport": "ski",
+      "name": "基礎・カービング",
+      "slug": "frontside",
+      "displayOrder": 4
+    }
+  ],
+  "models": [
+    {
+      "id": "01KM2Z0YWGZS1M59YVDKS3MC1W",
+      "categorySlug": "frontside",
+      "name": "STYLUS",
+      "slug": "stylus",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.blastrack.jp/stylus/",
+      "description": "レスポンスの良さと小気味よいテンポで人気の定番モデル。安定性・操作性をアップして進化を遂げた68mmウエストのカービングスキー。",
+      "specs": {
+        "id": "01KM2Z0YWG0VNEFSSMDZ3RNQEN",
+        "rockerType": "Camber",
+        "coreMaterial": "軽量ウッドコア 特殊F.R.P",
+        "baseMaterial": "シンタードベース グラファイト",
+        "sidewall": "シェルトップ"
+      },
+      "sizes": [
+        {
+          "id": "01KM2Z0YWG0A9TN8Q2EHAZG1R8",
+          "lengthCm": 161,
+          "waistWidthMm": 68,
+          "noseWidthMm": 104,
+          "tailWidthMm": 88,
+          "sidecutRadiusM": 16.8,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2Z0YWGZES0FJCFBF7T96JS",
+          "lengthCm": 167,
+          "waistWidthMm": 68,
+          "noseWidthMm": 104,
+          "tailWidthMm": 88,
+          "sidecutRadiusM": 18.3,
+          "weightG": 1450,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2Z0YWGVJ9C75JNGV0Q4255",
+          "lengthCm": 173,
+          "waistWidthMm": 68,
+          "noseWidthMm": 104,
+          "tailWidthMm": 88,
+          "sidecutRadiusM": 19.8,
+          "displayOrder": 3
+        }
+      ]
+    },
+    {
+      "id": "01KM2Z0YWGTXAN03FTRQV1Y8FG",
+      "categorySlug": "frontside",
+      "name": "ELIXIR E",
+      "slug": "elixir-e",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.blastrack.jp/elixire/",
+      "description": "シリーズ最速モデル。80.5mmウエストで高速カービングに最適化。初のモデルチェンジを経てさらに進化。",
+      "specs": {
+        "id": "01KM2Z0YWGHJW4DTEN52RWQR7G",
+        "rockerType": "Camber",
+        "coreMaterial": "軽量ウッドコア 特殊F.R.P",
+        "baseMaterial": "シンタードベース グラファイト",
+        "sidewall": "シェルトップ"
+      },
+      "sizes": [
+        {
+          "id": "01KM2Z0YWGAQNG94J3PRYN8VM0",
+          "lengthCm": 165,
+          "waistWidthMm": 80.5,
+          "noseWidthMm": 125,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 15.4,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2Z0YWG54FE81SJ894BZ13E",
+          "lengthCm": 171,
+          "waistWidthMm": 80.5,
+          "noseWidthMm": 125,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 16.7,
+          "weightG": 1740,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2Z0YWGDAJWMJSM7317ASY9",
+          "lengthCm": 177,
+          "waistWidthMm": 80.5,
+          "noseWidthMm": 125,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 18.0,
+          "displayOrder": 3
+        }
+      ]
+    },
+    {
+      "id": "01KM30CDRPNGCBWTS18FYNR7C8",
+      "categorySlug": "frontside",
+      "name": "ELIXIR L",
+      "slug": "elixir-l",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.blastrack.jp/elixirl/",
+      "description": "シリーズ最軽量モデル。80.5mmウエストでフルモデルチェンジを遂げた軽快なカービングスキー。",
+      "specs": {
+        "id": "01KM30CDRQ0G0552VB4PBSA41M",
+        "rockerType": "Camber",
+        "coreMaterial": "軽量ウッドコア 特殊F.R.P",
+        "baseMaterial": "シンタードベース グラファイト",
+        "sidewall": "シェルトップ"
+      },
+      "sizes": [
+        {
+          "id": "01KM30CDRQ9M7DXAY9GDBR74SC",
+          "lengthCm": 157,
+          "waistWidthMm": 80.5,
+          "noseWidthMm": 125,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 13.8,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM30CDRQ3Q9PVZS8CZWGK4G4",
+          "lengthCm": 161,
+          "waistWidthMm": 80.5,
+          "noseWidthMm": 125,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 14.6,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM30CDRQB6Q3RPZP8PBHVMBN",
+          "lengthCm": 165,
+          "waistWidthMm": 80.5,
+          "noseWidthMm": 125,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 15.4,
+          "displayOrder": 3
+        }
+      ]
+    },
+    {
+      "id": "01KM2Z0YWGYG4TJJKQ3K4ZR3JG",
+      "categorySlug": "all-mountain",
+      "name": "IMPROVE 90",
+      "slug": "improve-90",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.blastrack.jp/improve90/",
+      "description": "90mmウエストのオールマウンテンモデル。操作性と安定性のバランスに優れ、幅広いレベルのスキーヤーに対応。",
+      "specs": {
+        "id": "01KM2Z0YWH4F08VX32E2DGAZK7",
+        "rockerType": "Rocker/Camber/Rocker",
+        "coreMaterial": "軽量ウッドコア 特殊F.R.P",
+        "baseMaterial": "シンタードベース グラファイト",
+        "sidewall": "シェルトップ"
+      },
+      "sizes": [
+        {
+          "id": "01KM2Z0YWHK0TAHYE2JR7H2B0H",
+          "lengthCm": 157,
+          "waistWidthMm": 90,
+          "noseWidthMm": 120,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 12.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2Z0YWH51MQYJXRBQVERZMZ",
+          "lengthCm": 164,
+          "waistWidthMm": 90,
+          "noseWidthMm": 120,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 14.1,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2Z0YWH4XE9SAGX1XQ3DSYX",
+          "lengthCm": 171,
+          "waistWidthMm": 90,
+          "noseWidthMm": 120,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 15.7,
+          "weightG": 1520,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2Z0YWH4965BXY2W55R0MFY",
+          "lengthCm": 178,
+          "waistWidthMm": 90,
+          "noseWidthMm": 120,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 17.5,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM2Z0YWHNAYFJJGHP8K0VP8Z",
+      "categorySlug": "all-mountain",
+      "name": "FARTHER",
+      "slug": "farther",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.blastrack.jp/farther/",
+      "description": "ロングノーズの90mmオールマウンテンスキー。BCエリアからゲレンデまで、自由なラインを描けるフリーライド志向モデル。",
+      "specs": {
+        "id": "01KM2Z0YWHFVWBF2JA8WPT93ZA",
+        "rockerType": "Rocker/Camber/Rocker",
+        "coreMaterial": "軽量ウッドコア 特殊F.R.P",
+        "baseMaterial": "シンタードベース グラファイト",
+        "sidewall": "シェルトップ"
+      },
+      "sizes": [
+        {
+          "id": "01KM2Z0YWH635YT911G5EKW6SR",
+          "lengthCm": 160,
+          "waistWidthMm": 90,
+          "noseWidthMm": 139,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 13.0,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2Z0YWHXCT5W7V5X448GVDC",
+          "lengthCm": 166,
+          "waistWidthMm": 90,
+          "noseWidthMm": 139,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 14.2,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2Z0YWHSGAVGGYKPJF5QFR1",
+          "lengthCm": 172,
+          "waistWidthMm": 90,
+          "noseWidthMm": 139,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 15.4,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2Z0YWHGANPE3D3MCX1HJXN",
+          "lengthCm": 178,
+          "waistWidthMm": 90,
+          "noseWidthMm": 139,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 16.6,
+          "weightG": 1610,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM2Z0YWH91QWDY4QFA2BVK5A",
+      "categorySlug": "all-mountain",
+      "name": "BLAZER",
+      "slug": "blazer",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.blastrack.jp/blazer/",
+      "description": "97mmウエストのオールコンディション対応スキー。ゲレンデからBCエリアのディープパウダーまで、いいとこ取りのモデル。",
+      "specs": {
+        "id": "01KM2Z0YWH8BGKGQ3K6B9EK8J5",
+        "rockerType": "Rocker/Camber/Rocker",
+        "coreMaterial": "軽量ウッドコア 特殊F.R.P",
+        "baseMaterial": "シンタードベース グラファイト クロスストラクチャー",
+        "sidewall": "シェルトップ"
+      },
+      "sizes": [
+        {
+          "id": "01KM2Z0YWHQ754699AW15E3082",
+          "lengthCm": 170,
+          "waistWidthMm": 97,
+          "noseWidthMm": 130,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 15.1,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2Z0YWHABRAWAFRM3T572F1",
+          "lengthCm": 176,
+          "waistWidthMm": 97,
+          "noseWidthMm": 130,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 16.5,
+          "weightG": 1690,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2Z0YWH49GY7YNCEK69FBG6",
+          "lengthCm": 185,
+          "waistWidthMm": 97,
+          "noseWidthMm": 130,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 18.7,
+          "displayOrder": 3
+        }
+      ]
+    },
+    {
+      "id": "01KM2Z0YWHCRQM51T2PWNS3JR4",
+      "categorySlug": "all-mountain",
+      "name": "VERSANT",
+      "slug": "versant",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.blastrack.jp/versant/",
+      "description": "スピードとダイナミックな滑りが特長の103mmワイドモデル。操作性をさらにUPさせどんなコンディションでも楽しめるスキー。",
+      "specs": {
+        "id": "01KM2Z0YWHJD2416KS4XC594PV",
+        "rockerType": "Rocker/Camber/Rocker",
+        "coreMaterial": "軽量ウッドコア 特殊F.R.P",
+        "baseMaterial": "シンタードベース グラファイト クロスストラクチャー",
+        "sidewall": "シェルトップ"
+      },
+      "sizes": [
+        {
+          "id": "01KM2Z0YWH3Q7PDVPQNA1SKCBH",
+          "lengthCm": 173,
+          "waistWidthMm": 103,
+          "noseWidthMm": 133,
+          "tailWidthMm": 120,
+          "sidecutRadiusM": 16.1,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2Z0YWH2AWSFEH8B3965ZVP",
+          "lengthCm": 178,
+          "waistWidthMm": 103,
+          "noseWidthMm": 133,
+          "tailWidthMm": 120,
+          "sidecutRadiusM": 17.3,
+          "weightG": 1700,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2Z0YWHTPVBVSP1Q99FXX64",
+          "lengthCm": 183,
+          "waistWidthMm": 103,
+          "noseWidthMm": 133,
+          "tailWidthMm": 120,
+          "sidecutRadiusM": 18.6,
+          "displayOrder": 3
+        }
+      ]
+    }
+  ]
+}

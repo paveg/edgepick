@@ -1,0 +1,496 @@
+{
+  "brand": {
+    "id": "01KM2YQGVJ0HY14J39TPNW0PBA",
+    "name": "Blizzard",
+    "slug": "blizzard",
+    "country": "AT",
+    "websiteUrl": "https://www.blizzard-tecnica.com"
+  },
+  "categories": [
+    {
+      "id": "01KM0YM2TXVM9AJJ1R5CYS7ZP9",
+      "sport": "ski",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM3926H2MPTHK547AEPZRWPF",
+      "sport": "ski",
+      "name": "パウダー",
+      "slug": "powder",
+      "displayOrder": 2
+    }
+  ],
+  "models": [
+    {
+      "id": "01KM2YQGVJKZRT0DD9DGKEGNVF",
+      "categorySlug": "all-mountain",
+      "name": "Rustler 10",
+      "slug": "rustler-10",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/skis/blizzard-rustler-10",
+      "description": "Blizzardのフリーライド志向オールマウンテンスキー。遊び心とパフォーマンスを兼ね備えた人気モデル。",
+      "specs": {
+        "id": "01KM2YQGVJZXCFTEHC758VM1JH",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "TrueBlend Freeride Core",
+        "baseMaterial": "Sintered Graphite",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM2YQGVJM1HE03QNGEMV7KZM",
+          "lengthCm": 162,
+          "waistWidthMm": 102,
+          "noseWidthMm": 132.5,
+          "tailWidthMm": 121.5,
+          "sidecutRadiusM": 14.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2YQGVJSVYWNJNRHPFH7NB7",
+          "lengthCm": 168,
+          "waistWidthMm": 102,
+          "noseWidthMm": 133,
+          "tailWidthMm": 122,
+          "sidecutRadiusM": 15.5,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2YQGVJFQMY16YFAHT3RW2E",
+          "lengthCm": 174,
+          "waistWidthMm": 102,
+          "noseWidthMm": 133.5,
+          "tailWidthMm": 122.5,
+          "sidecutRadiusM": 16.5,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2YQGVJDJYYE6C9YBWDCNE1",
+          "lengthCm": 180,
+          "waistWidthMm": 102,
+          "noseWidthMm": 134,
+          "tailWidthMm": 123,
+          "sidecutRadiusM": 17.5,
+          "weightG": 1860,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2YQGVJ97THTQSCRB25M3H4",
+          "lengthCm": 186,
+          "waistWidthMm": 104,
+          "noseWidthMm": 136.5,
+          "tailWidthMm": 125.5,
+          "sidecutRadiusM": 18.5,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM2YQGVJ25PQ7HX5EEHMME9K",
+          "lengthCm": 192,
+          "waistWidthMm": 104,
+          "noseWidthMm": 137,
+          "tailWidthMm": 126,
+          "sidecutRadiusM": 19.5,
+          "displayOrder": 6
+        }
+      ]
+    },
+    {
+      "id": "01KM397J3SBWV25EZKZ6WM2H7D",
+      "categorySlug": "all-mountain",
+      "name": "Rustler 9",
+      "slug": "rustler-9",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.blizzard-tecnica.com/us/en/collection/men/skis/rustler/rustler-9-flat-2",
+      "description": "Blizzardの96mmフリーライドスキー。パウダーでない日のための万能モデル。軽快で予測しやすく、カービングも得意。",
+      "specs": {
+        "id": "01KM397J3SD2S80784BEC17ZW1",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "TrueBlend Freeride Core",
+        "baseMaterial": "Sintered Graphite",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM397J3SH39Y5AFXEB5JPQ3H",
+          "lengthCm": 162,
+          "waistWidthMm": 96,
+          "noseWidthMm": 128,
+          "tailWidthMm": 117.5,
+          "sidecutRadiusM": 14,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM397J3SY59EY70WE04MNQ1G",
+          "lengthCm": 168,
+          "waistWidthMm": 96,
+          "noseWidthMm": 129,
+          "tailWidthMm": 118.5,
+          "sidecutRadiusM": 15,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM397J3SM6ADM8E16MCH4PXF",
+          "lengthCm": 174,
+          "waistWidthMm": 96,
+          "noseWidthMm": 130,
+          "tailWidthMm": 119.5,
+          "sidecutRadiusM": 16,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM397J3T906GW6ZP2RQMTMT1",
+          "lengthCm": 180,
+          "waistWidthMm": 96,
+          "noseWidthMm": 131.5,
+          "tailWidthMm": 121,
+          "sidecutRadiusM": 17,
+          "weightG": 1880,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM397J3TXXME5CSJ2MRHXRSB",
+          "lengthCm": 186,
+          "waistWidthMm": 96,
+          "noseWidthMm": 132,
+          "tailWidthMm": 121.5,
+          "sidecutRadiusM": 18,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM397J3SBVTE3AE60RYNYF6R",
+      "categorySlug": "powder",
+      "name": "Rustler 11",
+      "slug": "rustler-11",
+      "sport": "ski",
+      "level": "expert",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.blizzard-tecnica.com/us/en/collection/men/skis/rustler/rustler-11-flat-2",
+      "description": "Blizzardの112mmパウダースキー。フレアテールとソリッドな構造で、遊び心とダイナミックなパフォーマンスを両立。",
+      "specs": {
+        "id": "01KM397J3SEF738R0CRQVQBBFS",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "TrueBlend Freeride Core",
+        "baseMaterial": "Sintered Graphite",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM397J3TVWZJXY99CW6CDGB6",
+          "lengthCm": 168,
+          "waistWidthMm": 112,
+          "noseWidthMm": 140,
+          "tailWidthMm": 130,
+          "sidecutRadiusM": 16,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM397J3TBXP2HKPMKBK3Q7DR",
+          "lengthCm": 174,
+          "waistWidthMm": 112,
+          "noseWidthMm": 140.5,
+          "tailWidthMm": 130.5,
+          "sidecutRadiusM": 17.5,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM397J3TRRB0RBVP07J6Q3ET",
+          "lengthCm": 180,
+          "waistWidthMm": 112,
+          "noseWidthMm": 141,
+          "tailWidthMm": 131,
+          "sidecutRadiusM": 19,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM397J3TWT34KH8S7QATPZDJ",
+          "lengthCm": 186,
+          "waistWidthMm": 114,
+          "noseWidthMm": 142,
+          "tailWidthMm": 132,
+          "sidecutRadiusM": 20.5,
+          "weightG": 2100,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM397J3TAAFZNYCYEZ8K3ZD2",
+          "lengthCm": 192,
+          "waistWidthMm": 114,
+          "noseWidthMm": 143,
+          "tailWidthMm": 133,
+          "sidecutRadiusM": 22,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM2YQGVJ9E8F2VN93EX3A3WV",
+      "categorySlug": "all-mountain",
+      "name": "Anomaly 94",
+      "slug": "anomaly-94",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/skis/blizzard-anomaly-94",
+      "description": "Blizzardの94mmオールマウンテンスキー。カービングからオフピステまで幅広いコンディションに対応。",
+      "specs": {
+        "id": "01KM2YQGVJ56W2ZX4FNZM1YY06",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "TrueBlend All Mountain Core",
+        "baseMaterial": "Sintered Graphite",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM2YQGVJ37SAETVWN9Y66NQQ",
+          "lengthCm": 164,
+          "waistWidthMm": 94,
+          "noseWidthMm": 131.5,
+          "tailWidthMm": 113.5,
+          "sidecutRadiusM": 14.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2YQGVJD3P71YD1V042FQRD",
+          "lengthCm": 170,
+          "waistWidthMm": 94,
+          "noseWidthMm": 132.5,
+          "tailWidthMm": 114.5,
+          "sidecutRadiusM": 15.5,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2YQGVJMJSH090VZ87FRPZN",
+          "lengthCm": 176,
+          "waistWidthMm": 94,
+          "noseWidthMm": 132.5,
+          "tailWidthMm": 114.5,
+          "sidecutRadiusM": 17,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2YQGVJX3XAWD4B5SFCWJX2",
+          "lengthCm": 182,
+          "waistWidthMm": 94,
+          "noseWidthMm": 132.5,
+          "tailWidthMm": 114.5,
+          "sidecutRadiusM": 18.5,
+          "weightG": 2100,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2YQGVJ3EH8WAYPC5ZSNWCY",
+          "lengthCm": 188,
+          "waistWidthMm": 94,
+          "noseWidthMm": 133,
+          "tailWidthMm": 115,
+          "sidecutRadiusM": 19.5,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM397J3SBSJ4VJVDQW3P6ZC1",
+      "categorySlug": "all-mountain",
+      "name": "Anomaly 84",
+      "slug": "anomaly-84",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.blizzard-tecnica.com/us/en/collection/men/skis/anomaly/anomaly-84-flat-2",
+      "description": "Blizzardの84mmオールマウンテンスキー。入力に忠実に応答し、エッジングからフォールラインまで多様なスタイルに対応。",
+      "specs": {
+        "id": "01KM397J3S9HWJ0MWB5WPSPZMP",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "TrueBlend All Mountain Core",
+        "baseMaterial": "Sintered Graphite",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM397J3T5RM2ZSNYHHZVP49E",
+          "lengthCm": 164,
+          "waistWidthMm": 84,
+          "noseWidthMm": 123.5,
+          "tailWidthMm": 106.5,
+          "sidecutRadiusM": 13,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM397J3T2TX2FBASDXW4CYQT",
+          "lengthCm": 170,
+          "waistWidthMm": 84,
+          "noseWidthMm": 124,
+          "tailWidthMm": 107,
+          "sidecutRadiusM": 14,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM397J3T1VRVJFHCAGQJYF9D",
+          "lengthCm": 176,
+          "waistWidthMm": 84,
+          "noseWidthMm": 124,
+          "tailWidthMm": 107,
+          "sidecutRadiusM": 15.5,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM397J3T4GSVH7S34S90KDFD",
+          "lengthCm": 182,
+          "waistWidthMm": 84,
+          "noseWidthMm": 124.5,
+          "tailWidthMm": 107.5,
+          "sidecutRadiusM": 17,
+          "weightG": 2060,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM397J3TNW66A38P4G9QQ7CE",
+          "lengthCm": 188,
+          "waistWidthMm": 84,
+          "noseWidthMm": 125,
+          "tailWidthMm": 108,
+          "sidecutRadiusM": 18,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM397J3SJTR4MKA19B22YZCS",
+      "categorySlug": "all-mountain",
+      "name": "Anomaly 88",
+      "slug": "anomaly-88",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.blizzard-tecnica.com/us/en/collection/men/skis/anomaly/anomaly-88-flat-2",
+      "description": "Blizzardの88mmオールマウンテンスキー。グルーミングからコブまで、多彩なコンディションで遊び心のあるパフォーマンスを発揮。",
+      "specs": {
+        "id": "01KM397J3SXAF98N70CXE6DXTY",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "TrueBlend All Mountain Core",
+        "baseMaterial": "Sintered Graphite",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM397J3T8ZAXKV4CBYPCG809",
+          "lengthCm": 164,
+          "waistWidthMm": 88,
+          "noseWidthMm": 126.5,
+          "tailWidthMm": 108.5,
+          "sidecutRadiusM": 14,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM397J3T0RG6YWW95N5FGYXG",
+          "lengthCm": 170,
+          "waistWidthMm": 88,
+          "noseWidthMm": 127,
+          "tailWidthMm": 109,
+          "sidecutRadiusM": 15,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM397J3TVYZRJSSR3B7DWC2Q",
+          "lengthCm": 176,
+          "waistWidthMm": 88,
+          "noseWidthMm": 127,
+          "tailWidthMm": 109,
+          "sidecutRadiusM": 16.5,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM397J3TMT1K8NDQ05SFCTMH",
+          "lengthCm": 182,
+          "waistWidthMm": 88,
+          "noseWidthMm": 127.5,
+          "tailWidthMm": 109.5,
+          "sidecutRadiusM": 18,
+          "weightG": 2100,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM397J3TP92ERHWPQ5X2JAZE",
+          "lengthCm": 188,
+          "waistWidthMm": 88,
+          "noseWidthMm": 128,
+          "tailWidthMm": 110,
+          "sidecutRadiusM": 19,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM397J3SBFCJV49N14CRQX03",
+      "categorySlug": "all-mountain",
+      "name": "Anomaly 102",
+      "slug": "anomaly-102",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.blizzard-tecnica.com/us/en/collection/men/skis/anomaly/anomaly-102-flat-2",
+      "description": "Blizzardの102mmオールマウンテンスキー。パウダーからハードパックまで、あらゆるコンディションに対応する万能モデル。",
+      "specs": {
+        "id": "01KM397J3SMR8A978CAJ5PZG8N",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "TrueBlend All Mountain Core",
+        "baseMaterial": "Sintered Graphite",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM397J3T5X82QPJ5E8M7GSYR",
+          "lengthCm": 176,
+          "waistWidthMm": 102,
+          "noseWidthMm": 135,
+          "tailWidthMm": 122,
+          "sidecutRadiusM": 18,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM397J3TNB59CGG2NWS6DVT7",
+          "lengthCm": 182,
+          "waistWidthMm": 102,
+          "noseWidthMm": 136,
+          "tailWidthMm": 123,
+          "sidecutRadiusM": 19.5,
+          "weightG": 2190,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM397J3TSK67K5RAAT6X8VJ3",
+          "lengthCm": 188,
+          "waistWidthMm": 102,
+          "noseWidthMm": 136.5,
+          "tailWidthMm": 123.5,
+          "sidecutRadiusM": 21,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM397J3TJRB2W6XZ73K27KYF",
+          "lengthCm": 192,
+          "waistWidthMm": 102,
+          "noseWidthMm": 137,
+          "tailWidthMm": 124,
+          "sidecutRadiusM": 22.5,
+          "displayOrder": 4
+        }
+      ]
+    }
+  ]
+}

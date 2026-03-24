@@ -1,0 +1,137 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { Mountain, Snowflake, ChevronRight } from "lucide-react";
+
+const API_URL = import.meta.env.API_URL || "http://localhost:8787";
+
+type Brand = {
+  id: string;
+  name: string;
+  slug: string;
+};
+
+let skiBrands: Brand[] = [];
+let snowboardBrands: Brand[] = [];
+let skiModelCount = 0;
+let snowboardModelCount = 0;
+
+try {
+  const [skiBrandRes, sbBrandRes, skiModelRes, sbModelRes] = await Promise.all([
+    fetch(`${API_URL}/brands?sport=ski`),
+    fetch(`${API_URL}/brands?sport=snowboard`),
+    fetch(`${API_URL}/models?sport=ski`),
+    fetch(`${API_URL}/models?sport=snowboard`),
+  ]);
+  skiBrands = (await skiBrandRes.json()).data;
+  snowboardBrands = (await sbBrandRes.json()).data;
+  skiModelCount = ((await skiModelRes.json()).data as unknown[]).length;
+  snowboardModelCount = ((await sbModelRes.json()).data as unknown[]).length;
+} catch {
+  // Fallback: show page without counts
+}
+
+const totalModels = skiModelCount + snowboardModelCount;
+---
+
+<Layout title="Edgepick — スキー・スノーボード スペック比較">
+  <Header />
+
+  <main class="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-10">
+    <div class="py-4 sm:py-8">
+      <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">
+        ギアのスペックを、<br class="sm:hidden" />ひと目で比較。
+      </h1>
+      <p class="mt-3 text-muted-foreground">
+        スキー・スノーボードのカタログスペックを集約。ウエスト幅・サイドカット・重量を横並びで比較できます。
+      </p>
+      {totalModels > 0 && (
+        <p class="mt-2 text-xs text-muted-foreground">
+          {skiBrands.length + snowboardBrands.length} ブランド・{totalModels} モデル掲載（2025-2026 シーズン）
+        </p>
+      )}
+    </div>
+
+    <div class="mt-2 grid gap-4 sm:grid-cols-2">
+      <a
+        href="/ski"
+        class="group flex items-center justify-between rounded-xl border border-border p-6 transition-colors hover:border-primary/40 hover:bg-muted/50"
+      >
+        <div class="flex items-center gap-4">
+          <div
+            class="flex size-12 items-center justify-center rounded-lg bg-primary/10 text-primary"
+          >
+            <Mountain className="size-6" />
+          </div>
+          <div>
+            <div class="font-semibold">スキー</div>
+            <div class="mt-0.5 text-sm text-muted-foreground">
+              {skiModelCount > 0 ? `${skiModelCount} モデル` : "Ski"}
+            </div>
+          </div>
+        </div>
+        <ChevronRight
+          className="size-5 text-muted-foreground transition-transform group-hover:translate-x-0.5"
+        />
+      </a>
+
+      <a
+        href="/snowboard"
+        class="group flex items-center justify-between rounded-xl border border-border p-6 transition-colors hover:border-primary/40 hover:bg-muted/50"
+      >
+        <div class="flex items-center gap-4">
+          <div
+            class="flex size-12 items-center justify-center rounded-lg bg-primary/10 text-primary"
+          >
+            <Snowflake className="size-6" />
+          </div>
+          <div>
+            <div class="font-semibold">スノーボード</div>
+            <div class="mt-0.5 text-sm text-muted-foreground">
+              {snowboardModelCount > 0 ? `${snowboardModelCount} モデル` : "Snowboard"}
+            </div>
+          </div>
+        </div>
+        <ChevronRight
+          className="size-5 text-muted-foreground transition-transform group-hover:translate-x-0.5"
+        />
+      </a>
+    </div>
+
+    <section class="mt-12 space-y-8">
+      {skiBrands.length > 0 && (
+        <div>
+          <h2 class="text-sm font-medium text-muted-foreground">スキーブランド</h2>
+          <div class="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4">
+            {skiBrands.map((brand) => (
+              <a
+                href={`/ski?brand=${brand.slug}`}
+                class="rounded-lg border border-border px-4 py-3 text-sm text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground"
+              >
+                {brand.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+      {snowboardBrands.length > 0 && (
+        <div>
+          <h2 class="text-sm font-medium text-muted-foreground">スノーボードブランド</h2>
+          <div class="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4">
+            {snowboardBrands.map((brand) => (
+              <a
+                href={`/snowboard?brand=${brand.slug}`}
+                class="rounded-lg border border-border px-4 py-3 text-sm text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground"
+              >
+                {brand.name}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

@@ -1,0 +1,723 @@
+{
+  "brand": {
+    "id": "01KM2Y0C1M3WGZ8DXZRAXK5E1W",
+    "name": "Jones",
+    "slug": "jones",
+    "country": "US",
+    "websiteUrl": "https://www.jonessnowboards.com",
+    "description": "Jeremy Jonesが設立したバックカントリー志向のスノーボードブランド。Flagshipを筆頭にフリーライドに強いラインナップ。"
+  },
+  "categories": [
+    {
+      "id": "01KM2W47DWZQ6HVWYC81EEYBRF",
+      "sport": "snowboard",
+      "name": "フリーライド",
+      "slug": "freeride",
+      "displayOrder": 3
+    },
+    {
+      "id": "01KM2W47DWC9NAVB9A32XDEPDD",
+      "sport": "snowboard",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM2W47DW213XHQJXWVHTPTE0",
+      "sport": "snowboard",
+      "name": "フリースタイル",
+      "slug": "freestyle",
+      "displayOrder": 2
+    }
+  ],
+  "models": [
+    {
+      "id": "01KM2Y0C1N15T09XFQ819JW40P",
+      "categorySlug": "freeride",
+      "name": "Flagship",
+      "slug": "flagship",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.jonessnowboards.com/products/men-flagship-snowboard-2025",
+      "description": "Jonesを代表するフリーライドボード。テーパードディレクショナルシェイプでパウダーとテクニカルな地形に最適。ディレクショナルキャンバー/ロッカー。",
+      "specs": {
+        "id": "01KM2Y0C1NNBZBRH80FP0X6Y9W",
+        "shape": "Directional",
+        "bendProfile": "Directional Camber/Rocker",
+        "flexRating": 7,
+        "coreMaterial": "Power Core (Bamboo/Paulownia/Poplar)",
+        "baseMaterial": "Sintered 9900",
+        "mounting": "Channel / 2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM2Y0C1N9AV1P3A7Z3NYQJEJ",
+          "lengthCm": 151,
+          "waistWidthMm": 243,
+          "noseWidthMm": 290,
+          "tailWidthMm": 276,
+          "sidecutRadiusM": 7.3,
+          "weightG": 2700,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2Y0C1NYVCMEMWYB161BT24",
+          "lengthCm": 154,
+          "waistWidthMm": 246,
+          "noseWidthMm": 292,
+          "tailWidthMm": 278,
+          "sidecutRadiusM": 7.9,
+          "weightG": 2800,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2Y0C1N2REAN78AYF3756R1",
+          "lengthCm": 158,
+          "waistWidthMm": 249,
+          "noseWidthMm": 294,
+          "tailWidthMm": 281,
+          "sidecutRadiusM": 8.5,
+          "weightG": 2900,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2Y0C1NB2J17PZT3TC19T6F",
+          "lengthCm": 161,
+          "waistWidthMm": 252,
+          "noseWidthMm": 296,
+          "tailWidthMm": 283,
+          "sidecutRadiusM": 9.1,
+          "weightG": 3100,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2Y0C1N42M9YTC95E57FKNZ",
+          "lengthCm": 164,
+          "waistWidthMm": 254,
+          "noseWidthMm": 299,
+          "tailWidthMm": 286,
+          "sidecutRadiusM": 9.3,
+          "weightG": 3200,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM2Y0C1NJN9ZBACDFZ42AKBC",
+      "categorySlug": "all-mountain",
+      "name": "Frontier 2.0",
+      "slug": "frontier-2-0",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.jonessnowboards.com/products/men-frontier-2-0-snowboard-2026",
+      "description": "リデザインされたオールテレインボード。テーパードディレクショナルシェイプとフレンドリーなフレックスであらゆるコンディションに対応。",
+      "specs": {
+        "id": "01KM2Y0C1N9R8VGP17Y60P54MR",
+        "shape": "Directional",
+        "bendProfile": "Directional Camber/Rocker",
+        "flexRating": 5,
+        "coreMaterial": "Power Core (Bamboo/Paulownia/Poplar)",
+        "baseMaterial": "Sintered 7500",
+        "mounting": "Channel / 2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM2Y0C1NENMJSB41YM98B3WZ",
+          "lengthCm": 150,
+          "waistWidthMm": 246,
+          "noseWidthMm": 291,
+          "tailWidthMm": 286,
+          "sidecutRadiusM": 7.2,
+          "weightG": 2500,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2Y0C1NG5JQYARFJWE921VZ",
+          "lengthCm": 156,
+          "waistWidthMm": 252,
+          "noseWidthMm": 298,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 7.6,
+          "weightG": 2700,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2Y0C1N0B1CJAASA7W9QXG1",
+          "lengthCm": 159,
+          "waistWidthMm": 255,
+          "noseWidthMm": 302,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 7.8,
+          "weightG": 2900,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2Y0C1PFAM4X7DDR6798XEG",
+          "lengthCm": 162,
+          "waistWidthMm": 258,
+          "noseWidthMm": 305,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.0,
+          "weightG": 3000,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2Y0C1P8BWEPZQQH09TTJ83",
+          "lengthCm": 165,
+          "waistWidthMm": 261,
+          "noseWidthMm": 309,
+          "tailWidthMm": 304,
+          "sidecutRadiusM": 8.2,
+          "weightG": 3200,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM2Y0C1PMMT02Z6JBS63QNN7",
+      "categorySlug": "freeride",
+      "name": "Mind Expander",
+      "slug": "mind-expander",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.jonessnowboards.com/products/mind-expander-snowboard-2025",
+      "description": "サーフシェイパーChris Christensonとのコラボモデル。ロングノーズとテーパードテールでパウダーでの浮力と遊び心を両立。",
+      "specs": {
+        "id": "01KM2Y0C1PMZQK3D8Y8H31GR3Y",
+        "shape": "Directional",
+        "bendProfile": "Directional Camber/Rocker",
+        "flexRating": 5,
+        "coreMaterial": "Power Core (Bamboo/Paulownia/Poplar)",
+        "baseMaterial": "Sintered 9900",
+        "mounting": "Channel / 2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM2Y0C1PB2AFQAH91QGP5QMF",
+          "lengthCm": 150,
+          "waistWidthMm": 252,
+          "noseWidthMm": 295,
+          "tailWidthMm": 275,
+          "sidecutRadiusM": 6.7,
+          "weightG": 2800,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2Y0C1PS5HNCNPG02MJKG4E",
+          "lengthCm": 154,
+          "waistWidthMm": 256,
+          "noseWidthMm": 300,
+          "tailWidthMm": 280,
+          "sidecutRadiusM": 6.9,
+          "weightG": 3000,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2Y0C1P6XTRBK313HJY136B",
+          "lengthCm": 158,
+          "waistWidthMm": 260,
+          "noseWidthMm": 305,
+          "tailWidthMm": 285,
+          "sidecutRadiusM": 7.1,
+          "weightG": 3200,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2Y0C1P4GMYCXZADK16BK7Y",
+          "lengthCm": 162,
+          "waistWidthMm": 264,
+          "noseWidthMm": 311,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 7.3,
+          "weightG": 3400,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM31BQE5037YYRAS1KHYCJJM",
+      "categorySlug": "all-mountain",
+      "name": "Stratos",
+      "slug": "stratos",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.jonessnowboards.com/products/men-stratos-snowboard-2026",
+      "description": "ハイブリッドオールマウンテンボード。テーパードディレクショナルフリーライドシェイプとエネルギッシュなボードフィールでパウダーからハードパックまで対応。",
+      "specs": {
+        "id": "01KM31BQE6N0Q0NVFPKD0C1ECG",
+        "shape": "Directional",
+        "bendProfile": "Directional Camber/Rocker",
+        "flexRating": 7,
+        "coreMaterial": "Power Core (Bamboo/Paulownia/Poplar)",
+        "baseMaterial": "Sintered 9900",
+        "mounting": "Channel / 2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM31BQE6GDRRN7ECDS01K91E",
+          "lengthCm": 149,
+          "waistWidthMm": 242,
+          "noseWidthMm": 290,
+          "tailWidthMm": 280,
+          "sidecutRadiusM": 6.5,
+          "weightG": 2600,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM31BQE66TWED6KETJK4ZTZS",
+          "lengthCm": 153,
+          "waistWidthMm": 248,
+          "noseWidthMm": 297,
+          "tailWidthMm": 287,
+          "sidecutRadiusM": 6.8,
+          "weightG": 2700,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM31BQE6VJD0TR37K75BA1JQ",
+          "lengthCm": 156,
+          "waistWidthMm": 254,
+          "noseWidthMm": 303,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 7.2,
+          "weightG": 2800,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM31BQE6ZS55H9VY22YD0PK5",
+          "lengthCm": 159,
+          "waistWidthMm": 256,
+          "noseWidthMm": 308,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 7.5,
+          "weightG": 3000,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM31BQE6R3RBHJY2SVE8GD0H",
+          "lengthCm": 162,
+          "waistWidthMm": 259,
+          "noseWidthMm": 313,
+          "tailWidthMm": 303,
+          "sidecutRadiusM": 7.8,
+          "weightG": 3000,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM31BQE6AD23BJSD7QW9TJN1",
+      "categorySlug": "freestyle",
+      "name": "Mountain Twin",
+      "slug": "mountain-twin",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.jonessnowboards.com/products/men-mountain-twin-snowboard-2026",
+      "description": "多才で万能なディレクショナルツイン。あらゆる雪質で楽しめるプレイフルなオールマウンテンボード。CamRockプロファイルでフロートとポップを両立。",
+      "specs": {
+        "id": "01KM31BQE6AAZ2THP1883EHJMK",
+        "shape": "Directional Twin",
+        "bendProfile": "CamRock",
+        "flexRating": 5,
+        "coreMaterial": "Master Core (Paulownia/Poplar)",
+        "baseMaterial": "Sintered 7500",
+        "mounting": "Channel / 2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM31BQE63TCMWN0H94N3QNE9",
+          "lengthCm": 149,
+          "waistWidthMm": 248,
+          "noseWidthMm": 289,
+          "tailWidthMm": 289,
+          "sidecutRadiusM": 7.3,
+          "weightG": 2600,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM31BQE6RCH4F81NYP3RHXBJ",
+          "lengthCm": 151,
+          "waistWidthMm": 250,
+          "noseWidthMm": 291,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 7.4,
+          "weightG": 2600,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM31BQE6CRCCJ5ZHNTT1T63W",
+          "lengthCm": 154,
+          "waistWidthMm": 251,
+          "noseWidthMm": 292,
+          "tailWidthMm": 292,
+          "sidecutRadiusM": 7.6,
+          "weightG": 2700,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM31BQE63K2F5CY3MQ331SB5",
+          "lengthCm": 157,
+          "waistWidthMm": 254,
+          "noseWidthMm": 296,
+          "tailWidthMm": 296,
+          "sidecutRadiusM": 7.8,
+          "weightG": 2800,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM31BQE78NSA5YT3QH1203GX",
+          "lengthCm": 160,
+          "waistWidthMm": 257,
+          "noseWidthMm": 300,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.0,
+          "weightG": 3000,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM31BQE7ZJ8K9MN7NCY9K5EX",
+          "lengthCm": 163,
+          "waistWidthMm": 260,
+          "noseWidthMm": 303,
+          "tailWidthMm": 303,
+          "sidecutRadiusM": 8.2,
+          "weightG": 3200,
+          "displayOrder": 6
+        }
+      ]
+    },
+    {
+      "id": "01KM31BQE711WEYB2N82WSKZ9S",
+      "categorySlug": "all-mountain",
+      "name": "Aviator 2.0",
+      "slug": "aviator-2-0",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.jonessnowboards.com/products/men-aviator-2-0-snowboard-2026",
+      "description": "アグレッシブなディレクショナルツイン。フルキャンバーとミッドスティッフフレックスでカービングとフリースタイルを両立する上級オールマウンテンボード。",
+      "specs": {
+        "id": "01KM31BQE7Q2YRNJTMRFPQM7JG",
+        "shape": "Directional Twin",
+        "bendProfile": "True Camber",
+        "flexRating": 7,
+        "coreMaterial": "Power Core (Bamboo/Paulownia/Poplar)",
+        "baseMaterial": "Sintered 9900",
+        "mounting": "Channel / 2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM31BQE78DBY6F44Z98S654M",
+          "lengthCm": 147,
+          "waistWidthMm": 242,
+          "noseWidthMm": 282,
+          "tailWidthMm": 282,
+          "sidecutRadiusM": 7.1,
+          "weightG": 2500,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM31BQE7RV65SYP81WAC356F",
+          "lengthCm": 150,
+          "waistWidthMm": 245,
+          "noseWidthMm": 285,
+          "tailWidthMm": 285,
+          "sidecutRadiusM": 7.3,
+          "weightG": 2500,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM31BQE7P7J2S4PAMMPNQV15",
+          "lengthCm": 154,
+          "waistWidthMm": 249,
+          "noseWidthMm": 290,
+          "tailWidthMm": 290,
+          "sidecutRadiusM": 7.5,
+          "weightG": 2700,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM31BQE7M7NQ4AZWG0S7C3ZX",
+          "lengthCm": 156,
+          "waistWidthMm": 251,
+          "noseWidthMm": 293,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 7.6,
+          "weightG": 2800,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM31BQE7MBYRHHXS04AFN59B",
+          "lengthCm": 158,
+          "waistWidthMm": 253,
+          "noseWidthMm": 296,
+          "tailWidthMm": 296,
+          "sidecutRadiusM": 7.8,
+          "weightG": 2800,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM31BQE72SZV1MT71BAFMS40",
+          "lengthCm": 160,
+          "waistWidthMm": 255,
+          "noseWidthMm": 300,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.0,
+          "weightG": 3000,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KM31BQE7BZ4QRENSETS2X16M",
+          "lengthCm": 162,
+          "waistWidthMm": 257,
+          "noseWidthMm": 303,
+          "tailWidthMm": 303,
+          "sidecutRadiusM": 8.2,
+          "weightG": 3000,
+          "displayOrder": 7
+        }
+      ]
+    },
+    {
+      "id": "01KM31BQE7YHX1JV9BVZ0SK8H1",
+      "categorySlug": "freestyle",
+      "name": "Tweaker",
+      "slug": "tweaker",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.jonessnowboards.com/products/men-tweaker-snowboard-2026",
+      "description": "フリースタイル特化のトゥルーツイン。フルキャンバーでポップとエッジホールドを最大化。オーリー、トリック、クリエイティブなライン取りに最適。",
+      "specs": {
+        "id": "01KM31BQE71JEZTNYHT1Q6X49P",
+        "shape": "True Twin",
+        "bendProfile": "True Camber",
+        "flexRating": 5,
+        "coreMaterial": "Master Core (Paulownia/Poplar)",
+        "baseMaterial": "Sintered 7500",
+        "mounting": "Channel / 2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM31BQE7T56BWSXH528MPBZ5",
+          "lengthCm": 146,
+          "waistWidthMm": 242,
+          "noseWidthMm": 282,
+          "tailWidthMm": 282,
+          "sidecutRadiusM": 6.8,
+          "weightG": 2500,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM31BQE7KPVGZYZ71895XGYB",
+          "lengthCm": 149,
+          "waistWidthMm": 248,
+          "noseWidthMm": 288,
+          "tailWidthMm": 288,
+          "sidecutRadiusM": 7.0,
+          "weightG": 2600,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM31BQE78Q8T4RT7ZZRZN5WN",
+          "lengthCm": 151,
+          "waistWidthMm": 251,
+          "noseWidthMm": 291,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 7.2,
+          "weightG": 2600,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM31BQE70NY50VS1644D2BF7",
+          "lengthCm": 154,
+          "waistWidthMm": 254,
+          "noseWidthMm": 294,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 7.4,
+          "weightG": 2700,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM31BQE70XV8XD1ZFAH5PZG1",
+          "lengthCm": 156,
+          "waistWidthMm": 254,
+          "noseWidthMm": 296,
+          "tailWidthMm": 296,
+          "sidecutRadiusM": 7.6,
+          "weightG": 2800,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM31BQE7GES2YTVPVSKFNVQ7",
+          "lengthCm": 159,
+          "waistWidthMm": 257,
+          "noseWidthMm": 299,
+          "tailWidthMm": 299,
+          "sidecutRadiusM": 7.8,
+          "weightG": 3000,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KM31BQE72DWZXSRZSDJS8H5N",
+          "lengthCm": 162,
+          "waistWidthMm": 260,
+          "noseWidthMm": 302,
+          "tailWidthMm": 302,
+          "sidecutRadiusM": 8.0,
+          "weightG": 3000,
+          "displayOrder": 7
+        }
+      ]
+    },
+    {
+      "id": "01KM31BQE7E6W17M7AAFANSWR0",
+      "categorySlug": "freeride",
+      "name": "Hovercraft 2.0",
+      "slug": "hovercraft-2-0",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.jonessnowboards.com/products/hovercraft-2-0-snowboard-2026",
+      "description": "テーパードディレクショナルシェイプのオルタナティブフリーライドボード。浮力のあるノーズとキャンバーアンダーフットでパウダーからグルーミングまで多彩なパフォーマンス。",
+      "specs": {
+        "id": "01KM31BQE84YKFQHF8SBMA6VE5",
+        "shape": "Directional",
+        "bendProfile": "Directional Camber/Rocker",
+        "flexRating": 5,
+        "coreMaterial": "Master Core (Paulownia/Poplar) + Re-Up Tech",
+        "baseMaterial": "Sintered 8000",
+        "mounting": "Channel / 2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM31BQE84WJQGJN62JZ0PJ50",
+          "lengthCm": 144,
+          "waistWidthMm": 240,
+          "noseWidthMm": 287,
+          "tailWidthMm": 267,
+          "sidecutRadiusM": 6.2,
+          "weightG": 2400,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM31BQE8CQXA9XK7B99M8VN2",
+          "lengthCm": 148,
+          "waistWidthMm": 247,
+          "noseWidthMm": 294,
+          "tailWidthMm": 274,
+          "sidecutRadiusM": 6.5,
+          "weightG": 2600,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM31BQE8ZCAAF0RE5HCCNBWG",
+          "lengthCm": 152,
+          "waistWidthMm": 253,
+          "noseWidthMm": 300,
+          "tailWidthMm": 280,
+          "sidecutRadiusM": 6.8,
+          "weightG": 2700,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM31BQE8V8J8GFAGVA902VJH",
+          "lengthCm": 156,
+          "waistWidthMm": 259,
+          "noseWidthMm": 306,
+          "tailWidthMm": 286,
+          "sidecutRadiusM": 7.1,
+          "weightG": 2800,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM31BQE8AG9ZRQ8GGPF4X6Q8",
+          "lengthCm": 160,
+          "waistWidthMm": 263,
+          "noseWidthMm": 312,
+          "tailWidthMm": 292,
+          "sidecutRadiusM": 7.4,
+          "weightG": 3000,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM31BQE85KM00YJB4RS8H9MN",
+          "lengthCm": 164,
+          "waistWidthMm": 268,
+          "noseWidthMm": 318,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 7.7,
+          "weightG": 3200,
+          "displayOrder": 6
+        }
+      ]
+    },
+    {
+      "id": "01KM31BQE8WATBBS7FDJXYW7T8",
+      "categorySlug": "freeride",
+      "name": "Storm Chaser",
+      "slug": "storm-chaser",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.jonessnowboards.com/products/storm-chaser-snowboard-2025",
+      "description": "サーフシェイパーChris Christensonデザインのスワローテールパウダーボード。Surf Camberプロファイルで深雪での浮力と低角度地形でのグライドを実現。",
+      "specs": {
+        "id": "01KM31BQE8DF1SA417A1GKJB3P",
+        "shape": "Directional (Swallowtail)",
+        "bendProfile": "Christenson Surf Camber",
+        "flexRating": 6,
+        "coreMaterial": "FSC Bamboo Surf Core",
+        "baseMaterial": "Sintered 8000",
+        "mounting": "Channel / 2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KM31BQE8C3J926FMXY52BGS7",
+          "lengthCm": 142,
+          "waistWidthMm": 265,
+          "noseWidthMm": 310,
+          "tailWidthMm": 240,
+          "sidecutRadiusM": 6.6,
+          "weightG": 2700,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM31BQE8XAARVZ520R603NQA",
+          "lengthCm": 147,
+          "waistWidthMm": 270,
+          "noseWidthMm": 316,
+          "tailWidthMm": 246,
+          "sidecutRadiusM": 6.8,
+          "weightG": 2700,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM31BQE87EZFE720WK9PKCV1",
+          "lengthCm": 152,
+          "waistWidthMm": 275,
+          "noseWidthMm": 322,
+          "tailWidthMm": 252,
+          "sidecutRadiusM": 6.9,
+          "weightG": 2700,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM31BQE8WFAMS6RA684ATDTV",
+          "lengthCm": 157,
+          "waistWidthMm": 277,
+          "noseWidthMm": 326,
+          "tailWidthMm": 256,
+          "sidecutRadiusM": 7.1,
+          "weightG": 2700,
+          "displayOrder": 4
+        }
+      ]
+    }
+  ]
+}

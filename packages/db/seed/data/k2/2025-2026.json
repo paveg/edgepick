@@ -1,0 +1,746 @@
+{
+  "brand": {
+    "id": "01KM2YQGVJ1D5S67AMRK1DDDBJ",
+    "name": "K2",
+    "slug": "k2",
+    "country": "US",
+    "websiteUrl": "https://k2snow.com"
+  },
+  "categories": [
+    {
+      "id": "01KM0YM2TXVM9AJJ1R5CYS7ZP9",
+      "sport": "ski",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM312M9ZV5A70SSGY4R8A8FM",
+      "sport": "ski",
+      "name": "パーク・パイプ",
+      "slug": "park-pipe",
+      "displayOrder": 3
+    },
+    {
+      "id": "01KM2Z0YWGSAWXYBGE9156PF7T",
+      "sport": "ski",
+      "name": "基礎・カービング",
+      "slug": "frontside",
+      "displayOrder": 4
+    }
+  ],
+  "models": [
+    {
+      "id": "01KM2YQGVJXWPAAFR4WYM67GKB",
+      "categorySlug": "all-mountain",
+      "name": "Mindbender 99Ti",
+      "slug": "mindbender-99ti",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/skis/k2-mindbender-99ti",
+      "description": "K2のオールマウンテンスキー。Titanal搭載でハイスピードでの安定性とターンのキレを両立。",
+      "specs": {
+        "id": "01KM2YQGVJ763NTS6K79FXPDBZ",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Aspen/Paulownia Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM2YQGVJ62C62EW4YXVNY5BM",
+          "lengthCm": 166,
+          "waistWidthMm": 99,
+          "noseWidthMm": 134,
+          "tailWidthMm": 120,
+          "sidecutRadiusM": 19.6,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2YQGVJ4Z4MCAMMJ082BXTF",
+          "lengthCm": 172,
+          "waistWidthMm": 99,
+          "noseWidthMm": 134,
+          "tailWidthMm": 120,
+          "sidecutRadiusM": 19.6,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2YQGVJ4JBZJMVEGF4T1AWY",
+          "lengthCm": 178,
+          "waistWidthMm": 99,
+          "noseWidthMm": 134,
+          "tailWidthMm": 120,
+          "sidecutRadiusM": 19.6,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2YQGVJY9MBDPKYMVKHM60M",
+          "lengthCm": 184,
+          "waistWidthMm": 99,
+          "noseWidthMm": 134,
+          "tailWidthMm": 120,
+          "sidecutRadiusM": 19.6,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2YQGVJ5W2HWH3667BH0SR3",
+          "lengthCm": 190,
+          "waistWidthMm": 99,
+          "noseWidthMm": 134,
+          "tailWidthMm": 120,
+          "sidecutRadiusM": 19.6,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM3126YA2TR8XNPG9DVVYBT3",
+      "categorySlug": "all-mountain",
+      "name": "Mindbender 108Ti",
+      "slug": "mindbender-108ti",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://k2snow.com/en-us/p/mindbender-108ti-mens-skis-2026",
+      "description": "K2のフリーライド向けオールマウンテンスキー。Titanal Y-Beam搭載でハイスピードでの安定性とダンプネスを両立し、パウダーからバリアブルコンディションまで対応。",
+      "specs": {
+        "id": "01KM3126YA131XRTPXEXE94ZRX",
+        "rockerType": "All-Terrain Rocker",
+        "coreMaterial": "Aspen Veneer",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM3126YADN9Y3E58ECCZ1XEP",
+          "lengthCm": 172,
+          "waistWidthMm": 108,
+          "noseWidthMm": 136,
+          "tailWidthMm": 125,
+          "sidecutRadiusM": 22.9,
+          "weightG": 2265,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3126YAJZ4K6P1S7KYNFAXP",
+          "lengthCm": 179,
+          "waistWidthMm": 108,
+          "noseWidthMm": 136,
+          "tailWidthMm": 125,
+          "sidecutRadiusM": 22.9,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3126YAB6TVBZ4B045BM3RZ",
+          "lengthCm": 186,
+          "waistWidthMm": 108,
+          "noseWidthMm": 136,
+          "tailWidthMm": 125,
+          "sidecutRadiusM": 22.9,
+          "weightG": 2265,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3126YAFBZ1ZGBRXJXXBZR6",
+          "lengthCm": 193,
+          "waistWidthMm": 108,
+          "noseWidthMm": 136,
+          "tailWidthMm": 125,
+          "sidecutRadiusM": 22.9,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM3126YAM1MSTYHXE89PM76K",
+      "categorySlug": "all-mountain",
+      "name": "Mindbender 89Ti",
+      "slug": "mindbender-89ti",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://k2snow.com/en-us/p/mindbender-89ti-mens-skis-2026",
+      "description": "K2のオールマウンテンフリーライドスキー。Titanal Y-Beam搭載でハードパックでの正確なターンとエッジホールドを実現。カービング性能とフリーライドの汎用性を両立。",
+      "specs": {
+        "id": "01KM3126YAR5YHBF6816JXAG9T",
+        "rockerType": "All-Terrain Rocker",
+        "coreMaterial": "Aspen Veneer",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM3126YAHC96E05JGNENCQDZ",
+          "lengthCm": 164,
+          "waistWidthMm": 89,
+          "noseWidthMm": 130,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 16.6,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3126YA3HNRTGFQPHG2184J",
+          "lengthCm": 170,
+          "waistWidthMm": 89,
+          "noseWidthMm": 130,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 16.6,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3126YA80NHVAZMX62FTPTE",
+          "lengthCm": 176,
+          "waistWidthMm": 89,
+          "noseWidthMm": 130,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 16.6,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3126YBRSFD59PE9JQFDC4C",
+          "lengthCm": 182,
+          "waistWidthMm": 89,
+          "noseWidthMm": 130,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 16.6,
+          "weightG": 2003,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM3126YCH0RJHBZRKY3X2TWX",
+          "lengthCm": 188,
+          "waistWidthMm": 89,
+          "noseWidthMm": 130,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 16.6,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM3126YCTHV8BV4CVMB8BQT2",
+      "categorySlug": "all-mountain",
+      "name": "Mindbender 116C",
+      "slug": "mindbender-116c",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://k2snow.com/en-us/p/mindbender-116c-mens-skis-2026",
+      "description": "K2のパウダー向けフリーライドスキー。Spectral Braid搭載で精密なトーションとフレックスを実現。Powder Rockerプロファイルでディープスノーでの浮力を最大化。",
+      "specs": {
+        "id": "01KM3126YC5JNKWC5QR5DKSXW2",
+        "rockerType": "Powder Rocker",
+        "coreMaterial": "Aspen Veneer",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM3126YCT54MZTWV1XGH5J6H",
+          "lengthCm": 177,
+          "waistWidthMm": 116,
+          "noseWidthMm": 143,
+          "tailWidthMm": 132,
+          "sidecutRadiusM": 22.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3126YC4XNXNHB8QRPF9HJN",
+          "lengthCm": 182,
+          "waistWidthMm": 116,
+          "noseWidthMm": 143,
+          "tailWidthMm": 132,
+          "sidecutRadiusM": 22.5,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3126YC4S9TY8XJMFPCM5KF",
+          "lengthCm": 187,
+          "waistWidthMm": 116,
+          "noseWidthMm": 143,
+          "tailWidthMm": 132,
+          "sidecutRadiusM": 22.5,
+          "weightG": 2305,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3126YCFDP3TJK16AJJGHS5",
+          "lengthCm": 194,
+          "waistWidthMm": 116,
+          "noseWidthMm": 143,
+          "tailWidthMm": 132,
+          "sidecutRadiusM": 22.5,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM3126YCS2260GE9PVRFWMWY",
+      "categorySlug": "all-mountain",
+      "name": "Mindbender 106C",
+      "slug": "mindbender-106c",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://k2snow.com/en-us/p/mindbender-106c-mens-skis-2026",
+      "description": "K2の究極のワンスキークイーバー。Spectral Braid搭載で安定性とコントロールを両立。オールコンディションでプレイフルな操作性を実現する万能オールマウンテンスキー。",
+      "specs": {
+        "id": "01KM3126YCV0ZGMAQQCRWHPJJ7",
+        "rockerType": "All-Terrain Rocker",
+        "coreMaterial": "Aspen Veneer",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM3126YC99PN4326MESC3X64",
+          "lengthCm": 169,
+          "waistWidthMm": 106,
+          "noseWidthMm": 137,
+          "tailWidthMm": 127,
+          "sidecutRadiusM": 18.9,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3126YC7PAXS9XEAJ0QJ3KZ",
+          "lengthCm": 176,
+          "waistWidthMm": 106,
+          "noseWidthMm": 137,
+          "tailWidthMm": 127,
+          "sidecutRadiusM": 18.9,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3126YCV653MNSA76D6Y8MX",
+          "lengthCm": 183,
+          "waistWidthMm": 106,
+          "noseWidthMm": 137,
+          "tailWidthMm": 127,
+          "sidecutRadiusM": 18.9,
+          "weightG": 2089,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3126YCX328Z6D8G858X1FN",
+          "lengthCm": 189,
+          "waistWidthMm": 106,
+          "noseWidthMm": 137,
+          "tailWidthMm": 127,
+          "sidecutRadiusM": 18.9,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM3126YC0PX9QW64MN16WFBH",
+      "categorySlug": "all-mountain",
+      "name": "Mindbender 96C",
+      "slug": "mindbender-96c",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://k2snow.com/en-us/p/mindbender-96c-mens-skis-2026",
+      "description": "K2のオールコンディション対応ワンスキークイーバー。Spectral Braid搭載でライブリーなカービング体験を実現。ハードパック、コブ、パウダーデーまで対応する万能スキー。",
+      "specs": {
+        "id": "01KM3126YCTK7KB03BAYHPYQKX",
+        "rockerType": "All-Terrain Rocker",
+        "coreMaterial": "Aspen Veneer",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM3126YCA3NMW6VA8WR774WR",
+          "lengthCm": 166,
+          "waistWidthMm": 96,
+          "noseWidthMm": 131,
+          "tailWidthMm": 119,
+          "sidecutRadiusM": 16,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3126YCET07CKWY2913GQ4H",
+          "lengthCm": 172,
+          "waistWidthMm": 96,
+          "noseWidthMm": 131,
+          "tailWidthMm": 119,
+          "sidecutRadiusM": 16,
+          "weightG": 1630,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3126YCX3BN03TK2YBSBFKS",
+          "lengthCm": 178,
+          "waistWidthMm": 96,
+          "noseWidthMm": 131,
+          "tailWidthMm": 119,
+          "sidecutRadiusM": 16,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3126YCYQXTKW4558Z9B29C",
+          "lengthCm": 184,
+          "waistWidthMm": 96,
+          "noseWidthMm": 131,
+          "tailWidthMm": 119,
+          "sidecutRadiusM": 16,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM3126YDPNR3NH3TA2YDMTPR",
+      "categorySlug": "all-mountain",
+      "name": "Mindbender 90C",
+      "slug": "mindbender-90c",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://k2snow.com/en-us/p/mindbender-90c-mens-skis-2026",
+      "description": "K2のMindbenderコレクションで最軽量のフリーライドスキー。Spectral Braid搭載で軽量ながらスナッピーで機敏な操作性を実現。軽量スキーヤーやメタルラミネート不要なスキーヤーに最適。",
+      "specs": {
+        "id": "01KM3126YDHYXEX5JX0VYAHAMW",
+        "rockerType": "All-Terrain Rocker",
+        "coreMaterial": "Aspen Veneer",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM3126YDFAQTGXSQ7D9F2EF3",
+          "lengthCm": 160,
+          "waistWidthMm": 90,
+          "noseWidthMm": 132,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 13,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3126YDZKW3EX9NMH8JR2EK",
+          "lengthCm": 166,
+          "waistWidthMm": 90,
+          "noseWidthMm": 132,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 13,
+          "weightG": 1560,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3126YD2QXAD8VVEN3NTHPG",
+          "lengthCm": 172,
+          "waistWidthMm": 90,
+          "noseWidthMm": 132,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 13,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3126YD1H5A1SV1HSY67KG1",
+          "lengthCm": 178,
+          "waistWidthMm": 90,
+          "noseWidthMm": 132,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 13,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM3126YDTDG4FTWRHYS0G7W6",
+      "categorySlug": "all-mountain",
+      "name": "Mindbender 85",
+      "slug": "mindbender-85",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://k2snow.com/en-us/p/mindbender-85-mens-skis-2026",
+      "description": "K2のオールマウンテン入門スキー。軽量でフォーギビングな操作性が、グルーマーから新たな地形への挑戦を後押し。初心者から中級者まで自信を持ってスキルアップできる一台。",
+      "specs": {
+        "id": "01KM3126YDTZF1EQJFJ29RQ69W",
+        "rockerType": "All-Terrain Rocker",
+        "coreMaterial": "Aspen Veneer",
+        "baseMaterial": "Sintered",
+        "sidewall": "SlantWall"
+      },
+      "sizes": [
+        {
+          "id": "01KM3126YDMGAXXBV5HJDHTMRR",
+          "lengthCm": 156,
+          "waistWidthMm": 85,
+          "noseWidthMm": 128,
+          "tailWidthMm": 116,
+          "sidecutRadiusM": 13.1,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3126YDZKCSJRB5G5AQQY1B",
+          "lengthCm": 163,
+          "waistWidthMm": 85,
+          "noseWidthMm": 128,
+          "tailWidthMm": 116,
+          "sidecutRadiusM": 13.1,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3126YD9AAH6ERK9YBN1H4F",
+          "lengthCm": 170,
+          "waistWidthMm": 85,
+          "noseWidthMm": 128,
+          "tailWidthMm": 116,
+          "sidecutRadiusM": 13.1,
+          "weightG": 1650,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3126YDBXZQ04B2JV8P7P6D",
+          "lengthCm": 177,
+          "waistWidthMm": 85,
+          "noseWidthMm": 128,
+          "tailWidthMm": 116,
+          "sidecutRadiusM": 13.1,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM3126YDF6MPEDEZEM0HXN0A",
+      "categorySlug": "park-pipe",
+      "name": "Reckoner 110",
+      "slug": "reckoner-110",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://k2snow.com/en-us/p/reckoner-110-mens-skis-2026",
+      "description": "K2のフリーライドクリエイティビティ向けツインチップスキー。Spectral BraidとTriaxial Braided Core搭載でライブリーかつ予測可能なフレックスを実現。パウダーからスイッチライディングまで対応する万能ツインチップ。",
+      "specs": {
+        "id": "01KM3126YDZT8D96SF04QRZXSK",
+        "rockerType": "Powder Twin Rocker",
+        "coreMaterial": "Pure Aspen",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM3126YDJHH2TP54ARK63PFF",
+          "lengthCm": 170,
+          "waistWidthMm": 110,
+          "noseWidthMm": 138,
+          "tailWidthMm": 135,
+          "sidecutRadiusM": 22,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3126YDJTKRD104M101G363",
+          "lengthCm": 177,
+          "waistWidthMm": 110,
+          "noseWidthMm": 138,
+          "tailWidthMm": 135,
+          "sidecutRadiusM": 22,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3126YD64NJC32A6FS9DYEX",
+          "lengthCm": 184,
+          "waistWidthMm": 110,
+          "noseWidthMm": 138,
+          "tailWidthMm": 135,
+          "sidecutRadiusM": 22,
+          "weightG": 2140,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3126YD6M9PPNEM9AT2T5Z0",
+          "lengthCm": 191,
+          "waistWidthMm": 110,
+          "noseWidthMm": 138,
+          "tailWidthMm": 135,
+          "sidecutRadiusM": 22,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM3126YD3XWQH7VD5KE65P1B",
+      "categorySlug": "park-pipe",
+      "name": "Reckoner 102",
+      "slug": "reckoner-102",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://k2snow.com/en-us/p/reckoner-102-mens-skis-2026",
+      "description": "K2のプレイフルなオールマウンテンツインチップスキー。Spectral Braid搭載でバターやコルクスリーなどフリースタイルトリックに最適。サイドヒットからバックカントリーまで対応する万能パークスキー。",
+      "specs": {
+        "id": "01KM3126YD84QVQSFHGHJR8NV1",
+        "rockerType": "All-Terrain Twin Rocker",
+        "coreMaterial": "Aspen Micro Block",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM3126YD8NKWYHTCZ60M9PEW",
+          "lengthCm": 163,
+          "waistWidthMm": 102,
+          "noseWidthMm": 134,
+          "tailWidthMm": 127,
+          "sidecutRadiusM": 17.7,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3126YD2XQGZDKZT9P71B4K",
+          "lengthCm": 170,
+          "waistWidthMm": 102,
+          "noseWidthMm": 134,
+          "tailWidthMm": 127,
+          "sidecutRadiusM": 17.7,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3126YD0PCAMKSGDWHYMTR4",
+          "lengthCm": 177,
+          "waistWidthMm": 102,
+          "noseWidthMm": 134,
+          "tailWidthMm": 127,
+          "sidecutRadiusM": 17.7,
+          "weightG": 2040,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3126YDQFPB6TWRHYB94D12",
+          "lengthCm": 184,
+          "waistWidthMm": 102,
+          "noseWidthMm": 134,
+          "tailWidthMm": 127,
+          "sidecutRadiusM": 17.7,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM3126YDNZA2R25YJCB47MY5",
+          "lengthCm": 191,
+          "waistWidthMm": 102,
+          "noseWidthMm": 134,
+          "tailWidthMm": 127,
+          "sidecutRadiusM": 17.7,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM3126YDRFS1MGBCQDHF8ASX",
+      "categorySlug": "park-pipe",
+      "name": "Reckoner 92",
+      "slug": "reckoner-92",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://k2snow.com/en-us/p/reckoner-92-mens-skis-2026",
+      "description": "K2のオールマウンテンツインチップ入門スキー。Triaxial Braid搭載でパークからツリーラン、アフタヌーンチョップまで対応。プレイフルでアプローチしやすいツインチップ。",
+      "specs": {
+        "id": "01KM3126YDE810VW7GT6XT782G",
+        "rockerType": "All-Terrain Twin Rocker",
+        "coreMaterial": "Aspen Micro Block",
+        "baseMaterial": "Sintered",
+        "sidewall": "Hybritech"
+      },
+      "sizes": [
+        {
+          "id": "01KM3126YDPQ9EGF0JSQ5VR4Z9",
+          "lengthCm": 149,
+          "waistWidthMm": 92,
+          "noseWidthMm": 124,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 19.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3126YDPVR7A83J2AJ8P24Z",
+          "lengthCm": 159,
+          "waistWidthMm": 92,
+          "noseWidthMm": 124,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 19.5,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3126YDAYBMTXWGZAM5FPNR",
+          "lengthCm": 169,
+          "waistWidthMm": 92,
+          "noseWidthMm": 124,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 19.5,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3126YDQ7CPNX39DY0283GJ",
+          "lengthCm": 179,
+          "waistWidthMm": 92,
+          "noseWidthMm": 124,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 19.5,
+          "weightG": 1817,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM3126YE2B9SMKYGX1JBSKAH",
+      "categorySlug": "frontside",
+      "name": "Disruption STI",
+      "slug": "disruption-sti",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://k2snow.com/en-us/p/disruption-sti-mens-skis-2026",
+      "description": "K2のフロントサイドカービングスキー。Ti2 I-BeamとDark Matter Damping搭載でファームバーンでの圧倒的なエッジグリップと安定性を実現。短いターン半径でアジリティと操作性を両立するピステ専用モデル。",
+      "specs": {
+        "id": "01KM3126YEG2Z7T58JBQ3Q19QV",
+        "rockerType": "Speed Rocker",
+        "coreMaterial": "Aspen Veneer",
+        "baseMaterial": "Sintered",
+        "sidewall": "PowerWall"
+      },
+      "sizes": [
+        {
+          "id": "01KM3126YE00CVBTPWSCVP0FGY",
+          "lengthCm": 155,
+          "waistWidthMm": 72,
+          "noseWidthMm": 125,
+          "tailWidthMm": 107,
+          "sidecutRadiusM": 13.6,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3126YEAT07ETP8HN5CAD20",
+          "lengthCm": 160,
+          "waistWidthMm": 72,
+          "noseWidthMm": 125,
+          "tailWidthMm": 107,
+          "sidecutRadiusM": 13.6,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3126YEXFYHB51Y4HCCNBB9",
+          "lengthCm": 165,
+          "waistWidthMm": 72,
+          "noseWidthMm": 125,
+          "tailWidthMm": 107,
+          "sidecutRadiusM": 13.6,
+          "weightG": 1630,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM3126YE4PFBG9BFX0AJJN3H",
+          "lengthCm": 170,
+          "waistWidthMm": 72,
+          "noseWidthMm": 125,
+          "tailWidthMm": 107,
+          "sidecutRadiusM": 13.6,
+          "displayOrder": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+---
+import "@/styles/globals.css";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = "スキー・スノーボードのスペックを横並びで比較。カタログ情報を一箇所に集約したレビュープラットフォーム。",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+  <body class="flex min-h-dvh flex-col">
+    <slot />
+  </body>
+</html>

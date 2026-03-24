@@ -1,0 +1,469 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+const API_URL = import.meta.env.API_URL || "http://localhost:8787";
+
+type SkiSpecs = {
+  rockerType: string | null;
+  tailType: string | null;
+  coreMaterial: string | null;
+  baseMaterial: string | null;
+  sidewall: string | null;
+};
+
+type SnowboardSpecs = {
+  shape: string | null;
+  bendProfile: string | null;
+  flexRating: number | null;
+  baseMaterial: string | null;
+  coreMaterial: string | null;
+  mounting: string | null;
+  setbackMm: number | null;
+};
+
+type Size = {
+  lengthCm: number;
+  waistWidthMm: number | null;
+  noseWidthMm: number | null;
+  tailWidthMm: number | null;
+  sidecutRadiusM: number | null;
+  effectiveEdgeMm: number | null;
+  weightG: number | null;
+  displayOrder: number;
+};
+
+type ModelDetail = {
+  name: string;
+  slug: string;
+  sport: string;
+  level: string;
+  season: string;
+  description: string | null;
+  brandName: string;
+  brandSlug: string;
+  categoryName: string;
+  specs: SkiSpecs | SnowboardSpecs | null;
+  sizes: Size[];
+  availableSeasons: string[];
+};
+
+const levelLabel: Record<string, string> = {
+  beginner: "初級",
+  intermediate: "中級",
+  advanced: "上級",
+  expert: "エキスパート",
+};
+
+// Parse models from URL
+const modelsParam = Astro.url.searchParams.get("models") ?? "";
+const modelKeys = modelsParam
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean)
+  .slice(0, 3); // Max 3 models
+
+let models: ModelDetail[] = [];
+let fetchError = false;
+let sportMismatch = false;
+
+if (modelKeys.length > 0) {
+  try {
+    const responses = await Promise.all(
+      modelKeys.map((key) => fetch(`${API_URL}/models/${key}`)),
+    );
+    const results = await Promise.all(
+      responses.map(async (res) => {
+        if (!res.ok) return null;
+        return (await res.json()) as ModelDetail;
+      }),
+    );
+    models = results.filter((m): m is ModelDetail => m !== null);
+
+    // Check sport consistency
+    if (models.length > 1) {
+      const sports = new Set(models.map((m) => m.sport));
+      if (sports.size > 1) {
+        sportMismatch = true;
+      }
+    }
+  } catch {
+    fetchError = true;
+  }
+}
+
+const sport = models[0]?.sport ?? null;
+const catalogUrl = sport === "snowboard" ? "/snowboard" : "/ski";
+
+// Build URL with a model removed
+const removeModelUrl = (index: number) => {
+  const remaining = modelKeys.filter((_, i) => i !== index);
+  if (remaining.length === 0) return "/compare";
+  return `/compare?models=${remaining.join(",")}`;
+};
+
+// Ski spec fields
+const skiSpecFields: { key: keyof SkiSpecs; label: string }[] = [
+  { key: "rockerType", label: "ロッカータイプ" },
+  { key: "tailType", label: "テールタイプ" },
+  { key: "coreMaterial", label: "コア素材" },
+  { key: "baseMaterial", label: "ベース素材" },
+  { key: "sidewall", label: "サイドウォール" },
+];
+
+// Snowboard spec fields
+const snowboardSpecFields: { key: keyof SnowboardSpecs; label: string }[] = [
+  { key: "shape", label: "シェイプ" },
+  { key: "bendProfile", label: "ベンドプロファイル" },
+  { key: "flexRating", label: "フレックス" },
+  { key: "coreMaterial", label: "コア素材" },
+  { key: "baseMaterial", label: "ベース素材" },
+  { key: "mounting", label: "マウント" },
+  { key: "setbackMm", label: "セットバック (mm)" },
+];
+
+const specFields = sport === "snowboard" ? snowboardSpecFields : skiSpecFields;
+
+// Has any spec data across models
+const hasSpecs = models.some((m) => m.specs !== null);
+
+// Pre-compute spec rows to avoid JSX parsing issues with type casts
+type SpecRow = { label: string; values: (string | null)[] };
+const specRows: SpecRow[] = specFields
+  .map((field) => {
+    const values = models.map((m) => {
+      if (!m.specs) return null;
+      const specs = m.specs as unknown as Record<string, unknown>;
+      const val = specs[field.key];
+      if (val == null) return null;
+      if (field.key === "flexRating") return String(val) + " / 10";
+      return String(val);
+    });
+    if (values.every((v) => v === null)) return null;
+    return { label: field.label, values };
+  })
+  .filter((row): row is SpecRow => row !== null);
+
+const isSki = sport === "ski";
+
+// Aligned size rows: group similar lengths (±2cm) into the same row
+const MERGE_THRESHOLD = 2; // cm
+
+type SizeCell = {
+  lengthCm: number;
+  waistWidthMm: number | null;
+  sidecutRadiusM: number | null;
+  weightG: number | null;
+} | null;
+
+type AlignedRow = {
+  anchor: number; // first length in this group (for sorting/label)
+  cells: SizeCell[];
+};
+
+const sizeMaps = models.map((m) => {
+  const map = new Map<number, Size>();
+  for (const s of m.sizes) map.set(s.lengthCm, s);
+  return map;
+});
+
+const uniqueLengths = [
+  ...new Set(models.flatMap((m) => m.sizes.map((s) => s.lengthCm))),
+].sort((a, b) => a - b);
+
+const alignedRows: AlignedRow[] = [];
+for (const len of uniqueLengths) {
+  const lastRow = alignedRows[alignedRows.length - 1];
+  // Merge with previous row if close enough and no model conflict
+  const canMerge =
+    lastRow &&
+    len - lastRow.anchor <= MERGE_THRESHOLD &&
+    !models.some((_, mi) => lastRow.cells[mi] !== null && sizeMaps[mi].has(len));
+
+  if (canMerge) {
+    for (let mi = 0; mi < models.length; mi++) {
+      const s = sizeMaps[mi].get(len);
+      if (lastRow.cells[mi] === null && s) {
+        lastRow.cells[mi] = {
+          lengthCm: s.lengthCm,
+          waistWidthMm: s.waistWidthMm,
+          sidecutRadiusM: s.sidecutRadiusM,
+          weightG: s.weightG,
+        };
+      }
+    }
+  } else {
+    const cells: SizeCell[] = models.map((_, mi) => {
+      const s = sizeMaps[mi].get(len);
+      if (!s) return null;
+      return {
+        lengthCm: s.lengthCm,
+        waistWidthMm: s.waistWidthMm,
+        sidecutRadiusM: s.sidecutRadiusM,
+        weightG: s.weightG,
+      };
+    });
+    alignedRows.push({ anchor: len, cells });
+  }
+}
+
+// Row label: if all non-null cells share the same length, show it; otherwise show range
+const rowLabels = alignedRows.map((row) => {
+  const lengths = row.cells.filter((c): c is NonNullable<SizeCell> => c !== null).map((c) => c.lengthCm);
+  const unique = [...new Set(lengths)].sort((a, b) => a - b);
+  if (unique.length <= 1) return `${unique[0]}`;
+  return `${unique[0]}–${unique[unique.length - 1]}`;
+});
+
+// Summary ranges per model for quick comparison
+type SizeSummary = {
+  lengthRange: string;
+  waistRange: string;
+  weightRange: string;
+};
+const sizeSummaries: SizeSummary[] = models.map((m) => {
+  const lengths = m.sizes.map((s) => s.lengthCm);
+  const waists = m.sizes.map((s) => s.waistWidthMm).filter((v): v is number => v != null);
+  const weights = m.sizes.map((s) => s.weightG).filter((v): v is number => v != null);
+  const range = (arr: number[], unit: string) => {
+    if (arr.length === 0) return "—";
+    const min = Math.min(...arr);
+    const max = Math.max(...arr);
+    return min === max ? `${min}${unit}` : `${min}–${max}${unit}`;
+  };
+  return {
+    lengthRange: range(lengths, "cm"),
+    waistRange: range(waists, "mm"),
+    weightRange: range(weights, "g"),
+  };
+});
+---
+
+<Layout title="スペック比較 — Edgepick">
+  <Header />
+
+  <main class="mx-auto max-w-5xl px-4 py-8 sm:px-6 sm:py-10">
+    <div class="flex items-baseline justify-between gap-4">
+      <h1 class="text-2xl font-bold tracking-tight">スペック比較</h1>
+      {models.length > 0 && models.length < 3 && !sportMismatch && (
+        <a
+          href={`${catalogUrl}?comparing=${modelKeys.join(",")}`}
+          class="shrink-0 rounded-full border border-border px-3 py-1 text-xs font-medium text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground"
+        >
+          + モデルを追加
+        </a>
+      )}
+    </div>
+
+    {fetchError ? (
+      <p class="mt-6 text-sm text-muted-foreground">
+        データの取得に失敗しました。API サーバーが起動しているか確認してください。
+      </p>
+    ) : sportMismatch ? (
+      <div class="mt-6 rounded-lg border border-destructive/50 bg-destructive/5 p-4">
+        <p class="text-sm text-destructive">
+          スキーとスノーボードを同時に比較することはできません。同じスポーツのモデルを選択してください。
+        </p>
+        <a href="/compare" class="mt-2 inline-block text-sm text-primary hover:underline">
+          比較をリセット
+        </a>
+      </div>
+    ) : models.length === 0 ? (
+      <div class="mt-6">
+        <p class="text-sm text-muted-foreground">
+          比較するモデルが選択されていません。カタログからモデルを選択してください。
+        </p>
+        <div class="mt-4 flex gap-3">
+          <a href="/ski" class="text-sm text-primary hover:underline">スキーカタログ →</a>
+          <a href="/snowboard" class="text-sm text-primary hover:underline">スノーボードカタログ →</a>
+        </div>
+      </div>
+    ) : (
+      <>
+        {/* Model Headers */}
+        <div class="mt-6 flex gap-4 overflow-x-auto pb-2">
+          {models.map((model, i) => (
+            <div class="min-w-[180px] flex-1 rounded-lg border border-border p-4">
+              <div class="flex items-start justify-between gap-2">
+                <div class="min-w-0">
+                  <p class="text-xs text-muted-foreground">{model.brandName}</p>
+                  <p class="font-medium leading-tight">
+                    <a
+                      href={`/${model.sport}/${model.brandSlug}/${model.slug}/${model.season}`}
+                      class="hover:text-primary hover:underline"
+                    >
+                      {model.name}
+                    </a>
+                  </p>
+                </div>
+                <a
+                  href={removeModelUrl(i)}
+                  class="shrink-0 rounded p-1 text-muted-foreground transition-colors hover:bg-muted/50 hover:text-foreground"
+                  aria-label={`${model.brandName} ${model.name} を比較から削除`}
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                </a>
+              </div>
+              <div class="mt-2 flex flex-wrap gap-1.5">
+                <span class="inline-flex items-center rounded-full bg-secondary px-2 py-0.5 text-xs font-medium text-secondary-foreground">
+                  {model.categoryName}
+                </span>
+                <span class="inline-flex items-center rounded-full border border-border px-2 py-0.5 text-xs text-muted-foreground">
+                  {levelLabel[model.level] ?? model.level}
+                </span>
+                <span class="inline-flex items-center rounded-full border border-border px-2 py-0.5 text-xs text-muted-foreground">
+                  {model.season}
+                </span>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {models.length === 1 && (
+          <p class="mt-4 text-sm text-muted-foreground">
+            比較対象のモデルを追加してください。
+            <a href={`${catalogUrl}?comparing=${modelKeys.join(",")}`} class="text-primary hover:underline">カタログから選ぶ →</a>
+          </p>
+        )}
+
+        {/* Spec Comparison Table */}
+        {hasSpecs && (
+          <section class="mt-8">
+            <h2 class="text-sm font-medium text-muted-foreground">スペック比較</h2>
+            <div class="mt-3 overflow-x-auto">
+              <table class="w-full text-sm" style="min-width: 500px;">
+                <thead>
+                  <tr class="border-b border-border text-xs text-muted-foreground">
+                    <th class="pb-2 pr-4 text-left font-medium w-36">項目</th>
+                    {models.map((model) => (
+                      <th class="pb-2 pr-4 text-left font-medium">{model.brandName} {model.name}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {specRows.map((row, ri) => (
+                    <tr class:list={["border-b border-border/50", ri % 2 === 1 && "bg-muted/20"]}>
+                      <td class="py-2.5 pr-4 text-xs text-muted-foreground whitespace-nowrap">
+                        {row.label}
+                      </td>
+                      {row.values.map((val) => (
+                        <td class="py-2.5 pr-4">{val ?? "—"}</td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
+
+        {/* Size Summary */}
+        {alignedRows.length > 0 && (
+          <section class="mt-8">
+            <h2 class="text-sm font-medium text-muted-foreground">サイズ概要</h2>
+            <div class="mt-3 overflow-x-auto">
+              <table class="w-full text-sm" style="min-width: 400px;">
+                <thead>
+                  <tr class="border-b border-border text-xs text-muted-foreground">
+                    <th class="pb-2 pr-4 text-left font-medium w-36">項目</th>
+                    {models.map((model) => (
+                      <th class="pb-2 pr-4 text-left font-medium">{model.name}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-b border-border/50">
+                    <td class="py-2.5 pr-4 text-xs text-muted-foreground">サイズ展開</td>
+                    {sizeSummaries.map((s) => (
+                      <td class="py-2.5 pr-4 tabular-nums">{s.lengthRange}</td>
+                    ))}
+                  </tr>
+                  <tr class="border-b border-border/50 bg-muted/20">
+                    <td class="py-2.5 pr-4 text-xs text-muted-foreground">ウエスト幅</td>
+                    {sizeSummaries.map((s) => (
+                      <td class="py-2.5 pr-4 tabular-nums">{s.waistRange}</td>
+                    ))}
+                  </tr>
+                  <tr class="border-b border-border/50">
+                    <td class="py-2.5 pr-4 text-xs text-muted-foreground">
+                      重量{isSki ? "（片足）" : ""}
+                    </td>
+                    {sizeSummaries.map((s) => (
+                      <td class="py-2.5 pr-4 tabular-nums">{s.weightRange}</td>
+                    ))}
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
+
+        {/* Size Detail — aligned by closest length */}
+        {alignedRows.length > 0 && (
+          <section class="mt-8">
+            <h2 class="text-sm font-medium text-muted-foreground">サイズ詳細</h2>
+            <div class="mt-3 overflow-x-auto">
+              <table class="w-full text-sm" style="min-width: 400px;">
+                <thead>
+                  <tr class="border-b border-border text-xs text-muted-foreground">
+                    <th class="pb-2 pr-3 text-left font-medium w-20">長さ (cm)</th>
+                    {models.map((model) => (
+                      <th class="pb-2 px-3 text-left font-medium">{model.name}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {alignedRows.map((row, ri) => {
+                    const filledCount = row.cells.filter((c) => c !== null).length;
+                    const isShared = filledCount > 1;
+                    return (
+                      <tr class:list={[
+                        "border-b border-border/50",
+                        ri % 2 === 1 && "bg-muted/20",
+                        isShared && "bg-primary/[0.03]",
+                      ]}>
+                        <td class="py-2.5 pr-3 font-medium tabular-nums text-muted-foreground whitespace-nowrap">
+                          {rowLabels[ri]}
+                        </td>
+                        {row.cells.map((cell) => (
+                          <td class="py-2.5 px-3">
+                            {cell ? (
+                              <div class="flex flex-col gap-0.5">
+                                <span class="font-medium tabular-nums">{cell.lengthCm} cm</span>
+                                <span class="text-xs text-muted-foreground tabular-nums">
+                                  {[
+                                    cell.waistWidthMm != null ? `W${cell.waistWidthMm}` : null,
+                                    isSki && cell.sidecutRadiusM != null ? `R${cell.sidecutRadiusM}` : null,
+                                    cell.weightG != null ? `${cell.weightG}g` : null,
+                                  ].filter(Boolean).join(" / ")}
+                                </span>
+                              </div>
+                            ) : (
+                              <span class="text-muted-foreground/30">—</span>
+                            )}
+                          </td>
+                        ))}
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+            <p class="mt-2 text-[11px] text-muted-foreground">
+              W = ウエスト幅 (mm){isSki ? " / R = サイドカット半径 (m)" : ""} / g = 重量{isSki ? "（片足）" : ""}。近い長さ（±{MERGE_THRESHOLD}cm）は同じ行に表示。
+            </p>
+          </section>
+        )}
+
+        <div class="mt-8">
+          <a href={catalogUrl} class="text-sm text-primary hover:underline">
+            ← {sport === "snowboard" ? "スノーボード" : "スキー"}カタログに戻る
+          </a>
+        </div>
+      </>
+    )}
+  </main>
+
+  <Footer />
+</Layout>

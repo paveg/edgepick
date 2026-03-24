@@ -1,0 +1,758 @@
+{
+  "brand": {
+    "id": "01KM2W47DVBEKWAPBHTM5K8XMP",
+    "name": "Burton",
+    "slug": "burton",
+    "country": "US",
+    "websiteUrl": "https://www.burton.com",
+    "description": "スノーボードの創始者的ブランド。Custom、Processなど幅広いラインナップで全レベルのライダーに対応。Channel マウントシステムを採用。"
+  },
+  "categories": [
+    {
+      "id": "01KM2W47DWC9NAVB9A32XDEPDD",
+      "sport": "snowboard",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM2W47DW213XHQJXWVHTPTE0",
+      "sport": "snowboard",
+      "name": "フリースタイル",
+      "slug": "freestyle",
+      "displayOrder": 2
+    },
+    {
+      "id": "01KM2W47DWZQ6HVWYC81EEYBRF",
+      "sport": "snowboard",
+      "name": "フリーライド",
+      "slug": "freeride",
+      "displayOrder": 3
+    }
+  ],
+  "models": [
+    {
+      "id": "01KM2W47DWS9HM0B19XR0Z052A",
+      "categorySlug": "all-mountain",
+      "name": "Custom",
+      "slug": "custom",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.burton.com/us/en/p/mens-burton-custom-camber-snowboard/W26-106881.html",
+      "description": "Burtonを代表するオールマウンテンボード。ポップで万能なキャンバーシェイプ。ツインフレックスで前後均等。",
+      "specs": {
+        "id": "01KM2W47DWNZQRV047T3WB166Q",
+        "shape": "Directional",
+        "bendProfile": "Camber",
+        "flexRating": 6,
+        "coreMaterial": "Super Fly II 700G Core with Dualzone EGD",
+        "baseMaterial": "Sintered WFO",
+        "mounting": "The Channel"
+      },
+      "sizes": [
+        {
+          "id": "01KM2W47DX6HGMCVZ6QRWYEQMC",
+          "lengthCm": 150,
+          "waistWidthMm": 248,
+          "noseWidthMm": 288.1,
+          "tailWidthMm": 288.1,
+          "sidecutRadiusM": 7.4,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2W47DXP3Q6TCS0PK0JH7JQ",
+          "lengthCm": 154,
+          "waistWidthMm": 250,
+          "noseWidthMm": 291.5,
+          "tailWidthMm": 291.5,
+          "sidecutRadiusM": 7.6,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2W47DXE7F90R4GHB2E37AF",
+          "lengthCm": 156,
+          "waistWidthMm": 252,
+          "noseWidthMm": 294.3,
+          "tailWidthMm": 294.3,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2W47DX46B40ZP3HJH622VX",
+          "lengthCm": 158,
+          "waistWidthMm": 254,
+          "noseWidthMm": 297.0,
+          "tailWidthMm": 297.0,
+          "sidecutRadiusM": 7.9,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2W47DXWYGEB2R5TRT415PX",
+          "lengthCm": 162,
+          "waistWidthMm": 256,
+          "noseWidthMm": 300.5,
+          "tailWidthMm": 300.5,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM2W47DXDEYD3B4447FBT8B3",
+      "categorySlug": "all-mountain",
+      "name": "Custom X",
+      "slug": "custom-x",
+      "sport": "snowboard",
+      "level": "expert",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.burton.com/us/en/p/mens-burton-custom-x-camber-snowboard/W26-106891.html",
+      "description": "Customの上位モデル。Dragonfly 600Gコアとカーボンハイライトで軽量かつ高反発。エキスパート向けのアグレッシブなボード。",
+      "specs": {
+        "id": "01KM2W47DXEYS09F9XK3ZMNQTG",
+        "shape": "Directional",
+        "bendProfile": "Camber",
+        "flexRating": 8,
+        "coreMaterial": "Dragonfly 600G Core with Multizone EGD",
+        "baseMaterial": "Sintered WFO",
+        "mounting": "The Channel"
+      },
+      "sizes": [
+        {
+          "id": "01KM2W47DXBHARTTQ0E23JZGSE",
+          "lengthCm": 150,
+          "waistWidthMm": 248,
+          "noseWidthMm": 288.1,
+          "tailWidthMm": 288.1,
+          "sidecutRadiusM": 7.4,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2W47DXCPWX213CYCFR4FP8",
+          "lengthCm": 154,
+          "waistWidthMm": 250,
+          "noseWidthMm": 291.5,
+          "tailWidthMm": 291.5,
+          "sidecutRadiusM": 7.6,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2W47DX3M36BBNSGXHHQCZ1",
+          "lengthCm": 156,
+          "waistWidthMm": 252,
+          "noseWidthMm": 294.3,
+          "tailWidthMm": 294.3,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2W47DXFHCBD2PASX7EA5C6",
+          "lengthCm": 158,
+          "waistWidthMm": 254,
+          "noseWidthMm": 297.0,
+          "tailWidthMm": 297.0,
+          "sidecutRadiusM": 7.9,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2W47DXFQYKTR1WJJXB36P2",
+          "lengthCm": 162,
+          "waistWidthMm": 256,
+          "noseWidthMm": 300.5,
+          "tailWidthMm": 300.5,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM2W47DXCXT8Z8DKJ5E60192",
+      "categorySlug": "freestyle",
+      "name": "Process",
+      "slug": "process",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.burton.com/us/en/p/mens-burton-process-flying-v-snowboard/W26-107121.html",
+      "description": "フリースタイル向けのツインシェイプ。Flying Vベンドで遊びやすく、パークからパウダーまで対応する万能ボード。",
+      "specs": {
+        "id": "01KM2W47DXSXJCBXEXDGPHXAJ9",
+        "shape": "Twin",
+        "bendProfile": "Flying V",
+        "flexRating": 4,
+        "coreMaterial": "Super Fly II 700G Core with Dualzone EGD",
+        "baseMaterial": "Sintered",
+        "mounting": "The Channel"
+      },
+      "sizes": [
+        {
+          "id": "01KM2W47DXMD5C72RFY9KZX868",
+          "lengthCm": 152,
+          "waistWidthMm": 249,
+          "noseWidthMm": 290.1,
+          "tailWidthMm": 290.1,
+          "sidecutRadiusM": 7.7,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2W47DX4SSG95216Q8QFMJQ",
+          "lengthCm": 155,
+          "waistWidthMm": 251,
+          "noseWidthMm": 293.2,
+          "tailWidthMm": 293.2,
+          "sidecutRadiusM": 7.9,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2W47DXGAJG2QGQ3BCF0M1P",
+          "lengthCm": 157,
+          "waistWidthMm": 252,
+          "noseWidthMm": 294.9,
+          "tailWidthMm": 294.9,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2W47DXP5NWB6GJ1NJSM3TF",
+          "lengthCm": 159,
+          "waistWidthMm": 255,
+          "noseWidthMm": 298.6,
+          "tailWidthMm": 298.6,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2W47DXJ2AM5YK7KM3C4VNQ",
+          "lengthCm": 162,
+          "waistWidthMm": 257,
+          "noseWidthMm": 301.8,
+          "tailWidthMm": 301.8,
+          "sidecutRadiusM": 8.4,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM2W47DX15B3BJYTFTDHRHAK",
+      "categorySlug": "freeride",
+      "name": "Hometown Hero",
+      "slug": "hometown-hero",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.burton.com/us/en/p/burton-family-tree-hometown-hero-camber-snowboard/W26-222451.html",
+      "description": "Family Treeシリーズのフリーライドボード。ディレクショナルキャンバーで深い雪でも安定。パウダーからグルーミングバーンまで。",
+      "specs": {
+        "id": "01KM2W47DYV7J1F5CCKVT89YC7",
+        "shape": "Freeride Directional",
+        "bendProfile": "Directional Camber",
+        "flexRating": 6,
+        "coreMaterial": "Super Fly II 700G Core with Dualzone EGD",
+        "baseMaterial": "Sintered WFO",
+        "mounting": "The Channel"
+      },
+      "sizes": [
+        {
+          "id": "01KM2W47DY9YWF835019XRTFX5",
+          "lengthCm": 144,
+          "waistWidthMm": 240,
+          "noseWidthMm": 283.6,
+          "tailWidthMm": 271.6,
+          "sidecutRadiusM": 6.6,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2W47DYJEF2PY3V5BFM5R22",
+          "lengthCm": 148,
+          "waistWidthMm": 244,
+          "noseWidthMm": 289.2,
+          "tailWidthMm": 277.2,
+          "sidecutRadiusM": 6.9,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2W47DYX3DTS64QKFVQB467",
+          "lengthCm": 152,
+          "waistWidthMm": 248,
+          "noseWidthMm": 294.8,
+          "tailWidthMm": 282.8,
+          "sidecutRadiusM": 7.2,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2W47DY51D83BTPVADPRM5F",
+          "lengthCm": 156,
+          "waistWidthMm": 252,
+          "noseWidthMm": 300.2,
+          "tailWidthMm": 288.2,
+          "sidecutRadiusM": 7.4,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2W47DY3BWNZGE9XJGD23HN",
+          "lengthCm": 160,
+          "waistWidthMm": 258,
+          "noseWidthMm": 307.7,
+          "tailWidthMm": 295.7,
+          "sidecutRadiusM": 7.7,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM397320HTTNHEPH9R1B2QT0",
+      "categorySlug": "freeride",
+      "name": "Deep Thinker",
+      "slug": "deep-thinker",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.burton.com/us/en/p/burton-mystery-deep-thinker-camber-snowboard/W26-303611.html",
+      "description": "Danny Davisシグネチャーのフリーライドボード。ディレクショナルキャンバーとテーパーでパウダーからゲレンデまで攻めの滑りを実現。",
+      "specs": {
+        "id": "01KM397321TC7A6JNXYD5YBAW3",
+        "shape": "Freeride Directional",
+        "bendProfile": "Directional Camber",
+        "flexRating": 7,
+        "coreMaterial": "Dragonfly II 500G Core with Multizone EGD",
+        "baseMaterial": "Methlon",
+        "mounting": "The Channel"
+      },
+      "sizes": [
+        {
+          "id": "01KM397321YTAXVXHRAW0K7RBT",
+          "lengthCm": 148,
+          "waistWidthMm": 242,
+          "noseWidthMm": 286.5,
+          "tailWidthMm": 279.5,
+          "sidecutRadiusM": 6.9,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3973215H9GAD70NPRD36XQ",
+          "lengthCm": 151,
+          "waistWidthMm": 246,
+          "noseWidthMm": 291.3,
+          "tailWidthMm": 284.3,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM39732126B2N4K06TKEXQD6",
+          "lengthCm": 154,
+          "waistWidthMm": 248,
+          "noseWidthMm": 294.4,
+          "tailWidthMm": 287.4,
+          "sidecutRadiusM": 7.2,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM397321BW0ATJW307Q2VZWS",
+          "lengthCm": 157,
+          "waistWidthMm": 252,
+          "noseWidthMm": 299.6,
+          "tailWidthMm": 292.6,
+          "sidecutRadiusM": 7.4,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM397321HQ31DCWNY1BHGPYR",
+          "lengthCm": 160,
+          "waistWidthMm": 255,
+          "noseWidthMm": 303.8,
+          "tailWidthMm": 296.8,
+          "sidecutRadiusM": 7.6,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM397321EVJAGRBWRAPCEWH4",
+          "lengthCm": 160,
+          "waistWidthMm": 263,
+          "noseWidthMm": 311.6,
+          "tailWidthMm": 304.6,
+          "sidecutRadiusM": 7.6,
+          "widthType": "wide",
+          "displayOrder": 6
+        }
+      ]
+    },
+    {
+      "id": "01KM397321KX4SXJBFQMGNE81V",
+      "categorySlug": "all-mountain",
+      "name": "Cartographer",
+      "slug": "cartographer",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.burton.com/us/en/p/burton-cartographer-camber-snowboard/W26-229421.html",
+      "description": "リラックスした乗り心地と高いコントロール性を両立するオールマウンテンボード。ディレクショナルキャンバーであらゆるコンディションに対応。",
+      "specs": {
+        "id": "01KM397321923HY22J3D9PJG8T",
+        "shape": "Freeride Directional",
+        "bendProfile": "Directional Camber",
+        "flexRating": 5,
+        "coreMaterial": "Super Fly 800G Core with Dualzone EGD",
+        "baseMaterial": "Sintered",
+        "mounting": "The Channel"
+      },
+      "sizes": [
+        {
+          "id": "01KM397321DGVRJPM814477NYZ",
+          "lengthCm": 144,
+          "waistWidthMm": 245,
+          "noseWidthMm": 287.0,
+          "tailWidthMm": 282.0,
+          "sidecutRadiusM": 6.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM3973215G7JV4F333993MKQ",
+          "lengthCm": 149,
+          "waistWidthMm": 250,
+          "noseWidthMm": 293.2,
+          "tailWidthMm": 288.2,
+          "sidecutRadiusM": 6.7,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM397321NMW88D1FQXVK1F3Y",
+          "lengthCm": 154,
+          "waistWidthMm": 255,
+          "noseWidthMm": 300.1,
+          "tailWidthMm": 295.1,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM397321R2PA6RBTPZJDBXDT",
+          "lengthCm": 159,
+          "waistWidthMm": 258,
+          "noseWidthMm": 305.1,
+          "tailWidthMm": 300.1,
+          "sidecutRadiusM": 7.3,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM397321027RTX67BKNDDW6D",
+          "lengthCm": 162,
+          "waistWidthMm": 260,
+          "noseWidthMm": 308.3,
+          "tailWidthMm": 303.3,
+          "sidecutRadiusM": 7.5,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM397321ZJH3XJXD4MNAH3V6",
+          "lengthCm": 154,
+          "waistWidthMm": 263,
+          "noseWidthMm": 308.1,
+          "tailWidthMm": 303.1,
+          "sidecutRadiusM": 7.0,
+          "widthType": "wide",
+          "displayOrder": 6
+        },
+        {
+          "id": "01KM397321EPB1NX4MPTYYBZNJ",
+          "lengthCm": 159,
+          "waistWidthMm": 266,
+          "noseWidthMm": 313.1,
+          "tailWidthMm": 308.1,
+          "sidecutRadiusM": 7.3,
+          "widthType": "wide",
+          "displayOrder": 7
+        }
+      ]
+    },
+    {
+      "id": "01KM397321F8DA8KP0QJF6QBTQ",
+      "categorySlug": "all-mountain",
+      "name": "Instigator",
+      "slug": "instigator",
+      "sport": "snowboard",
+      "level": "beginner",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.burton.com/us/en/p/mens-burton-instigator-purepop-camber-snowboard/W26-229441.html",
+      "description": "初心者向けのオールマウンテンボード。PurePop Camberで引っかかりにくく、楽しさをすぐに体験できるキャッチフリーな乗り心地。",
+      "specs": {
+        "id": "01KM397321PMW3D43KNWPVN13K",
+        "shape": "Directional",
+        "bendProfile": "PurePop Camber",
+        "flexRating": 3,
+        "coreMaterial": "Super Fly 800G Core with Dualzone EGD",
+        "baseMaterial": "Extruded",
+        "mounting": "The Channel"
+      },
+      "sizes": [
+        {
+          "id": "01KM397322B4A28MWHJNJN0AR0",
+          "lengthCm": 145,
+          "waistWidthMm": 245,
+          "noseWidthMm": 285.8,
+          "tailWidthMm": 280.8,
+          "sidecutRadiusM": 6.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM397322QP9R370W4Z8J8H0Y",
+          "lengthCm": 150,
+          "waistWidthMm": 248,
+          "noseWidthMm": 290.6,
+          "tailWidthMm": 285.6,
+          "sidecutRadiusM": 6.8,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM3973220MN7E6E6WJEQPYB1",
+          "lengthCm": 155,
+          "waistWidthMm": 252,
+          "noseWidthMm": 296.5,
+          "tailWidthMm": 291.5,
+          "sidecutRadiusM": 7.1,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM397322YGP75HCAV3RHWXQ5",
+          "lengthCm": 160,
+          "waistWidthMm": 256,
+          "noseWidthMm": 302.4,
+          "tailWidthMm": 297.4,
+          "sidecutRadiusM": 7.4,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM3973225YHXVX1KCX8XMJCV",
+          "lengthCm": 155,
+          "waistWidthMm": 260,
+          "noseWidthMm": 304.5,
+          "tailWidthMm": 299.5,
+          "sidecutRadiusM": 7.1,
+          "widthType": "wide",
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM397322BA07WSDBP2R4B6G9",
+          "lengthCm": 160,
+          "waistWidthMm": 265,
+          "noseWidthMm": 311.4,
+          "tailWidthMm": 306.4,
+          "sidecutRadiusM": 7.4,
+          "widthType": "wide",
+          "displayOrder": 6
+        },
+        {
+          "id": "01KM397322X490XXYDPTVWGFZM",
+          "lengthCm": 165,
+          "waistWidthMm": 270,
+          "noseWidthMm": 317.9,
+          "tailWidthMm": 312.9,
+          "sidecutRadiusM": 7.8,
+          "widthType": "wide",
+          "displayOrder": 7
+        }
+      ]
+    },
+    {
+      "id": "01KM397322DTGKCGESBRKASXJD",
+      "categorySlug": "freestyle",
+      "name": "Good Company",
+      "slug": "good-company",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.burton.com/us/en/p/burton-good-company-camber-snowboard/W26-235951.html",
+      "description": "クラシックなキャンバーツインでパーク向けのフリースタイルボード。伝統的なシェイプとベンドでヒットを追いかけランディングを決める。",
+      "specs": {
+        "id": "01KM39732227Y8JECSWB6C6JZY",
+        "shape": "Twin",
+        "bendProfile": "Camber",
+        "flexRating": 4,
+        "coreMaterial": "Super Fly 800G Core with Dualzone EGD",
+        "baseMaterial": "Sintered",
+        "mounting": "The Channel"
+      },
+      "sizes": [
+        {
+          "id": "01KM397322SVVT0VMJ7A9VFFC3",
+          "lengthCm": 135,
+          "waistWidthMm": 235,
+          "noseWidthMm": 269.4,
+          "tailWidthMm": 269.4,
+          "sidecutRadiusM": 6.4,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM397322G5N92KBDXSDC48ZS",
+          "lengthCm": 145,
+          "waistWidthMm": 245,
+          "noseWidthMm": 283.0,
+          "tailWidthMm": 283.0,
+          "sidecutRadiusM": 7.1,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM397322SNFG07FCX0HB17BC",
+          "lengthCm": 148,
+          "waistWidthMm": 248,
+          "noseWidthMm": 287.1,
+          "tailWidthMm": 287.1,
+          "sidecutRadiusM": 7.3,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM397322471JKD3C4XDXS9T6",
+          "lengthCm": 152,
+          "waistWidthMm": 250,
+          "noseWidthMm": 290.6,
+          "tailWidthMm": 290.6,
+          "sidecutRadiusM": 7.6,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM3973220STPREAHWJXR64Q8",
+          "lengthCm": 155,
+          "waistWidthMm": 252,
+          "noseWidthMm": 293.7,
+          "tailWidthMm": 293.7,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM3973228TJMGJC25KG54DCP",
+          "lengthCm": 159,
+          "waistWidthMm": 255,
+          "noseWidthMm": 298.1,
+          "tailWidthMm": 298.1,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KM3973227H4XNDZWERBNQ0P8",
+          "lengthCm": 155,
+          "waistWidthMm": 260,
+          "noseWidthMm": 301.7,
+          "tailWidthMm": 301.7,
+          "sidecutRadiusM": 7.8,
+          "widthType": "wide",
+          "displayOrder": 7
+        },
+        {
+          "id": "01KM397322HVYZK7RTA398SFNV",
+          "lengthCm": 159,
+          "waistWidthMm": 263,
+          "noseWidthMm": 306.1,
+          "tailWidthMm": 306.1,
+          "sidecutRadiusM": 8.1,
+          "widthType": "wide",
+          "displayOrder": 8
+        }
+      ]
+    },
+    {
+      "id": "01KM397322WV085FEJEJJ798YB",
+      "categorySlug": "all-mountain",
+      "name": "Process Flying V",
+      "slug": "process-flying-v",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.burton.com/us/en/p/mens-burton-process-flying-v-snowboard/W26-107121.html",
+      "description": "Processのパフォーマンスに遊び心のあるFlying Vを組み合わせたオールマウンテンボード。ツインシェイプでパークからパウダーまで万能。",
+      "specs": {
+        "id": "01KM3973224VACKQ7M6K672XYN",
+        "shape": "Twin",
+        "bendProfile": "Flying V",
+        "flexRating": 4,
+        "coreMaterial": "Super Fly II 700G Core with Dualzone EGD",
+        "baseMaterial": "Sintered",
+        "mounting": "The Channel"
+      },
+      "sizes": [
+        {
+          "id": "01KM397322A28AGY77T8KJ4JB3",
+          "lengthCm": 152,
+          "waistWidthMm": 249,
+          "noseWidthMm": 290.1,
+          "tailWidthMm": 290.1,
+          "sidecutRadiusM": 7.7,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM397322DG2JAC0ZM0J58C6Y",
+          "lengthCm": 155,
+          "waistWidthMm": 251,
+          "noseWidthMm": 293.2,
+          "tailWidthMm": 293.2,
+          "sidecutRadiusM": 7.9,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM397322083XKTFDT6CH6NGE",
+          "lengthCm": 157,
+          "waistWidthMm": 252,
+          "noseWidthMm": 294.9,
+          "tailWidthMm": 294.9,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM397322G1JTX3Y09GPEVN5D",
+          "lengthCm": 159,
+          "waistWidthMm": 255,
+          "noseWidthMm": 298.6,
+          "tailWidthMm": 298.6,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM397322H1C6321ZRKBJDEGE",
+          "lengthCm": 162,
+          "waistWidthMm": 257,
+          "noseWidthMm": 301.8,
+          "tailWidthMm": 301.8,
+          "sidecutRadiusM": 8.4,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM39732256E540GZ5B0T37A5",
+          "lengthCm": 155,
+          "waistWidthMm": 256,
+          "noseWidthMm": 298.2,
+          "tailWidthMm": 298.2,
+          "sidecutRadiusM": 7.9,
+          "widthType": "wide",
+          "displayOrder": 6
+        },
+        {
+          "id": "01KM397322TX9GEC2X6TQX6W6X",
+          "lengthCm": 157,
+          "waistWidthMm": 257,
+          "noseWidthMm": 299.9,
+          "tailWidthMm": 299.9,
+          "sidecutRadiusM": 8.1,
+          "widthType": "wide",
+          "displayOrder": 7
+        },
+        {
+          "id": "01KM397322MAGDXQ6SER37H1Z5",
+          "lengthCm": 159,
+          "waistWidthMm": 260,
+          "noseWidthMm": 303.6,
+          "tailWidthMm": 303.6,
+          "sidecutRadiusM": 8.2,
+          "widthType": "wide",
+          "displayOrder": 8
+        },
+        {
+          "id": "01KM397322MBW42BB4BDW8ECTN",
+          "lengthCm": 162,
+          "waistWidthMm": 262,
+          "noseWidthMm": 306.8,
+          "tailWidthMm": 306.8,
+          "sidecutRadiusM": 8.4,
+          "widthType": "wide",
+          "displayOrder": 9
+        }
+      ]
+    }
+  ]
+}

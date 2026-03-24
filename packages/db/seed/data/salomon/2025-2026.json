@@ -1,0 +1,360 @@
+{
+  "brand": {
+    "id": "01KM11288THRCQPC26ZV2XYTA6",
+    "name": "Salomon",
+    "slug": "salomon",
+    "country": "FR",
+    "websiteUrl": "https://www.salomon.com",
+    "description": "フランス発祥のスキー・アウトドア総合ブランド。QSTシリーズはオールマウンテンからバックカントリーまで幅広いラインナップを展開。"
+  },
+  "categories": [
+    {
+      "id": "01KM0YM2TXVM9AJJ1R5CYS7ZP9",
+      "sport": "ski",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    }
+  ],
+  "models": [
+    {
+      "id": "01KM11288VJTP5JDXPDPGBA8ME",
+      "categorySlug": "all-mountain",
+      "name": "QST 92",
+      "slug": "qst-92",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/skis/salomon-qst-92",
+      "description": "QSTシリーズのナロー幅モデル。軽量でターンの切り替えが速く、ゲレンデからサイドカントリーまで幅広く対応する。",
+      "specs": {
+        "id": "01KM11288VAXG7NJWYSM80KRMN",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM11288VHBCS1GQP10MD5HE2",
+          "lengthCm": 152,
+          "waistWidthMm": 92,
+          "noseWidthMm": 125,
+          "tailWidthMm": 113,
+          "sidecutRadiusM": 12,
+          "weightG": 1510,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM11288V9SPVFGJ2JV9M9RGA",
+          "lengthCm": 160,
+          "waistWidthMm": 92,
+          "noseWidthMm": 126,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 13,
+          "weightG": 1610,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM11288VQK4VDMCQ7GVW75Y5",
+          "lengthCm": 168,
+          "waistWidthMm": 92,
+          "noseWidthMm": 127,
+          "tailWidthMm": 115,
+          "sidecutRadiusM": 14,
+          "weightG": 1710,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM11288VTS9KW5E8C4XTVQ2P",
+          "lengthCm": 176,
+          "waistWidthMm": 92,
+          "noseWidthMm": 128,
+          "tailWidthMm": 116,
+          "sidecutRadiusM": 15,
+          "weightG": 1820,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM11288V3R401T6R04Q5TY8M",
+          "lengthCm": 184,
+          "waistWidthMm": 92,
+          "noseWidthMm": 129,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 16,
+          "weightG": 1940,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM11288V7DGC7Q8KHREXQJFT",
+      "categorySlug": "all-mountain",
+      "name": "QST 94",
+      "slug": "qst-94",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/skis/salomon-qst-94",
+      "description": "94mmウエストのオールマウンテンスキー。カービングとオフピステのバランスに優れた万能モデル。",
+      "specs": {
+        "id": "01KM11288VEH82H9C8PR12APBS",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM11288VD2WQ7K9XPSMMM3W0",
+          "lengthCm": 156,
+          "waistWidthMm": 94,
+          "noseWidthMm": 131,
+          "tailWidthMm": 117,
+          "sidecutRadiusM": 13.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM11288W8D8SQ784FPZ4VSSK",
+          "lengthCm": 164,
+          "waistWidthMm": 94,
+          "noseWidthMm": 132,
+          "tailWidthMm": 118,
+          "sidecutRadiusM": 14.5,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM11288WDYBYPK9EP22T3MAV",
+          "lengthCm": 172,
+          "waistWidthMm": 94,
+          "noseWidthMm": 133,
+          "tailWidthMm": 119,
+          "sidecutRadiusM": 15.5,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM11288WQN21C25Z0ZXZ4MT6",
+          "lengthCm": 180,
+          "waistWidthMm": 94,
+          "noseWidthMm": 134,
+          "tailWidthMm": 120,
+          "sidecutRadiusM": 16.5,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM11288WZ2GN63C0EJWMW3KW",
+          "lengthCm": 188,
+          "waistWidthMm": 94,
+          "noseWidthMm": 135,
+          "tailWidthMm": 121,
+          "sidecutRadiusM": 17.5,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM11288WHKQ4PAYKW88K8RJA",
+      "categorySlug": "all-mountain",
+      "name": "QST 98",
+      "slug": "qst-98",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/skis/salomon-qst-98",
+      "description": "QSTシリーズの中核モデル。パウダーからハードパックまで対応する万能なオールマウンテンスキー。",
+      "specs": {
+        "id": "01KM11288WGKB84DVPB9X98WJ1",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM11288WNMW5SASKG3MFJBN9",
+          "lengthCm": 169,
+          "waistWidthMm": 98,
+          "noseWidthMm": 131,
+          "tailWidthMm": 119,
+          "sidecutRadiusM": 15,
+          "weightG": 1740,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM11288WEWQJSN09WXVSD1MS",
+          "lengthCm": 176,
+          "waistWidthMm": 98,
+          "noseWidthMm": 132,
+          "tailWidthMm": 120,
+          "sidecutRadiusM": 16,
+          "weightG": 1860,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM11288WMQ982H2AQHYEXHNF",
+          "lengthCm": 183,
+          "waistWidthMm": 98,
+          "noseWidthMm": 133,
+          "tailWidthMm": 121,
+          "sidecutRadiusM": 17,
+          "weightG": 1990,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM11288W4SR7PRSACCC418GE",
+          "lengthCm": 189,
+          "waistWidthMm": 98,
+          "noseWidthMm": 133,
+          "tailWidthMm": 121,
+          "sidecutRadiusM": 18,
+          "weightG": 2100,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM11288WKXQCH5B7CDE3BPBS",
+      "categorySlug": "all-mountain",
+      "name": "QST 100",
+      "slug": "qst-100",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/skis/salomon-qst-100",
+      "description": "100mmウエストのオールマウンテンスキー。ショートサイズからロングサイズまで豊富なサイズ展開で幅広いスキーヤーに対応。",
+      "specs": {
+        "id": "01KM11288W5TT92XPAX61Q927D",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM11288WXTKV4QGNNEFNKBRY",
+          "lengthCm": 148,
+          "waistWidthMm": 100,
+          "noseWidthMm": 130,
+          "tailWidthMm": 118,
+          "sidecutRadiusM": 13.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM11288W08SGKAJ2ARCX9X9E",
+          "lengthCm": 156,
+          "waistWidthMm": 100,
+          "noseWidthMm": 131,
+          "tailWidthMm": 119,
+          "sidecutRadiusM": 14.5,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM11288WZ10K2F0M82QF8E3Y",
+          "lengthCm": 164,
+          "waistWidthMm": 100,
+          "noseWidthMm": 132,
+          "tailWidthMm": 120,
+          "sidecutRadiusM": 15.5,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM11288WRJYN6J4X4MWG5F7Y",
+          "lengthCm": 172,
+          "waistWidthMm": 100,
+          "noseWidthMm": 133,
+          "tailWidthMm": 121,
+          "sidecutRadiusM": 16.5,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM11288WJD307DP98XQ9264V",
+          "lengthCm": 180,
+          "waistWidthMm": 100,
+          "noseWidthMm": 134,
+          "tailWidthMm": 122,
+          "sidecutRadiusM": 17.5,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KM11288WAC91W5XRRK9CN16K",
+          "lengthCm": 188,
+          "waistWidthMm": 100,
+          "noseWidthMm": 135,
+          "tailWidthMm": 123,
+          "sidecutRadiusM": 18.5,
+          "displayOrder": 6
+        }
+      ]
+    },
+    {
+      "id": "01KM11288WY0ZGPRJ125WRR9GQ",
+      "categorySlug": "all-mountain",
+      "name": "QST 106",
+      "slug": "qst-106",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/skis/salomon-qst-106",
+      "description": "QSTシリーズ最大幅のモデル。ディープパウダーでの浮力を確保しつつ、ゲレンデでの操作性も両立するビッグマウンテンスキー。",
+      "specs": {
+        "id": "01KM11288WGJ6K2ADAA538C5MQ",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sandwich"
+      },
+      "sizes": [
+        {
+          "id": "01KM11288W0BG49VYEZ95TMFQY",
+          "lengthCm": 157,
+          "waistWidthMm": 106,
+          "noseWidthMm": 136,
+          "tailWidthMm": 123,
+          "sidecutRadiusM": 16.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM11288WK8R7HCTXVZGR12FB",
+          "lengthCm": 165,
+          "waistWidthMm": 106,
+          "noseWidthMm": 137,
+          "tailWidthMm": 124,
+          "sidecutRadiusM": 17.5,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM11288WXKZ1W5GP3R3SQNHQ",
+          "lengthCm": 173,
+          "waistWidthMm": 106,
+          "noseWidthMm": 138,
+          "tailWidthMm": 125,
+          "sidecutRadiusM": 18.5,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM11288X5BYC315CM3XZ58QF",
+          "lengthCm": 181,
+          "waistWidthMm": 106,
+          "noseWidthMm": 139,
+          "tailWidthMm": 126,
+          "sidecutRadiusM": 19.5,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM11288XPDZ9M6HC2VQ9WVPD",
+          "lengthCm": 189,
+          "waistWidthMm": 106,
+          "noseWidthMm": 140,
+          "tailWidthMm": 127,
+          "sidecutRadiusM": 20.5,
+          "displayOrder": 5
+        }
+      ]
+    }
+  ]
+}

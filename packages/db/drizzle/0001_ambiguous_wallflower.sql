@@ -1,0 +1,1 @@
+ALTER TABLE `models` ADD `source_url` text;

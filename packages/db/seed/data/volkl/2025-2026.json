@@ -1,0 +1,476 @@
+{
+  "brand": {
+    "id": "01KM2YQGVHJDBJ6HG7Y14RPTEQ",
+    "name": "Völkl",
+    "slug": "volkl",
+    "country": "DE",
+    "websiteUrl": "https://www.volkl.com"
+  },
+  "categories": [
+    {
+      "id": "01KM0YM2TXVM9AJJ1R5CYS7ZP9",
+      "sport": "ski",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM3926H2MPTHK547AEPZRWPF",
+      "sport": "ski",
+      "name": "パウダー",
+      "slug": "powder",
+      "displayOrder": 2
+    },
+    {
+      "id": "01KM312M9ZV5A70SSGY4R8A8FM",
+      "sport": "ski",
+      "name": "パーク・パイプ",
+      "slug": "park-pipe",
+      "displayOrder": 3
+    }
+  ],
+  "models": [
+    {
+      "id": "01KM2YQGVH62G4PA3J5P2DXQDD",
+      "categorySlug": "all-mountain",
+      "name": "M7 Mantra",
+      "slug": "m7-mantra",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/skis/volkl-m7-mantra",
+      "description": "Völklの名作Mantraの最新モデル。マルチラディウスサイドカットであらゆるターン弧に対応するオールマウンテンスキー。",
+      "specs": {
+        "id": "01KM2YQGVHC99HFG1VZ5QFD3GZ",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Partial Twin Tip",
+        "coreMaterial": "Multi-Layer Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Sidewall"
+      },
+      "sizes": [
+        {
+          "id": "01KM2YQGVHVB4GARTGF6KWR5NJ",
+          "lengthCm": 163,
+          "waistWidthMm": 96,
+          "noseWidthMm": 139,
+          "tailWidthMm": 121,
+          "sidecutRadiusM": 17.9,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM2YQGVHF0CEF6R811WZHJYM",
+          "lengthCm": 170,
+          "waistWidthMm": 96,
+          "noseWidthMm": 139,
+          "tailWidthMm": 121,
+          "sidecutRadiusM": 19.8,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM2YQGVH19ZWKYDTRD0KZGQ0",
+          "lengthCm": 177,
+          "waistWidthMm": 96,
+          "noseWidthMm": 139,
+          "tailWidthMm": 121,
+          "sidecutRadiusM": 21.8,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM2YQGVHY5ZF9AMWA0NC6PXC",
+          "lengthCm": 184,
+          "waistWidthMm": 96,
+          "noseWidthMm": 139,
+          "tailWidthMm": 121,
+          "sidecutRadiusM": 23.2,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM2YQGVHHEW8EGNQR5YS94QD",
+          "lengthCm": 191,
+          "waistWidthMm": 96,
+          "noseWidthMm": 139,
+          "tailWidthMm": 121,
+          "sidecutRadiusM": 25.4,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM312NSXYJCX7KMFKNBS5HZN",
+      "categorySlug": "all-mountain",
+      "name": "Mantra 108",
+      "slug": "mantra-108",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://volkl.com/en-us/p/mantra-108-skis-2026",
+      "description": "ウエスト幅108mmとチタナルフレームを備えた、エキスパート向けフリーライドスキー。急斜面やオフピステでの安定性と衝撃吸収性に優れ、ディープパウダーでも最大限の浮力を発揮する。3Dラディウスサイドカットによる精密なパワー伝達と滑らかな乗り心地を実現。",
+      "specs": {
+        "id": "01KM312NSXFSB2MN38JJVXDW04",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Flat",
+        "coreMaterial": "Hybrid Multilayer Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Full Sidewall ABS"
+      },
+      "sizes": [
+        {
+          "id": "01KM312NSXQ64F0S5SXRE5XVG9",
+          "lengthCm": 170,
+          "waistWidthMm": 108,
+          "noseWidthMm": 146,
+          "tailWidthMm": 129,
+          "sidecutRadiusM": 16,
+          "weightG": 2110,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312NSX35C2R95FAABC1HQH",
+          "lengthCm": 177,
+          "waistWidthMm": 108,
+          "noseWidthMm": 146,
+          "tailWidthMm": 129,
+          "sidecutRadiusM": 18,
+          "weightG": 2230,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312NSXSJDSMF61CVR8JWZZ",
+          "lengthCm": 184,
+          "waistWidthMm": 108,
+          "noseWidthMm": 146,
+          "tailWidthMm": 129,
+          "sidecutRadiusM": 19,
+          "weightG": 2330,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM312NSXHR2CVDKVBWREY1G1",
+          "lengthCm": 191,
+          "waistWidthMm": 108,
+          "noseWidthMm": 146,
+          "tailWidthMm": 129,
+          "sidecutRadiusM": 21,
+          "weightG": 2440,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM312NSX8TA6W7NPB2J8546D",
+      "categorySlug": "all-mountain",
+      "name": "Mantra 88",
+      "slug": "mantra-88",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://volkl.com/en-us/p/mantra-88-skis-2026",
+      "description": "リデザインされたMantra 88は、ミディアムウエスト幅でオンピステ・オフピステ両方の最大限の汎用性を実現。Tailored Carbon TipsとTailored Titanal Frameにより、ダイナミクスとポップ、アクセスしやすさが向上。効率的なパワー伝達とスポーティなライディングスタイルを提供する。",
+      "specs": {
+        "id": "01KM312NSXE9N9WTHZ1YWWZYVK",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Flat",
+        "coreMaterial": "Multilayer Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Full Sidewall ABS"
+      },
+      "sizes": [
+        {
+          "id": "01KM312NSX13CEEYBT7VXFS04V",
+          "lengthCm": 163,
+          "waistWidthMm": 88,
+          "noseWidthMm": 134,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 13.2,
+          "weightG": 1690,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312NSXKWZ11F646Q5TSZVF",
+          "lengthCm": 170,
+          "waistWidthMm": 88,
+          "noseWidthMm": 134,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 14.7,
+          "weightG": 1800,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312NSXNSTA157W098JPQNZ",
+          "lengthCm": 177,
+          "waistWidthMm": 88,
+          "noseWidthMm": 134,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 16.2,
+          "weightG": 1930,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM312NSYMFH4DFWJSM1NCRY6",
+          "lengthCm": 184,
+          "waistWidthMm": 88,
+          "noseWidthMm": 134,
+          "tailWidthMm": 114,
+          "sidecutRadiusM": 17.3,
+          "weightG": 1980,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM312NSYTKZZ0SQ9GAT6Q0B5",
+      "categorySlug": "powder",
+      "name": "Blaze 114",
+      "slug": "blaze-114",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://volkl.com/en-us/p/blaze-114-skis-2026",
+      "description": "ウエスト幅114mmのサステナブルなフリーライドアドベンチャースキー。FSC認証ウッドとリサイクルPETのGreen Coreを採用。軽量かつ高いパフォーマンスでフリーライドツーリングにも対応し、3Dラディウスサイドカットにより優れた操作性を実現する。",
+      "specs": {
+        "id": "01KM312NSYAV7QDGRPPFNNGRKA",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Flat",
+        "coreMaterial": "Green Core",
+        "baseMaterial": "Sintered",
+        "sidewall": "Full Sidewall ABS"
+      },
+      "sizes": [
+        {
+          "id": "01KM312NSYBQZDP0KKCHWA7SGY",
+          "lengthCm": 166,
+          "waistWidthMm": 114,
+          "noseWidthMm": 154,
+          "tailWidthMm": 136,
+          "sidecutRadiusM": 15,
+          "weightG": 1750,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312NSYP0MPME7F6ZJZ7W2B",
+          "lengthCm": 176,
+          "waistWidthMm": 114,
+          "noseWidthMm": 154,
+          "tailWidthMm": 136,
+          "sidecutRadiusM": 17,
+          "weightG": 1895,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312NSYB94HC12N8PDZ7RRG",
+          "lengthCm": 184,
+          "waistWidthMm": 114,
+          "noseWidthMm": 154,
+          "tailWidthMm": 136,
+          "sidecutRadiusM": 18,
+          "weightG": 1945,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM312NSYPS0PGHVZ2JZZQWRS",
+          "lengthCm": 192,
+          "waistWidthMm": 114,
+          "noseWidthMm": 154,
+          "tailWidthMm": 136,
+          "sidecutRadiusM": 20,
+          "weightG": 2020,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM312NSY2VSFDDXV28KYCXA0",
+      "categorySlug": "powder",
+      "name": "Blaze 104 Purple",
+      "slug": "blaze-104-purple",
+      "sport": "ski",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://volkl.com/en-us/p/blaze-104-purple-skis-2026",
+      "description": "軽量でアジャイルなパウダースキー。操作性を重視した設計で、Titanal Binding Platformがパワーを効率的に伝達し、ダイナミックなターンを実現。4 Radius Driveサイドカットテクノロジーがあらゆるライディングスタイルに対応し、フリーライドツーリングにも適した軽量パワフルな一台。",
+      "specs": {
+        "id": "01KM312NSY9X84T12V5J1E0RZM",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Flat",
+        "coreMaterial": "Green Core",
+        "baseMaterial": "Sintered",
+        "sidewall": "Full Sidewall ABS"
+      },
+      "sizes": [
+        {
+          "id": "01KM312NSYNDKQCKEP212B80SG",
+          "lengthCm": 158,
+          "waistWidthMm": 104,
+          "noseWidthMm": 143,
+          "tailWidthMm": 128,
+          "sidecutRadiusM": 12.6,
+          "weightG": 1600,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312NSY3BE23DFTP47CPQ6B",
+          "lengthCm": 165,
+          "waistWidthMm": 104,
+          "noseWidthMm": 143,
+          "tailWidthMm": 128,
+          "sidecutRadiusM": 13.6,
+          "weightG": 1630,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312NSYDNT1HCX8XM74KN3W",
+          "lengthCm": 172,
+          "waistWidthMm": 104,
+          "noseWidthMm": 143,
+          "tailWidthMm": 128,
+          "sidecutRadiusM": 15.2,
+          "weightG": 1740,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM312NSYDMHA6A0PDPDGNE5G",
+          "lengthCm": 179,
+          "waistWidthMm": 104,
+          "noseWidthMm": 143,
+          "tailWidthMm": 128,
+          "sidecutRadiusM": 16.8,
+          "weightG": 1800,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KM312NSYAJK314RR0HC8QVXF",
+          "lengthCm": 186,
+          "waistWidthMm": 104,
+          "noseWidthMm": 143,
+          "tailWidthMm": 128,
+          "sidecutRadiusM": 18.5,
+          "weightG": 1895,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KM312NSYF2EE9JFE43G2Y97G",
+      "categorySlug": "park-pipe",
+      "name": "Revolt 101",
+      "slug": "revolt-101",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://volkl.com/en-us/p/revolt-101-skis-2026",
+      "description": "Revolt 114の弟分にあたるオールシーズン対応スキー。ハードスノー、パックパウダー、ロングデイまで、軽量かつハイパフォーマンスな設計。3Dサイドカットによる優れたアジリティで、ゲレンデでのスポーティな滑走からツリーランまで幅広く対応するフリースタイル志向のオールマウンテンスキー。",
+      "specs": {
+        "id": "01KM312NSYZ6V89BWNMM9XZRTX",
+        "rockerType": "Rocker/Camber/Rocker",
+        "tailType": "Flat",
+        "coreMaterial": "Multilayer Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Full Sidewall / Mini Cap"
+      },
+      "sizes": [
+        {
+          "id": "01KM312NSYHYXF4NKHTBN15GRW",
+          "lengthCm": 168,
+          "waistWidthMm": 101,
+          "noseWidthMm": 133,
+          "tailWidthMm": 115,
+          "sidecutRadiusM": 15,
+          "weightG": 2080,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312NSY4WYGCD08X3V6FC6E",
+          "lengthCm": 175,
+          "waistWidthMm": 101,
+          "noseWidthMm": 133,
+          "tailWidthMm": 115,
+          "sidecutRadiusM": 16.9,
+          "weightG": 2150,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312NSYA8JDHK9JKR71JFQA",
+          "lengthCm": 182,
+          "waistWidthMm": 101,
+          "noseWidthMm": 133,
+          "tailWidthMm": 115,
+          "sidecutRadiusM": 19,
+          "weightG": 2200,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM312NSY75CP45TSFW9BSYSV",
+          "lengthCm": 189,
+          "waistWidthMm": 101,
+          "noseWidthMm": 133,
+          "tailWidthMm": 115,
+          "sidecutRadiusM": 21.2,
+          "weightG": 2300,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KM312NSYTXA0B83NHZC3HMJT",
+      "categorySlug": "park-pipe",
+      "name": "Revolt 81",
+      "slug": "revolt-81",
+      "sport": "ski",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://volkl.com/en-us/p/revolt-81-skis-2026",
+      "description": "パークもゲレンデも攻められるエントリー向けツインチップスキー。111-81-104mmのディレクショナルシェイプにPowershell構造とTough Box構造を組み合わせた、耐久性と価格のバランスに優れた一台。フリースタイルスキーの最初の一本に最適。",
+      "specs": {
+        "id": "01KM312NSYJ4J4FH46H86SA8T1",
+        "rockerType": "Camber",
+        "tailType": "Twin Tip",
+        "coreMaterial": "Multilayer Woodcore",
+        "baseMaterial": "Sintered",
+        "sidewall": "Full Cap"
+      },
+      "sizes": [
+        {
+          "id": "01KM312NSY71Z5P4FTKM50WYRK",
+          "lengthCm": 148,
+          "waistWidthMm": 81,
+          "noseWidthMm": 111,
+          "tailWidthMm": 104,
+          "sidecutRadiusM": 13.9,
+          "weightG": 1420,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KM312NSY0HYRNDQ9BKW8RESZ",
+          "lengthCm": 158,
+          "waistWidthMm": 81,
+          "noseWidthMm": 111,
+          "tailWidthMm": 104,
+          "sidecutRadiusM": 16.3,
+          "weightG": 1510,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KM312NSY7KKMDZ6NG6KG6T83",
+          "lengthCm": 168,
+          "waistWidthMm": 81,
+          "noseWidthMm": 111,
+          "tailWidthMm": 104,
+          "sidecutRadiusM": 18.9,
+          "weightG": 1650,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KM312NSYSN0FS7P143ATX5AT",
+          "lengthCm": 178,
+          "waistWidthMm": 81,
+          "noseWidthMm": 111,
+          "tailWidthMm": 104,
+          "sidecutRadiusM": 21.8,
+          "weightG": 1870,
+          "displayOrder": 4
+        }
+      ]
+    }
+  ]
+}
