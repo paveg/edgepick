@@ -1,0 +1,392 @@
+{
+  "brand": {
+    "id": "01KMG3V84VDPXE24Z41DDKVTS1",
+    "name": "Nitro",
+    "slug": "nitro",
+    "country": "CH",
+    "websiteUrl": "https://www.nitrosnowboards.com",
+    "description": "1990年創業のスイス発スノーボードブランド。Teamシリーズを筆頭に、フリースタイルからバックカントリーまで幅広いラインナップを展開。全製品ソーラーパワーで製造、FSC認証木材コアを使用。"
+  },
+  "categories": [
+    {
+      "id": "01KM2W47DWC9NAVB9A32XDEPDD",
+      "sport": "snowboard",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM2W47DW213XHQJXWVHTPTE0",
+      "sport": "snowboard",
+      "name": "フリースタイル",
+      "slug": "freestyle",
+      "displayOrder": 2
+    },
+    {
+      "id": "01KM2W47DWZQ6HVWYC81EEYBRF",
+      "sport": "snowboard",
+      "name": "フリーライド",
+      "slug": "freeride",
+      "displayOrder": 3
+    }
+  ],
+  "models": [
+    {
+      "id": "01KMG3V84WDEP3EWQ3F9J4SW2Y",
+      "categorySlug": "all-mountain",
+      "name": "Team",
+      "slug": "team",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.nitrosnowboards.com/products/team-snowboard",
+      "description": "20年以上にわたるNitroの定番オールマウンテンボード。ディレクショナルツインシェイプとトゥルーキャンバーで、あらゆるテレインに対応する万能性を持つ。プロからウィークエンドライダーまで幅広く支持される。",
+      "specs": {
+        "id": "01KMG3V84WKQ7S5JGFGFVMN3R7",
+        "shape": "Directional Twin",
+        "bendProfile": "Trüe Camber",
+        "flexRating": 7,
+        "coreMaterial": "Powerlite Core",
+        "baseMaterial": "Sintered EcoSpeed HD",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3V84WXK49BRGV6P8MSZXX",
+          "lengthCm": 152,
+          "waistWidthMm": 246,
+          "noseWidthMm": 289,
+          "tailWidthMm": 289,
+          "sidecutRadiusM": 6.8,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3V84W4FAHQJ3BKS5ZN8KM",
+          "lengthCm": 155,
+          "waistWidthMm": 250,
+          "noseWidthMm": 293,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 7.2,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3V84WEFZYG56P4TJJR6CZ",
+          "lengthCm": 157,
+          "waistWidthMm": 252,
+          "noseWidthMm": 295,
+          "tailWidthMm": 295,
+          "sidecutRadiusM": 7.3,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3V84WKQDAAR41HZQECB7P",
+          "lengthCm": 159,
+          "waistWidthMm": 254,
+          "noseWidthMm": 297,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 7.3,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3V84WE4YA6Z7Q7ZRA4HYW",
+          "lengthCm": 162,
+          "waistWidthMm": 256,
+          "noseWidthMm": 298,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KMG3V84WDK0Q7ZBZAM7EGXSM",
+      "categorySlug": "all-mountain",
+      "name": "Team Pro",
+      "slug": "team-pro",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.nitrosnowboards.com/products/team-pro-snowboard",
+      "description": "Teamのプロ仕様バージョン。より高いポップ、コントロール、スピードを実現し、コンテストシーンでも活躍するオールマウンテンボード。Speed Formula IIベースとPowerliteコアで軽量高性能。",
+      "specs": {
+        "id": "01KMG3V84WVDQG5FMDQV5A6M3Z",
+        "shape": "Directional Twin",
+        "bendProfile": "Trüe Camber",
+        "flexRating": 8,
+        "coreMaterial": "Powerlite Core",
+        "baseMaterial": "Sintered Speed Formula II",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3V84WFSGJT88H2EN25BD3",
+          "lengthCm": 146,
+          "waistWidthMm": 242,
+          "noseWidthMm": 285,
+          "tailWidthMm": 285,
+          "sidecutRadiusM": 6.4,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3V84XTR1GTTEAGG3CTYVH",
+          "lengthCm": 149,
+          "waistWidthMm": 244,
+          "noseWidthMm": 287,
+          "tailWidthMm": 287,
+          "sidecutRadiusM": 6.7,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3V84XDH4N5B3KCCXSP5NZ",
+          "lengthCm": 152,
+          "waistWidthMm": 248,
+          "noseWidthMm": 291,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 6.8,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3V84XN2E61FD0XGQ3JGJE",
+          "lengthCm": 155,
+          "waistWidthMm": 250,
+          "noseWidthMm": 293,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 7.2,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3V84X81CKYGC8M97FEYZC",
+          "lengthCm": 157,
+          "waistWidthMm": 252,
+          "noseWidthMm": 295,
+          "tailWidthMm": 295,
+          "sidecutRadiusM": 7.3,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KMG3V84XNVW3147H8M2M4HTD",
+          "lengthCm": 159,
+          "waistWidthMm": 254,
+          "noseWidthMm": 297,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 7.3,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KMG3V84XGBX56RJCF7E422EG",
+          "lengthCm": 162,
+          "waistWidthMm": 256,
+          "noseWidthMm": 298,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 7
+        }
+      ]
+    },
+    {
+      "id": "01KMG3V84X2HQHPZXYPJ1ZBDEF",
+      "categorySlug": "freestyle",
+      "name": "T1",
+      "slug": "t1",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.nitrosnowboards.com/products/t1-snowboard",
+      "description": "パーク&ストリートライダーのために設計されたフリースタイルボード。Cam-Outキャンバーとツインシェイプで、レスポンシブかつ寛容なライドを提供。20年以上にわたるパークボードの王者。",
+      "specs": {
+        "id": "01KMG3V84XJ3V37PCGQN4H1KX6",
+        "shape": "Twin",
+        "bendProfile": "Cam-Out Camber",
+        "flexRating": 7,
+        "coreMaterial": "Powercore II",
+        "baseMaterial": "Sintered EcoSpeed HD",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3V84X6E570B5W4Y8NAVBS",
+          "lengthCm": 149,
+          "waistWidthMm": 245,
+          "noseWidthMm": 287,
+          "tailWidthMm": 287,
+          "sidecutRadiusM": 7.4,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3V84X2A50Z62CV4H0KB68",
+          "lengthCm": 152,
+          "waistWidthMm": 246,
+          "noseWidthMm": 288,
+          "tailWidthMm": 288,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3V84XPQA3ZP04JG10A0PB",
+          "lengthCm": 155,
+          "waistWidthMm": 250,
+          "noseWidthMm": 292,
+          "tailWidthMm": 292,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3V84XXM1CPYB54FQ8KGH2",
+          "lengthCm": 158,
+          "waistWidthMm": 252,
+          "noseWidthMm": 294,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 8.6,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KMG3V84XH429BMFQS43Z7R2X",
+      "categorySlug": "freeride",
+      "name": "Squash",
+      "slug": "squash",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.nitrosnowboards.com/products/squash-snowboard",
+      "description": "カービングとパウダーを両立するスワローテールボード。アイコニックなテーパードスワローテールシェイプがパウダーでのフロートを生み、プログレッシブサイドカットでハードパックでもカービングが楽しめる。",
+      "specs": {
+        "id": "01KMG3V84XDH5YR9K3MYMBMKPS",
+        "shape": "Tapered Swallowtail",
+        "bendProfile": "Trüe Camber",
+        "flexRating": 7,
+        "coreMaterial": "Powercore II",
+        "baseMaterial": "Sintered Speed Formula HD",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3V84X74YH0K9EMY341TSX",
+          "lengthCm": 156,
+          "waistWidthMm": 253,
+          "noseWidthMm": 299,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 6.2,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3V84XW6JSHJE9ZG48K5ED",
+          "lengthCm": 159,
+          "waistWidthMm": 257,
+          "noseWidthMm": 305,
+          "tailWidthMm": 299,
+          "sidecutRadiusM": 6.4,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3V84X000GN9QBM52CVCK6",
+          "lengthCm": 163,
+          "waistWidthMm": 268,
+          "noseWidthMm": 317,
+          "tailWidthMm": 311,
+          "sidecutRadiusM": 6.6,
+          "displayOrder": 3
+        }
+      ]
+    },
+    {
+      "id": "01KMG3V84X3SDD7FDTF2DD6JWT",
+      "categorySlug": "freeride",
+      "name": "Banker",
+      "slug": "banker",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.nitrosnowboards.com/products/banker-snowboard",
+      "description": "バンクドスラロームに最適なディレクショナルオールマウンテンシェイプ。カービングターンを得意とし、グルームからバックカントリーまで対応するQuiverシリーズの万能ボード。",
+      "specs": {
+        "id": "01KMG3V84XQKT4W1RF2W34EHK4",
+        "shape": "Directional",
+        "bendProfile": "Trüe Camber",
+        "flexRating": 8,
+        "coreMaterial": "Powercore II",
+        "baseMaterial": "Sintered EcoSpeed HD",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3V84XCX3W3WF54AHZD8FF",
+          "lengthCm": 156,
+          "waistWidthMm": 253,
+          "noseWidthMm": 298,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 6.3,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3V84XM59SNRG5Q1W76E2P",
+          "lengthCm": 159,
+          "waistWidthMm": 256,
+          "noseWidthMm": 302,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 6.5,
+          "displayOrder": 2
+        }
+      ]
+    },
+    {
+      "id": "01KMG3V84XN90BGP5PY6W49WF6",
+      "categorySlug": "all-mountain",
+      "name": "Alternator",
+      "slug": "alternator",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.nitrosnowboards.com/products/alternator-snowboard",
+      "description": "バックカントリーフリースタイルに最適なディレクショナルボード。タイムレスなシルエットとやや広めのウエストで、あらゆるテレインをチャージするオールマウンテンマニアのための一本。",
+      "specs": {
+        "id": "01KMG3V84X3BY1ZAP2XHGAA8BF",
+        "shape": "Directional",
+        "bendProfile": "Trüe Camber",
+        "flexRating": 8,
+        "coreMaterial": "Powerlite Core",
+        "baseMaterial": "Sintered Speed Formula II",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3V84XBS11MADJ52K6SCW7",
+          "lengthCm": 154,
+          "waistWidthMm": 252,
+          "noseWidthMm": 296,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 6.6,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3V84XNA3566T8J1DYMGCW",
+          "lengthCm": 157,
+          "waistWidthMm": 254,
+          "noseWidthMm": 298,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 6.8,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3V84XGGYYBCZERMFHFQ3V",
+          "lengthCm": 160,
+          "waistWidthMm": 256,
+          "noseWidthMm": 300,
+          "tailWidthMm": 295,
+          "sidecutRadiusM": 7.3,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3V84XRKV2CB9B09CWA1VB",
+          "lengthCm": 162,
+          "waistWidthMm": 264,
+          "noseWidthMm": 308,
+          "tailWidthMm": 304,
+          "sidecutRadiusM": 7.3,
+          "displayOrder": 4
+        }
+      ]
+    }
+  ]
+}

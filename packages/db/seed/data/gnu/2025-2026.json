@@ -1,0 +1,401 @@
+{
+  "brand": {
+    "id": "01KMG3TPY1A0ZRNMFE053JWEV2",
+    "name": "GNU",
+    "slug": "gnu",
+    "country": "US",
+    "websiteUrl": "https://www.gnu.com",
+    "description": "Mervin Manufacturing傘下のスノーボードブランド。ワシントン州で手作りされ、Magne-Tractionエッジ技術とエコフレンドリーな製造で知られる。フリースタイルからフリーライドまで幅広いラインナップ。"
+  },
+  "categories": [
+    {
+      "id": "01KM2W47DWC9NAVB9A32XDEPDD",
+      "sport": "snowboard",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM2W47DW213XHQJXWVHTPTE0",
+      "sport": "snowboard",
+      "name": "フリースタイル",
+      "slug": "freestyle",
+      "displayOrder": 2
+    },
+    {
+      "id": "01KM2W47DWZQ6HVWYC81EEYBRF",
+      "sport": "snowboard",
+      "name": "フリーライド",
+      "slug": "freeride",
+      "displayOrder": 3
+    }
+  ],
+  "models": [
+    {
+      "id": "01KMG3TPY1JJM57HE6NPZ3A9AN",
+      "categorySlug": "all-mountain",
+      "name": "Riders Choice Asym C2X",
+      "slug": "riders-choice-asym-c2x",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/gnu-riders-choice-asym-c2x-snowboard",
+      "description": "フリースタイルとオールマウンテンを融合したGNUの看板モデル。3D Delightwood Asym Chipによる非対称設計で、パーク・急斜面・サイドヒットすべてに対応。C2Xハイブリッドプロファイルでポップと安定性を両立。",
+      "specs": {
+        "id": "01KMG3TPY1FFFR9T4E5FQ0NJ36",
+        "shape": "Asymmetrical Twin",
+        "bendProfile": "C2X (Camber/Rocker/Camber hybrid)",
+        "flexRating": 5,
+        "coreMaterial": "G Lite 3 FSC Certified Aspen + Paulownia",
+        "baseMaterial": "Sintered Knife-Cut",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TPY18Q7VHW7SENTA3208",
+          "lengthCm": 154.5,
+          "waistWidthMm": 252,
+          "noseWidthMm": 293,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TPY26J4DFVJRCD2HENM9",
+          "lengthCm": 157.5,
+          "waistWidthMm": 255,
+          "noseWidthMm": 299,
+          "tailWidthMm": 299,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TPY26DRYHVDJ4FZKBEED",
+          "lengthCm": 159.5,
+          "waistWidthMm": 256,
+          "noseWidthMm": 300,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TPY2BRH8FTVWF2G82Q9F",
+          "lengthCm": 161.5,
+          "waistWidthMm": 258,
+          "noseWidthMm": 302,
+          "tailWidthMm": 302,
+          "sidecutRadiusM": 8.4,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TPY2TBG63PC79K8YPC1X",
+      "categorySlug": "all-mountain",
+      "name": "Gremlin C3",
+      "slug": "gremlin-c3",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/gnu-gremlin-c3-snowboard",
+      "description": "ボリュームシフトされたオールマウンテンボード。通常より2cm短くサイズ選択可能。ディレクショナルシェイプとフローティングノーズでパウダーからグルーマーまで対応。Magne-Tractionエッジでハードパックも確実にグリップ。",
+      "specs": {
+        "id": "01KMG3TPY21JRMP48SGAEC7B8X",
+        "shape": "Directional",
+        "bendProfile": "C3 Camber",
+        "flexRating": 7,
+        "coreMaterial": "G Lite 2 FSC Certified Aspen + Paulownia",
+        "baseMaterial": "Sintered Knife-Cut",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TPY24KACYFC2JAR1Q0FX",
+          "lengthCm": 148,
+          "waistWidthMm": 258,
+          "noseWidthMm": 303,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 6.8,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TPY2S0QV88J8AY47MBWX",
+          "lengthCm": 152,
+          "waistWidthMm": 261,
+          "noseWidthMm": 309,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TPY39ZAJ2CCB4WT74J72",
+          "lengthCm": 155,
+          "waistWidthMm": 264,
+          "noseWidthMm": 313,
+          "tailWidthMm": 301,
+          "sidecutRadiusM": 7.2,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TPY3AFCR8XKXN20Q3TV4",
+          "lengthCm": 158,
+          "waistWidthMm": 270,
+          "noseWidthMm": 321,
+          "tailWidthMm": 308,
+          "sidecutRadiusM": 7.5,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3TPY3H8616YHW5K9P2819",
+          "lengthCm": 161,
+          "waistWidthMm": 275,
+          "noseWidthMm": 326,
+          "tailWidthMm": 313,
+          "sidecutRadiusM": 7.7,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TPY3D5S7CQPFX573MPCT",
+      "categorySlug": "freestyle",
+      "name": "Money C2E",
+      "slug": "money-c2e",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/gnu-money-c2e-snowboard",
+      "description": "フリースタイルスキルを積み上げるのに最適なコストパフォーマンスモデル。C2Eハイブリッドコンターで遊びやすく、パークから全山まで幅広く対応。トゥルーツインシェイプでスイッチも自在。",
+      "specs": {
+        "id": "01KMG3TPY3FE0Q441BMZG1W989",
+        "shape": "True Twin",
+        "bendProfile": "C2E (Camber/Rocker/Camber hybrid)",
+        "flexRating": 5,
+        "coreMaterial": "G Lite 1 FSC Certified Poplar + Paulownia",
+        "baseMaterial": "Eco Sublimated Co-Ex",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TPY3KFPJ6DF7FP5HJ0H9",
+          "lengthCm": 148,
+          "waistWidthMm": 247,
+          "noseWidthMm": 286,
+          "tailWidthMm": 286,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TPY3TBA8GZ3BH3M964K9",
+          "lengthCm": 152,
+          "waistWidthMm": 253,
+          "noseWidthMm": 293,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TPY303J7RW47VZ2BX2D5",
+          "lengthCm": 154,
+          "waistWidthMm": 254,
+          "noseWidthMm": 295,
+          "tailWidthMm": 295,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TPY3H0689SFMFBJFY403",
+          "lengthCm": 156,
+          "waistWidthMm": 255,
+          "noseWidthMm": 296,
+          "tailWidthMm": 296,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3TPY3V4TRSKEAWEWJ38AM",
+          "lengthCm": 159,
+          "waistWidthMm": 256,
+          "noseWidthMm": 298,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TPY3RTCPZJ1T4VFWP1RM",
+      "categorySlug": "all-mountain",
+      "name": "Antigravity C3",
+      "slug": "antigravity-c3",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/gnu-antigravity-c3-snowboard",
+      "description": "一本で全てをこなすオールマウンテンボード。C3キャンバーによるポップと安定性、Magne-Tractionエッジによるグリップ力を備えたディレクショナルツイン。パウダー・サイドヒット・カービングすべてに対応。",
+      "specs": {
+        "id": "01KMG3TPY3XVAESPC39ATPMA7M",
+        "shape": "Directional Twin",
+        "bendProfile": "C3 Camber",
+        "flexRating": 5,
+        "coreMaterial": "G Lite 1 FSC Certified Poplar + Paulownia",
+        "baseMaterial": "Eco Sublimated Co-Ex",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TPY31SN9P9E01QNEJY7C",
+          "lengthCm": 150,
+          "waistWidthMm": 250,
+          "noseWidthMm": 288,
+          "tailWidthMm": 285,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TPY3VGBFY4QDGWWZCAA0",
+          "lengthCm": 153,
+          "waistWidthMm": 252,
+          "noseWidthMm": 292,
+          "tailWidthMm": 290,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TPY3987NVS6BXHPBGP49",
+          "lengthCm": 156,
+          "waistWidthMm": 255,
+          "noseWidthMm": 297,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TPY4DMRZS2AKWC370DP9",
+          "lengthCm": 159,
+          "waistWidthMm": 257,
+          "noseWidthMm": 301,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3TPY4B7868NCWSZ2KVQ1C",
+          "lengthCm": 162,
+          "waistWidthMm": 258,
+          "noseWidthMm": 303,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TPY4X9TBWZ1ZTRSZZ8V4",
+      "categorySlug": "freeride",
+      "name": "Banked Country C3",
+      "slug": "banked-country-c3",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/gnu-banked-country-c3-snowboard",
+      "description": "Temple Cumminsのプロモデル。パウダー・ディープカーブ・バンクドスラロームに最適なディレクショナルボード。大きなフローティングノーズとプログレッシブMagne-Tractionで、あらゆるコンディションをハイスピードで攻略。",
+      "specs": {
+        "id": "01KMG3TPY4JSD3EXFW975MAPCW",
+        "shape": "Directional",
+        "bendProfile": "C3 Camber",
+        "flexRating": 9,
+        "coreMaterial": "G Lite 3 FSC Certified Aspen + Paulownia",
+        "baseMaterial": "Sintered Knife-Cut",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TPY4AGTBK16JBHBNEH0H",
+          "lengthCm": 155,
+          "waistWidthMm": 253,
+          "noseWidthMm": 294,
+          "tailWidthMm": 292,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TPY4EM4PR8GX3TMYXG7Z",
+          "lengthCm": 159,
+          "waistWidthMm": 254,
+          "noseWidthMm": 296,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 8.3,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TPY4DR54CGPX91AV92FE",
+          "lengthCm": 162,
+          "waistWidthMm": 255,
+          "noseWidthMm": 298,
+          "tailWidthMm": 296,
+          "sidecutRadiusM": 8.4,
+          "displayOrder": 3
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TPY4ZPY9MV0XG60D6WYD",
+      "categorySlug": "freestyle",
+      "name": "FB Head Space C3",
+      "slug": "fb-head-space-c3",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/gnu-fb-head-space-c3-snowboard",
+      "description": "Forest Baileyのプロモデル。ストリートからリゾートまでスケートスタイルのライディングを実現。C3キャンバーによるスナップと精度、Magne-Tractionエッジであらゆるコンディションに対応するトゥルーツインフリースタイルボード。",
+      "specs": {
+        "id": "01KMG3TPY455EPYZWJ9JJEYP0Y",
+        "shape": "True Twin",
+        "bendProfile": "C3 Camber",
+        "flexRating": 5,
+        "coreMaterial": "G Lite 2 FSC Certified Aspen + Paulownia",
+        "baseMaterial": "Eco Sublimated Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TPY44T4YC5W8ZY9Y9YM0",
+          "lengthCm": 149,
+          "waistWidthMm": 250,
+          "noseWidthMm": 291,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TPY431C5P137JHN6TTAR",
+          "lengthCm": 152,
+          "waistWidthMm": 250,
+          "noseWidthMm": 294,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TPY482YTVV6GDERTTJJZ",
+          "lengthCm": 155,
+          "waistWidthMm": 254,
+          "noseWidthMm": 297,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TPY43GEQ0QZY77J1JNWH",
+          "lengthCm": 158,
+          "waistWidthMm": 255,
+          "noseWidthMm": 300,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.3,
+          "displayOrder": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,415 @@
+{
+  "brand": {
+    "id": "01KMG3V3RBFF9WBTXP0EX2RVAD",
+    "name": "YES.",
+    "slug": "yes",
+    "country": "AT",
+    "websiteUrl": "https://www.yesnowboard.com",
+    "description": "オーストリア発のスノーボードブランド。CamRockプロファイルやMidBiteテクノロジーなど独自技術を搭載し、フリースタイルからフリーライドまで幅広いラインナップを展開。"
+  },
+  "categories": [
+    {
+      "id": "01KM2W47DWC9NAVB9A32XDEPDD",
+      "sport": "snowboard",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM2W47DW213XHQJXWVHTPTE0",
+      "sport": "snowboard",
+      "name": "フリースタイル",
+      "slug": "freestyle",
+      "displayOrder": 2
+    },
+    {
+      "id": "01KM2W47DWZQ6HVWYC81EEYBRF",
+      "sport": "snowboard",
+      "name": "フリーライド",
+      "slug": "freeride",
+      "displayOrder": 3
+    }
+  ],
+  "models": [
+    {
+      "id": "01KMG3V3RCNDW9EESCVYT9XNVW",
+      "categorySlug": "all-mountain",
+      "name": "Standard",
+      "slug": "standard",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/yes-standard-snowboard",
+      "description": "YES.のオールマウンテンフリースタイルの定番。Directional Volume Twinシェイプ＋MidBiteエッジで、パウダーでの浮力とカービング時のエッジホールドを両立。バックカントリーからパークまで1本で対応するフリースタイルウェポン。",
+      "specs": {
+        "id": "01KMG3V3RC271B5DVE5YM4ZQZA",
+        "shape": "Directional Twin",
+        "bendProfile": "CamRock",
+        "flexRating": 6,
+        "coreMaterial": "Torrent Core (Poplar/Paulownia)",
+        "baseMaterial": "Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3V3RCDHYBV09JW6G609DZ",
+          "lengthCm": 149,
+          "waistWidthMm": 245,
+          "noseWidthMm": 289,
+          "tailWidthMm": 289,
+          "sidecutRadiusM": 7.15,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3V3RCJFFS5BG1W4RW7TS2",
+          "lengthCm": 151,
+          "waistWidthMm": 248,
+          "noseWidthMm": 293,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 7.35,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3V3RCQ9F0DZZVMQ6J9862",
+          "lengthCm": 153,
+          "waistWidthMm": 253,
+          "noseWidthMm": 299,
+          "tailWidthMm": 299,
+          "sidecutRadiusM": 7.35,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3V3RD09R6EDNVC8TENRGB",
+          "lengthCm": 156,
+          "waistWidthMm": 258,
+          "noseWidthMm": 305,
+          "tailWidthMm": 305,
+          "sidecutRadiusM": 7.55,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3V3RDM241TYZ0RT4ZCE7D",
+          "lengthCm": 159,
+          "waistWidthMm": 263,
+          "noseWidthMm": 310,
+          "tailWidthMm": 310,
+          "sidecutRadiusM": 7.75,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KMG3V3RDMAGDDFBA6MFXEX0A",
+          "lengthCm": 162,
+          "waistWidthMm": 268,
+          "noseWidthMm": 312,
+          "tailWidthMm": 312,
+          "sidecutRadiusM": 7.95,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KMG3V3RDXMMT0JN2BE5P81CA",
+          "lengthCm": 167,
+          "waistWidthMm": 266,
+          "noseWidthMm": 313,
+          "tailWidthMm": 313,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 7
+        }
+      ]
+    },
+    {
+      "id": "01KMG3V3RD83ETTQ27RRK7AAND",
+      "categorySlug": "freestyle",
+      "name": "Greats",
+      "slug": "greats",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/yes-greats-snowboard",
+      "description": "YES.ラインナップの中で急速に人気を集めるオールマウンテンフリースタイルボード。Asym MidBiteデザインでエッジホールドとレスポンスを強化し、ターン精度とプレイフルさを両立。Air Lカーボン補強で軽量かつ高いポップを実現。",
+      "specs": {
+        "id": "01KMG3V3RDN4YR0B7KRG00S85D",
+        "shape": "Asymmetric Twin",
+        "bendProfile": "CamRock",
+        "flexRating": 8,
+        "coreMaterial": "Torrent Core (Poplar/Paulownia)",
+        "baseMaterial": "Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3V3RD3KD24SE9BWTBHJ3R",
+          "lengthCm": 149,
+          "waistWidthMm": 245,
+          "noseWidthMm": 297,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 5.95,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3V3RDR6XZ9TX63HKR1HYR",
+          "lengthCm": 151,
+          "waistWidthMm": 253,
+          "noseWidthMm": 305,
+          "tailWidthMm": 305,
+          "sidecutRadiusM": 6.15,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3V3RD5KHPNDVGZMA9KSRD",
+          "lengthCm": 154,
+          "waistWidthMm": 256,
+          "noseWidthMm": 309,
+          "tailWidthMm": 309,
+          "sidecutRadiusM": 6.35,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3V3RDRSK2GQ088QYGA3X8",
+          "lengthCm": 156,
+          "waistWidthMm": 259,
+          "noseWidthMm": 312,
+          "tailWidthMm": 312,
+          "sidecutRadiusM": 6.55,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3V3RDNBX4WK7WKNKE9ADM",
+          "lengthCm": 159,
+          "waistWidthMm": 262,
+          "noseWidthMm": 315,
+          "tailWidthMm": 315,
+          "sidecutRadiusM": 6.75,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KMG3V3RD4BXG2NSVHYHBSH0E",
+      "categorySlug": "freestyle",
+      "name": "Typo",
+      "slug": "typo",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/yes-typo-snowboard",
+      "description": "Basicの上位モデルにあたるフリースタイルマシン。より速いベースとポップのあるフレックスパターンを備え、パークからリゾート全域でのトリックに対応。UnderBiteエッジでターンのイニシエーションとホールドを向上。",
+      "specs": {
+        "id": "01KMG3V3RDZ9D88ET4P96JZTKW",
+        "shape": "Directional Twin",
+        "bendProfile": "CamRock",
+        "flexRating": 6,
+        "coreMaterial": "Full Poplar",
+        "baseMaterial": "Extruded",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3V3RDM69RS3M9DKMW0E30",
+          "lengthCm": 149,
+          "waistWidthMm": 248,
+          "noseWidthMm": 291,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 7.35,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3V3REDN4WMK63Y4S4C5AY",
+          "lengthCm": 152,
+          "waistWidthMm": 250,
+          "noseWidthMm": 294,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 7.55,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3V3RE472KWTCS3HXAVAEX",
+          "lengthCm": 155,
+          "waistWidthMm": 251,
+          "noseWidthMm": 295,
+          "tailWidthMm": 295,
+          "sidecutRadiusM": 7.75,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3V3REZQNMQFZNXD4Y814D",
+          "lengthCm": 156,
+          "waistWidthMm": 259,
+          "noseWidthMm": 303,
+          "tailWidthMm": 303,
+          "sidecutRadiusM": 7.85,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3V3RESC5TN7XXY9B2FYQT",
+          "lengthCm": 158,
+          "waistWidthMm": 253,
+          "noseWidthMm": 298,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 7.95,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KMG3V3REA6P85W8HXWR0JHYZ",
+          "lengthCm": 159,
+          "waistWidthMm": 261,
+          "noseWidthMm": 306,
+          "tailWidthMm": 306,
+          "sidecutRadiusM": 7.95,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KMG3V3RE200G1AZGRF4K53JP",
+          "lengthCm": 161,
+          "waistWidthMm": 254,
+          "noseWidthMm": 299,
+          "tailWidthMm": 299,
+          "sidecutRadiusM": 8.15,
+          "displayOrder": 7
+        },
+        {
+          "id": "01KMG3V3RENKXS84J3Z9TFSGN5",
+          "lengthCm": 163,
+          "waistWidthMm": 263,
+          "noseWidthMm": 308,
+          "tailWidthMm": 308,
+          "sidecutRadiusM": 8.25,
+          "displayOrder": 8
+        }
+      ]
+    },
+    {
+      "id": "01KMG3V3RE7NGND5RBBB1S0M9E",
+      "categorySlug": "all-mountain",
+      "name": "Optimistic",
+      "slug": "optimistic",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/yes-optimistic-snowboard",
+      "description": "パウダーデーを最大限に楽しむためのボード。独特なワイドシェイプはミッドワイドに近く、通常より短めのサイズで大きな浮力と素早いスピンを実現。タイトなサイドカットでワイドな板でも扱いやすく、あらゆる雪質でレスポンスと安定感を発揮。",
+      "specs": {
+        "id": "01KMG3V3REMP6JX1MRKCZKT7DM",
+        "shape": "Directional",
+        "bendProfile": "CamRock",
+        "flexRating": 8,
+        "coreMaterial": "Weightless Core (Poplar/Paulownia)",
+        "baseMaterial": "Sintered Spec",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3V3RECKQKQ9XHECX5667M",
+          "lengthCm": 151,
+          "waistWidthMm": 256,
+          "noseWidthMm": 308,
+          "tailWidthMm": 301,
+          "sidecutRadiusM": 6.25,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3V3RE4P55ATYQ0Z9K9F3A",
+          "lengthCm": 154,
+          "waistWidthMm": 262,
+          "noseWidthMm": 315,
+          "tailWidthMm": 308,
+          "sidecutRadiusM": 6.35,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3V3RENHAWEG830T13VZMQ",
+          "lengthCm": 157,
+          "waistWidthMm": 266,
+          "noseWidthMm": 319,
+          "tailWidthMm": 313,
+          "sidecutRadiusM": 6.5,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3V3RE34BR8J0E1QCZZKG2",
+          "lengthCm": 161,
+          "waistWidthMm": 268,
+          "noseWidthMm": 319,
+          "tailWidthMm": 313,
+          "sidecutRadiusM": 7.2,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KMG3V3RECH30Y8X9C5R032BB",
+      "categorySlug": "freeride",
+      "name": "Pick Your Line",
+      "slug": "pick-your-line",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/yes-pick-your-line-snowboard",
+      "description": "ディープパウダーと急斜面を愛するライダーのためのフリーライドボード。Fluid Coreが軽量パワーと自然なダンプニングを両立し、高速域でも安定。テーパードUnderBiteシェイプでフロートと精密なエッジコントロールを実現。",
+      "specs": {
+        "id": "01KMG3V3REEFGNH6F789BN6MJD",
+        "shape": "Directional",
+        "bendProfile": "CamRock",
+        "flexRating": 6,
+        "coreMaterial": "Fluid Core",
+        "baseMaterial": "Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3V3REPQN6P84MWT52YMCP",
+          "lengthCm": 156,
+          "waistWidthMm": 250,
+          "noseWidthMm": 300,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 6.7,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3V3RE7CEZXAEYFH0HQ195",
+          "lengthCm": 159,
+          "waistWidthMm": 253,
+          "noseWidthMm": 303,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 6.9,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3V3REQ1JMBBNP1WBKRGY1",
+          "lengthCm": 160,
+          "waistWidthMm": 260,
+          "noseWidthMm": 311,
+          "tailWidthMm": 306,
+          "sidecutRadiusM": 6.9,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3V3REPDY0CKHT7HADHHPS",
+          "lengthCm": 162,
+          "waistWidthMm": 255,
+          "noseWidthMm": 306,
+          "tailWidthMm": 301,
+          "sidecutRadiusM": 7.05,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3V3RETFNK8NK58K7PMY92",
+          "lengthCm": 164,
+          "waistWidthMm": 265,
+          "noseWidthMm": 319,
+          "tailWidthMm": 313,
+          "sidecutRadiusM": 7.05,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KMG3V3REZ1MN3HXPG8G9JH79",
+          "lengthCm": 165,
+          "waistWidthMm": 258,
+          "noseWidthMm": 310,
+          "tailWidthMm": 305,
+          "sidecutRadiusM": 7.2,
+          "displayOrder": 6
+        }
+      ]
+    }
+  ]
+}

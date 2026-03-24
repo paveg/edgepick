@@ -1,0 +1,536 @@
+{
+  "brand": {
+    "id": "01KMG3TP5AY11XMFHXPD87CNV5",
+    "name": "Ride",
+    "slug": "ride",
+    "country": "US",
+    "websiteUrl": "https://www.ridesnowboards.com",
+    "description": "1992年創業のスノーボード専業ブランド。Warpigでボリュームシフトムーブメントを牽引。Slimewalls独自テクノロジーによる振動吸収性能が特徴。"
+  },
+  "categories": [
+    {
+      "id": "01KM2W47DWC9NAVB9A32XDEPDD",
+      "sport": "snowboard",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM2W47DW213XHQJXWVHTPTE0",
+      "sport": "snowboard",
+      "name": "フリースタイル",
+      "slug": "freestyle",
+      "displayOrder": 2
+    },
+    {
+      "id": "01KM2W47DWZQ6HVWYC81EEYBRF",
+      "sport": "snowboard",
+      "name": "フリーライド",
+      "slug": "freeride",
+      "displayOrder": 3
+    }
+  ],
+  "models": [
+    {
+      "id": "01KMG3TP5B7RPXBQKRJZQDMP7N",
+      "categorySlug": "all-mountain",
+      "name": "Warpig",
+      "slug": "warpig",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/ride-warpig-snowboard",
+      "description": "ボリュームシフトムーブメントの先駆者。短く太いシェイプでパウダーからグルーマーまで万能に対応。ディレクショナルゼロキャンバーにTapered Bi-Radial Sidecut。",
+      "specs": {
+        "id": "01KMG3TP5BV8RZV1SADA5YZAB6",
+        "shape": "Directional",
+        "bendProfile": "Rocker/Flat/Rocker",
+        "flexRating": 5,
+        "coreMaterial": "Performance Core (Aspen/Bamboo/Paulownia)",
+        "baseMaterial": "Sintered 4000",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TP5BFR39C7N45VEDFGV6",
+          "lengthCm": 142,
+          "waistWidthMm": 250,
+          "noseWidthMm": 301,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 5.1,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TP5BY5NTQ2KPH7VVKE2J",
+          "lengthCm": 148,
+          "waistWidthMm": 260,
+          "noseWidthMm": 311,
+          "tailWidthMm": 301,
+          "sidecutRadiusM": 5.65,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TP5BK13ZKNT6QADZF010",
+          "lengthCm": 151,
+          "waistWidthMm": 265,
+          "noseWidthMm": 316,
+          "tailWidthMm": 306,
+          "sidecutRadiusM": 5.95,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TP5C9M326ZYZAK76QJ7J",
+          "lengthCm": 154,
+          "waistWidthMm": 270,
+          "noseWidthMm": 321,
+          "tailWidthMm": 311,
+          "sidecutRadiusM": 6.25,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3TP5C2A9Y82X3ENMRNCS0",
+          "lengthCm": 158,
+          "waistWidthMm": 277,
+          "noseWidthMm": 328,
+          "tailWidthMm": 318,
+          "sidecutRadiusM": 6.55,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TP5B3P2GNW38Z9W83XR5",
+      "categorySlug": "all-mountain",
+      "name": "Algorythm",
+      "slug": "algorythm",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/ride-algorythm-snowboard",
+      "description": "オールマウンテンフリースタイルの万能ボード。ディレクショナルツインシェイプにRocker/Camber/Rockerプロファイル。Quadratic Sidecutで高いグリップ力。",
+      "specs": {
+        "id": "01KMG3TP5CS0HFMWFVXGTK3MRC",
+        "shape": "Directional Twin",
+        "bendProfile": "Rocker/Camber/Rocker",
+        "flexRating": 5,
+        "coreMaterial": "Performance Core (Aspen/Bamboo/Paulownia)",
+        "baseMaterial": "Sintered 4000",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TP5CFJES8KX65Y5020F1",
+          "lengthCm": 147,
+          "waistWidthMm": 245,
+          "noseWidthMm": 287,
+          "tailWidthMm": 287,
+          "sidecutRadiusM": 6.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TP5CCWZN8499D4NCRBKZ",
+          "lengthCm": 151,
+          "waistWidthMm": 248,
+          "noseWidthMm": 291,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 6.6,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TP5C6PWP6PG19QZ06302",
+          "lengthCm": 154,
+          "waistWidthMm": 251,
+          "noseWidthMm": 296,
+          "tailWidthMm": 296,
+          "sidecutRadiusM": 6.7,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TP5CX4HJW1JJ7R10CE9H",
+          "lengthCm": 155,
+          "waistWidthMm": 258,
+          "noseWidthMm": 304,
+          "tailWidthMm": 304,
+          "sidecutRadiusM": 6.7,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3TP5C001DHNVMR25Z0ZK2",
+          "lengthCm": 157,
+          "waistWidthMm": 254,
+          "noseWidthMm": 300,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 6.8,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KMG3TP5CB7CPZ76C1H082NM9",
+          "lengthCm": 160,
+          "waistWidthMm": 264,
+          "noseWidthMm": 311,
+          "tailWidthMm": 311,
+          "sidecutRadiusM": 6.9,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KMG3TP5C3EWE7AEP04EE6ZQ4",
+          "lengthCm": 161,
+          "waistWidthMm": 257,
+          "noseWidthMm": 304,
+          "tailWidthMm": 304,
+          "sidecutRadiusM": 6.9,
+          "displayOrder": 7
+        },
+        {
+          "id": "01KMG3TP5CCD9JXV2CNXH9736G",
+          "lengthCm": 164,
+          "waistWidthMm": 266,
+          "noseWidthMm": 315,
+          "tailWidthMm": 315,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 8
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TP5BF59S79RC6VQTD3DF",
+      "categorySlug": "freeride",
+      "name": "Berzerker",
+      "slug": "berzerker",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/ride-berzerker-snowboard",
+      "description": "スピードとドライブを求めるアグレッシブなオールマウンテン/フリーライドボード。ディレクショナルシェイプにRocker/Camberプロファイル。Carbon Array 3とCarbon Slimerods搭載。",
+      "specs": {
+        "id": "01KMG3TP5CHNWTZMGRNAEPWQPQ",
+        "shape": "Directional",
+        "bendProfile": "Rocker/Camber",
+        "flexRating": 7,
+        "coreMaterial": "Performance Core (Aspen/Bamboo/Paulownia)",
+        "baseMaterial": "Sintered 4000",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TP5CSYRCBWJDMXMH9EGS",
+          "lengthCm": 153,
+          "waistWidthMm": 245,
+          "noseWidthMm": 296,
+          "tailWidthMm": 288,
+          "sidecutRadiusM": 7.6,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TP5C5QNK0ZM147MPKZHT",
+          "lengthCm": 156,
+          "waistWidthMm": 247,
+          "noseWidthMm": 298,
+          "tailWidthMm": 290,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TP5CNEGEN61R730H01QC",
+          "lengthCm": 157,
+          "waistWidthMm": 255,
+          "noseWidthMm": 306,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TP5C9VJ173ZXMZGTMQQQ",
+          "lengthCm": 159,
+          "waistWidthMm": 249,
+          "noseWidthMm": 300,
+          "tailWidthMm": 292,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3TP5CHVA31YQH003GYMHY",
+          "lengthCm": 160,
+          "waistWidthMm": 257,
+          "noseWidthMm": 308,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KMG3TP5CN761NT4N4DP3S8BQ",
+          "lengthCm": 162,
+          "waistWidthMm": 251,
+          "noseWidthMm": 302,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KMG3TP5CR7CMSYVK77CD97TQ",
+          "lengthCm": 163,
+          "waistWidthMm": 259,
+          "noseWidthMm": 310,
+          "tailWidthMm": 302,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 7
+        },
+        {
+          "id": "01KMG3TP5CDBF7XNKTZRXSMFAQ",
+          "lengthCm": 165,
+          "waistWidthMm": 253,
+          "noseWidthMm": 304,
+          "tailWidthMm": 296,
+          "sidecutRadiusM": 8.4,
+          "displayOrder": 8
+        },
+        {
+          "id": "01KMG3TP5CJT80XK9CHKAZCQ6K",
+          "lengthCm": 167,
+          "waistWidthMm": 261,
+          "noseWidthMm": 312,
+          "tailWidthMm": 304,
+          "sidecutRadiusM": 8.4,
+          "displayOrder": 9
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TP5BX3Z84B8K2K9YFQXM",
+      "categorySlug": "all-mountain",
+      "name": "Shadowban",
+      "slug": "shadowban",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/ride-shadowban-snowboard",
+      "description": "ディレクショナルツインのオールマウンテンボード。Rocker/Camber/Rockerプロファイルにソフトフレックスで扱いやすい。Quadratic Sidecutで安定したターン。",
+      "specs": {
+        "id": "01KMG3TP5CYBMD1P9VFQR87PNW",
+        "shape": "Directional Twin",
+        "bendProfile": "Rocker/Camber/Rocker",
+        "flexRating": 4,
+        "coreMaterial": "Performance Core (Aspen/Bamboo/Paulownia)",
+        "baseMaterial": "Sintered 4000",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TP5C08077YSGAPVMCTG6",
+          "lengthCm": 147,
+          "waistWidthMm": 245,
+          "noseWidthMm": 287,
+          "tailWidthMm": 287,
+          "sidecutRadiusM": 6.5,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TP5CRJB4GHJPJWRNJNXX",
+          "lengthCm": 151,
+          "waistWidthMm": 248,
+          "noseWidthMm": 291,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 6.6,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TP5CN6ZG1SM7YXBMRC64",
+          "lengthCm": 154,
+          "waistWidthMm": 251,
+          "noseWidthMm": 296,
+          "tailWidthMm": 296,
+          "sidecutRadiusM": 6.7,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TP5CSPJ040Q3BZNADPFX",
+          "lengthCm": 155,
+          "waistWidthMm": 258,
+          "noseWidthMm": 304,
+          "tailWidthMm": 304,
+          "sidecutRadiusM": 6.7,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3TP5C4Y9MS3FBPT7VB2BH",
+          "lengthCm": 157,
+          "waistWidthMm": 254,
+          "noseWidthMm": 300,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 6.8,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KMG3TP5CFZ61HH5GDXAQ9P38",
+          "lengthCm": 160,
+          "waistWidthMm": 264,
+          "noseWidthMm": 311,
+          "tailWidthMm": 311,
+          "sidecutRadiusM": 6.9,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KMG3TP5CN6MZK24CCFJ14Y7Y",
+          "lengthCm": 161,
+          "waistWidthMm": 257,
+          "noseWidthMm": 304,
+          "tailWidthMm": 304,
+          "sidecutRadiusM": 6.9,
+          "displayOrder": 7
+        },
+        {
+          "id": "01KMG3TP5CR3FXHJCZY7Y13NW7",
+          "lengthCm": 164,
+          "waistWidthMm": 266,
+          "noseWidthMm": 315,
+          "tailWidthMm": 315,
+          "sidecutRadiusM": 7.0,
+          "displayOrder": 8
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TP5BAQ1HNZ6QA6E7VEET",
+      "categorySlug": "all-mountain",
+      "name": "Psychocandy",
+      "slug": "psychocandy",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/ride-psychocandy-snowboard",
+      "description": "パウダーからグルーマーまで楽しめるディレクショナルボード。ディレクショナルゼロキャンバーにTapered Bi-Radial Sidecut。Performance Light Coreで軽量。",
+      "specs": {
+        "id": "01KMG3TP5CR000X46D7V8HFFFA",
+        "shape": "Directional",
+        "bendProfile": "Rocker/Flat/Rocker",
+        "flexRating": 5,
+        "coreMaterial": "Performance Light Core (Paulownia/Aspen)",
+        "baseMaterial": "Sintered 4000",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TP5C4K664NXDSKYS766W",
+          "lengthCm": 138,
+          "waistWidthMm": 243,
+          "noseWidthMm": 295,
+          "tailWidthMm": 285,
+          "sidecutRadiusM": 4.9,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TP5CAE9G9JKYNNW3XRB1",
+          "lengthCm": 142,
+          "waistWidthMm": 250,
+          "noseWidthMm": 302,
+          "tailWidthMm": 292,
+          "sidecutRadiusM": 5.2,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TP5DQ2V4TF75P9V61Q1K",
+          "lengthCm": 146,
+          "waistWidthMm": 257,
+          "noseWidthMm": 309,
+          "tailWidthMm": 299,
+          "sidecutRadiusM": 5.45,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TP5D8Y329QNK352ENW6X",
+          "lengthCm": 150,
+          "waistWidthMm": 264,
+          "noseWidthMm": 316,
+          "tailWidthMm": 306,
+          "sidecutRadiusM": 5.75,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3TP5DDFDF5FA3XDH6GVC1",
+          "lengthCm": 154,
+          "waistWidthMm": 267,
+          "noseWidthMm": 318,
+          "tailWidthMm": 308,
+          "sidecutRadiusM": 6.0,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KMG3TP5DCT9Y795BMR2AZYAY",
+          "lengthCm": 158,
+          "waistWidthMm": 269,
+          "noseWidthMm": 320,
+          "tailWidthMm": 310,
+          "sidecutRadiusM": 6.3,
+          "displayOrder": 6
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TP5BWKR0F02DKHZCZA5G",
+      "categorySlug": "all-mountain",
+      "name": "Superpig",
+      "slug": "superpig",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/ride-superpig-snowboard",
+      "description": "Warpigの上位モデル。ディレクショナルエクストラキャンバーにアグレッシブなフレックスで高速カービングに対応。Sintered Race Baseで最高速度を追求。",
+      "specs": {
+        "id": "01KMG3TP5D2WG49V0WA3GD84CG",
+        "shape": "Directional",
+        "bendProfile": "Rocker/Camber",
+        "flexRating": 7,
+        "coreMaterial": "Performance Core (Aspen/Bamboo/Paulownia)",
+        "baseMaterial": "Sintered Race Base",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TP5DJ8Y8Q9MQRQ9N5TTP",
+          "lengthCm": 142,
+          "waistWidthMm": 250,
+          "noseWidthMm": 301,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 5.1,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG45FBTWVQ42ZK46GW2E6RC",
+          "lengthCm": 148,
+          "waistWidthMm": 260,
+          "noseWidthMm": 311,
+          "tailWidthMm": 301,
+          "sidecutRadiusM": 5.65,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG45FBVPQ8CHMMST7ET7P9M",
+          "lengthCm": 151,
+          "waistWidthMm": 265,
+          "noseWidthMm": 316,
+          "tailWidthMm": 306,
+          "sidecutRadiusM": 5.95,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG45FBVCP5XSAJAV0NTR46Q",
+          "lengthCm": 154,
+          "waistWidthMm": 270,
+          "noseWidthMm": 321,
+          "tailWidthMm": 311,
+          "sidecutRadiusM": 6.25,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG45FBV7RVVN1XC095J9F3T",
+          "lengthCm": 158,
+          "waistWidthMm": 277,
+          "noseWidthMm": 328,
+          "tailWidthMm": 318,
+          "sidecutRadiusM": 6.55,
+          "displayOrder": 5
+        }
+      ]
+    }
+  ]
+}

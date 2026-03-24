@@ -1,0 +1,406 @@
+{
+  "brand": {
+    "id": "01KMG3TNSQX0EE22T2YRYH48EG",
+    "name": "CAPiTA",
+    "slug": "capita",
+    "country": "AT",
+    "websiteUrl": "https://www.capitasnowboarding.com",
+    "description": "オーストリアのMothership工場で製造されるスノーボードブランド。DOA、Mercuryなど革新的な技術と環境配慮を両立したラインナップ。"
+  },
+  "categories": [
+    {
+      "id": "01KM2W47DWC9NAVB9A32XDEPDD",
+      "sport": "snowboard",
+      "name": "オールマウンテン",
+      "slug": "all-mountain",
+      "displayOrder": 1
+    },
+    {
+      "id": "01KM2W47DW213XHQJXWVHTPTE0",
+      "sport": "snowboard",
+      "name": "フリースタイル",
+      "slug": "freestyle",
+      "displayOrder": 2
+    },
+    {
+      "id": "01KM2W47DWZQ6HVWYC81EEYBRF",
+      "sport": "snowboard",
+      "name": "フリーライド",
+      "slug": "freeride",
+      "displayOrder": 3
+    }
+  ],
+  "models": [
+    {
+      "id": "01KMG3TNSR1WVJRPTX3WX3JKDT",
+      "categorySlug": "freestyle",
+      "name": "Defenders of Awesome",
+      "slug": "defenders-of-awesome",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/capita-defenders-of-awesome-snowboard",
+      "description": "CAPiTAを代表するトゥルーツインフリースタイルボード。Resort V1プロファイルでキャンバーのポップとロッカーのルーズさを両立。パークからオールマウンテンまで万能。",
+      "specs": {
+        "id": "01KMG3TNSRE00GB4Q554XWZ3Q9",
+        "shape": "True Twin",
+        "bendProfile": "Rocker/Camber/Rocker",
+        "flexRating": 5.5,
+        "coreMaterial": "P2 Superlight Core (Paulownia/Poplar)",
+        "baseMaterial": "Quantum Drive Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TNSRC0X33TR6QRJRSCFY",
+          "lengthCm": 148,
+          "waistWidthMm": 244,
+          "noseWidthMm": 287,
+          "tailWidthMm": 287,
+          "sidecutRadiusM": 7.6,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TNSR0382C0RPMWQJE3H0",
+          "lengthCm": 150,
+          "waistWidthMm": 246,
+          "noseWidthMm": 290,
+          "tailWidthMm": 290,
+          "sidecutRadiusM": 7.7,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TNSRSM69FRN15Y7VX1A4",
+          "lengthCm": 152,
+          "waistWidthMm": 248,
+          "noseWidthMm": 292,
+          "tailWidthMm": 292,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TNSRM0KCKH646R6QQZ6R",
+          "lengthCm": 154,
+          "waistWidthMm": 250,
+          "noseWidthMm": 295,
+          "tailWidthMm": 295,
+          "sidecutRadiusM": 7.9,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3TNSRZ1XG4PN3PZGRY9R2",
+          "lengthCm": 156,
+          "waistWidthMm": 252,
+          "noseWidthMm": 298,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KMG3TNSRXW4NSFR12WDEME87",
+          "lengthCm": 158,
+          "waistWidthMm": 254,
+          "noseWidthMm": 300,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 6
+        },
+        {
+          "id": "01KMG3TNSRZWWVG0PRW4A5VKTG",
+          "lengthCm": 160,
+          "waistWidthMm": 257,
+          "noseWidthMm": 304,
+          "tailWidthMm": 304,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 7
+        },
+        {
+          "id": "01KMG3TNSSYGJBM6G9DNXMTBE3",
+          "lengthCm": 162,
+          "waistWidthMm": 259,
+          "noseWidthMm": 306,
+          "tailWidthMm": 306,
+          "sidecutRadiusM": 8.3,
+          "displayOrder": 8
+        },
+        {
+          "id": "01KMG3TNSSX8FYYBDA3S88V87M",
+          "lengthCm": 164,
+          "waistWidthMm": 261,
+          "noseWidthMm": 309,
+          "tailWidthMm": 309,
+          "sidecutRadiusM": 8.4,
+          "displayOrder": 9
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TNSS2E9CM7TDED5318NY",
+      "categorySlug": "all-mountain",
+      "name": "Mercury",
+      "slug": "mercury",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/capita-mercury-snowboard",
+      "description": "オールマウンテン/フリーライド向けのクイバーキラー。Hover Coreの軽量さとCarbon Flaxアンプリファイアによる高いレスポンスで、パウダーからアイシーなグルーマーまで対応。",
+      "specs": {
+        "id": "01KMG3TNSSKM3A36D8GBVSMSB9",
+        "shape": "Directional",
+        "bendProfile": "Rocker/Camber/Rocker",
+        "flexRating": 6.5,
+        "coreMaterial": "Hover Core",
+        "baseMaterial": "Hyperdrive Adv XT Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TNSSQ02XB8C3ES6HCQAZ",
+          "lengthCm": 150,
+          "waistWidthMm": 251,
+          "noseWidthMm": 293,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 7.3,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TNSSAQ34G4JDNRP60V82",
+          "lengthCm": 153,
+          "waistWidthMm": 253,
+          "noseWidthMm": 296,
+          "tailWidthMm": 296,
+          "sidecutRadiusM": 7.5,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TNSS28QWACY36HXZ0N8F",
+          "lengthCm": 155,
+          "waistWidthMm": 255,
+          "noseWidthMm": 298,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 7.7,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TNSSVVQARWMNC1ME2H1H",
+          "lengthCm": 157,
+          "waistWidthMm": 257,
+          "noseWidthMm": 301,
+          "tailWidthMm": 301,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3TNSSV9G69SKBY1MKXFQ9",
+          "lengthCm": 159,
+          "waistWidthMm": 259,
+          "noseWidthMm": 303,
+          "tailWidthMm": 303,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 5
+        },
+        {
+          "id": "01KMG3TNSSZTQ8AW70E957ANGX",
+          "lengthCm": 161,
+          "waistWidthMm": 261,
+          "noseWidthMm": 305,
+          "tailWidthMm": 305,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 6
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TNSS2HSZJ4Q0R15YKYA8",
+      "categorySlug": "freeride",
+      "name": "Mega Mercury",
+      "slug": "mega-mercury",
+      "sport": "snowboard",
+      "level": "expert",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/capita-mega-mercury-snowboard",
+      "description": "Mercuryの上位モデル。3D Thermopolymer Starship Coreとトライアックスグラスファイバーでハイスピード時の安定性と爆発的なレスポンスを実現するオールマウンテン/フリーライド機。",
+      "specs": {
+        "id": "01KMG3TNSSNXKE73ANEN5G0CRQ",
+        "shape": "Directional",
+        "bendProfile": "Rocker/Camber/Rocker",
+        "flexRating": 7,
+        "coreMaterial": "3D Thermopolymer Starship Core (Poplar/Thermopolymer)",
+        "baseMaterial": "Moonshot Omni-Tune Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TNSSTCP407Z7EQ31ANH3",
+          "lengthCm": 155,
+          "waistWidthMm": 255,
+          "noseWidthMm": 298,
+          "tailWidthMm": 298,
+          "sidecutRadiusM": 7.7,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TNSSVXJ1YHY99BKDGPSR",
+          "lengthCm": 157,
+          "waistWidthMm": 257,
+          "noseWidthMm": 301,
+          "tailWidthMm": 301,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TNSS1MB97J0P1T3G0XA9",
+          "lengthCm": 159,
+          "waistWidthMm": 259,
+          "noseWidthMm": 303,
+          "tailWidthMm": 303,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TNSSK5MFFRGG95WT220S",
+          "lengthCm": 161,
+          "waistWidthMm": 261,
+          "noseWidthMm": 306,
+          "tailWidthMm": 306,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 4
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TNSSS9WPGMAT13NPKT14",
+      "categorySlug": "freestyle",
+      "name": "Super DOA",
+      "slug": "super-doa",
+      "sport": "snowboard",
+      "level": "advanced",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/capita-super-doa-snowboard",
+      "description": "DOAの上位モデル。3D Thermopolymer Starship Coreと3Dコンター採用でよりポップでフロート感のあるフリースタイルボード。パークからリゾート全域で攻めるライダー向け。",
+      "specs": {
+        "id": "01KMG3TNSSGYDCDP931DJA6TZD",
+        "shape": "True Twin",
+        "bendProfile": "Rocker/Camber/Rocker",
+        "flexRating": 6,
+        "coreMaterial": "3D Thermopolymer Starship Core (Poplar/Thermopolymer)",
+        "baseMaterial": "Hyperdrive Adv XT Sintered",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TNSSG8FF4KWBJKA4ZETT",
+          "lengthCm": 152,
+          "waistWidthMm": 248,
+          "noseWidthMm": 293,
+          "tailWidthMm": 293,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TNSSFYBN4YF21M9S5ANV",
+          "lengthCm": 154,
+          "waistWidthMm": 250,
+          "noseWidthMm": 295,
+          "tailWidthMm": 295,
+          "sidecutRadiusM": 7.9,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TNSS24S4FS2VA9NFQ08P",
+          "lengthCm": 156,
+          "waistWidthMm": 252,
+          "noseWidthMm": 297,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TNSSP6D86BYZR5TK7RS2",
+          "lengthCm": 158,
+          "waistWidthMm": 254,
+          "noseWidthMm": 300,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3TNSS580AZ7R5QP69TS2C",
+          "lengthCm": 160,
+          "waistWidthMm": 256,
+          "noseWidthMm": 303,
+          "tailWidthMm": 303,
+          "sidecutRadiusM": 8.2,
+          "displayOrder": 5
+        }
+      ]
+    },
+    {
+      "id": "01KMG3TNSSY20GMW0SJRFASMP0",
+      "categorySlug": "all-mountain",
+      "name": "Outerspace Living",
+      "slug": "outerspace-living",
+      "sport": "snowboard",
+      "level": "intermediate",
+      "season": "2025-2026",
+      "sourceUrl": "https://www.evo.com/snowboards/capita-outerspace-living-snowboard",
+      "description": "オールマウンテン向けのディレクショナルツイン。Multizone Dual Coreの軽量さとCarbon Boostersでバランスの良い安定性と楽しさを両立。中級者のスキルアップに最適。",
+      "specs": {
+        "id": "01KMG3TNSSFXK76WQ654MB9ME3",
+        "shape": "Directional Twin",
+        "bendProfile": "Rocker/Camber/Rocker",
+        "flexRating": 5,
+        "coreMaterial": "Multizone Dual Core (Poplar/Beech)",
+        "baseMaterial": "Superdrive ADV Sintruded",
+        "mounting": "2x4"
+      },
+      "sizes": [
+        {
+          "id": "01KMG3TNSSB94149Q0WZT13P9D",
+          "lengthCm": 150,
+          "waistWidthMm": 246,
+          "noseWidthMm": 285,
+          "tailWidthMm": 285,
+          "sidecutRadiusM": 7.6,
+          "displayOrder": 1
+        },
+        {
+          "id": "01KMG3TNSSE9SVVME5JNV4E784",
+          "lengthCm": 154,
+          "waistWidthMm": 250,
+          "noseWidthMm": 291,
+          "tailWidthMm": 291,
+          "sidecutRadiusM": 7.8,
+          "displayOrder": 2
+        },
+        {
+          "id": "01KMG3TNSSKWNKJ3DF538CM260",
+          "lengthCm": 156,
+          "waistWidthMm": 252,
+          "noseWidthMm": 294,
+          "tailWidthMm": 294,
+          "sidecutRadiusM": 7.9,
+          "displayOrder": 3
+        },
+        {
+          "id": "01KMG3TNSSREPWDS51GT696TRG",
+          "lengthCm": 158,
+          "waistWidthMm": 254,
+          "noseWidthMm": 297,
+          "tailWidthMm": 297,
+          "sidecutRadiusM": 8.0,
+          "displayOrder": 4
+        },
+        {
+          "id": "01KMG3TNSSS88Z0SMEPD4JBC99",
+          "lengthCm": 160,
+          "waistWidthMm": 256,
+          "noseWidthMm": 300,
+          "tailWidthMm": 300,
+          "sidecutRadiusM": 8.1,
+          "displayOrder": 5
+        }
+      ]
+    }
+  ]
+}
