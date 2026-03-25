@@ -41,7 +41,7 @@ export function generateAffiliateLinks(config: AffiliateConfig, model: ModelInfo
     links.push({
       provider: "rakuten",
       label: "楽天市場",
-      url: `https://hb.afl.rakuten.co.jp/hgc/${encodeURIComponent(config.rakutenAffiliateId)}/?pc=${encodeURIComponent(searchUrl)}`,
+      url: `https://hb.afl.rakuten.co.jp/ichiba/${config.rakutenAffiliateId}/?pc=${encodeURIComponent(searchUrl)}&link_type=hybrid_url`,
     });
   }
 
