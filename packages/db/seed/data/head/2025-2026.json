@@ -232,6 +232,7 @@
           "noseWidthMm": 133,
           "tailWidthMm": 122,
           "sidecutRadiusM": 17.2,
+          "weightG": 1922,
           "displayOrder": 1
         },
         {
@@ -241,6 +242,7 @@
           "noseWidthMm": 133,
           "tailWidthMm": 122,
           "sidecutRadiusM": 17.2,
+          "weightG": 1922,
           "displayOrder": 2
         },
         {
@@ -250,6 +252,7 @@
           "noseWidthMm": 133,
           "tailWidthMm": 122,
           "sidecutRadiusM": 17.2,
+          "weightG": 1922,
           "displayOrder": 3
         },
         {
@@ -259,6 +262,7 @@
           "noseWidthMm": 133,
           "tailWidthMm": 122,
           "sidecutRadiusM": 17.2,
+          "weightG": 1922,
           "displayOrder": 4
         }
       ]

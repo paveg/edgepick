@@ -114,6 +114,7 @@
           "noseWidthMm": 131,
           "tailWidthMm": 117,
           "sidecutRadiusM": 13.5,
+          "weightG": 1810,
           "displayOrder": 1
         },
         {
@@ -123,6 +124,7 @@
           "noseWidthMm": 132,
           "tailWidthMm": 118,
           "sidecutRadiusM": 14.5,
+          "weightG": 1810,
           "displayOrder": 2
         },
         {
@@ -132,6 +134,7 @@
           "noseWidthMm": 133,
           "tailWidthMm": 119,
           "sidecutRadiusM": 15.5,
+          "weightG": 1810,
           "displayOrder": 3
         },
         {
@@ -141,6 +144,7 @@
           "noseWidthMm": 134,
           "tailWidthMm": 120,
           "sidecutRadiusM": 16.5,
+          "weightG": 1810,
           "displayOrder": 4
         },
         {
@@ -150,6 +154,7 @@
           "noseWidthMm": 135,
           "tailWidthMm": 121,
           "sidecutRadiusM": 17.5,
+          "weightG": 1810,
           "displayOrder": 5
         }
       ]
@@ -241,6 +246,7 @@
           "noseWidthMm": 130,
           "tailWidthMm": 118,
           "sidecutRadiusM": 13.5,
+          "weightG": 1470,
           "displayOrder": 1
         },
         {
@@ -250,6 +256,7 @@
           "noseWidthMm": 131,
           "tailWidthMm": 119,
           "sidecutRadiusM": 14.5,
+          "weightG": 1580,
           "displayOrder": 2
         },
         {
@@ -259,6 +266,7 @@
           "noseWidthMm": 132,
           "tailWidthMm": 120,
           "sidecutRadiusM": 15.5,
+          "weightG": 1685,
           "displayOrder": 3
         },
         {
@@ -268,6 +276,7 @@
           "noseWidthMm": 133,
           "tailWidthMm": 121,
           "sidecutRadiusM": 16.5,
+          "weightG": 1780,
           "displayOrder": 4
         },
         {
@@ -277,6 +286,7 @@
           "noseWidthMm": 134,
           "tailWidthMm": 122,
           "sidecutRadiusM": 17.5,
+          "weightG": 1880,
           "displayOrder": 5
         },
         {
@@ -286,6 +296,7 @@
           "noseWidthMm": 135,
           "tailWidthMm": 123,
           "sidecutRadiusM": 18.5,
+          "weightG": 2000,
           "displayOrder": 6
         }
       ]
@@ -316,6 +327,7 @@
           "noseWidthMm": 136,
           "tailWidthMm": 123,
           "sidecutRadiusM": 16.5,
+          "weightG": 1500,
           "displayOrder": 1
         },
         {
@@ -325,6 +337,7 @@
           "noseWidthMm": 137,
           "tailWidthMm": 124,
           "sidecutRadiusM": 17.5,
+          "weightG": 1650,
           "displayOrder": 2
         },
         {
@@ -334,6 +347,7 @@
           "noseWidthMm": 138,
           "tailWidthMm": 125,
           "sidecutRadiusM": 18.5,
+          "weightG": 1800,
           "displayOrder": 3
         },
         {
@@ -343,6 +357,7 @@
           "noseWidthMm": 139,
           "tailWidthMm": 126,
           "sidecutRadiusM": 19.5,
+          "weightG": 2000,
           "displayOrder": 4
         },
         {
@@ -352,6 +367,7 @@
           "noseWidthMm": 140,
           "tailWidthMm": 127,
           "sidecutRadiusM": 20.5,
+          "weightG": 2190,
           "displayOrder": 5
         }
       ]

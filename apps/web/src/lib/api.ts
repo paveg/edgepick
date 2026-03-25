@@ -7,9 +7,7 @@
  */
 import { env } from "cloudflare:workers";
 
-const binding = (env as Record<string, unknown>).API as
-  | { fetch: typeof fetch }
-  | undefined;
+const binding = (env as Record<string, unknown>).API as { fetch: typeof fetch } | undefined;
 
 export const apiFetch = (path: string, init?: RequestInit): Promise<Response> => {
   if (binding) {

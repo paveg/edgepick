@@ -207,24 +207,24 @@
 
 ## まとめ: スクレイピング難易度・推奨元一覧
 
-| # | ブランド | 推奨元 | スクレイピング難易度 | スペック充実度 | 備考 |
-|---|---------|--------|-------------------|-------------|------|
-| 1 | Nordica | 公式 | 低（WebFetch 可） | ★★★★★ | サイズ別重量まで記載 |
-| 2 | Salomon | evo.com | 高（403） | ★★★★☆ | 公式は WAF 保護 |
-| 3 | Atomic | evo.com | 高（403） | ★★★★☆ | PDF カタログも選択肢 |
-| 4 | Volkl | evo.com | 中（JS 必須） | ★★★★☆ | SPA 構造 |
-| 5 | HEAD | evo.com | 中（JS 必須） | ★★★★☆ | catalog.head.com も検討 |
-| 6 | Blizzard | 公式 | 低〜中 | ★★★★☆ | Issuu カタログも有用 |
-| 7 | K2 | evo.com | 中（JS 必須） | ★★★★☆ | SPA 構造 |
-| 8 | BLASTRACK | 公式 | 低（WebFetch 可） | ★★★☆☆ | 日本語のみ。evo 取扱なし |
-| 9 | Burton | 公式 | 低（WebFetch 可） | ★★★★★ | 最も詳細なスペック表 |
-| 10 | Jones | evo.com | 中（JS 必須） | ★★★★☆ | PDF カタログも選択肢 |
-| 11 | Lib Tech | 公式 | 低（WebFetch 可） | ★★★★★ | スペック表充実 |
-| 12 | GNU | 公式 | 低（WebFetch 可） | ★★★★★ | Lib Tech と同構造 |
-| 13 | CAPiTA | evo.com | 中（JS 必須） | ★★★☆☆ | スペック表が限定的 |
-| 14 | Ride | evo.com | 中（JS 必須） | ★★★★☆ | K2 と同系列 |
-| 15 | YES. | 公式 + evo | 中 | ★★★★☆ | Shopify ベース |
-| 16 | Nitro | 公式 | 低（WebFetch 可） | ★★★★☆ | 一部スペック欠落の可能性 |
+| #   | ブランド  | 推奨元     | スクレイピング難易度 | スペック充実度 | 備考                     |
+| --- | --------- | ---------- | -------------------- | -------------- | ------------------------ |
+| 1   | Nordica   | 公式       | 低（WebFetch 可）    | ★★★★★          | サイズ別重量まで記載     |
+| 2   | Salomon   | evo.com    | 高（403）            | ★★★★☆          | 公式は WAF 保護          |
+| 3   | Atomic    | evo.com    | 高（403）            | ★★★★☆          | PDF カタログも選択肢     |
+| 4   | Volkl     | evo.com    | 中（JS 必須）        | ★★★★☆          | SPA 構造                 |
+| 5   | HEAD      | evo.com    | 中（JS 必須）        | ★★★★☆          | catalog.head.com も検討  |
+| 6   | Blizzard  | 公式       | 低〜中               | ★★★★☆          | Issuu カタログも有用     |
+| 7   | K2        | evo.com    | 中（JS 必須）        | ★★★★☆          | SPA 構造                 |
+| 8   | BLASTRACK | 公式       | 低（WebFetch 可）    | ★★★☆☆          | 日本語のみ。evo 取扱なし |
+| 9   | Burton    | 公式       | 低（WebFetch 可）    | ★★★★★          | 最も詳細なスペック表     |
+| 10  | Jones     | evo.com    | 中（JS 必須）        | ★★★★☆          | PDF カタログも選択肢     |
+| 11  | Lib Tech  | 公式       | 低（WebFetch 可）    | ★★★★★          | スペック表充実           |
+| 12  | GNU       | 公式       | 低（WebFetch 可）    | ★★★★★          | Lib Tech と同構造        |
+| 13  | CAPiTA    | evo.com    | 中（JS 必須）        | ★★★☆☆          | スペック表が限定的       |
+| 14  | Ride      | evo.com    | 中（JS 必須）        | ★★★★☆          | K2 と同系列              |
+| 15  | YES.      | 公式 + evo | 中                   | ★★★★☆          | Shopify ベース           |
+| 16  | Nitro     | 公式       | 低（WebFetch 可）    | ★★★★☆          | 一部スペック欠落の可能性 |
 
 ## evo.com の URL パターン（フォールバック用）
 
@@ -234,24 +234,24 @@
 
 ### evo.com ブランド slug 一覧
 
-| ブランド | slug |
-|---------|------|
-| Nordica | `nordica` |
-| Salomon | `salomon` |
-| Atomic | `atomic` |
-| Volkl | `vlkl` |
-| HEAD | `head` |
-| Blizzard | `blizzard` |
-| K2 | `k2` |
-| Burton | `burton` |
-| Jones | `jones` |
-| Lib Tech | `lib-tech` |
-| GNU | `gnu` |
-| CAPiTA | `capita` |
-| Ride | `ride` |
-| YES. | `yes` |
-| Nitro | `nitro` |
-| BLASTRACK | 取扱なし |
+| ブランド  | slug       |
+| --------- | ---------- |
+| Nordica   | `nordica`  |
+| Salomon   | `salomon`  |
+| Atomic    | `atomic`   |
+| Volkl     | `vlkl`     |
+| HEAD      | `head`     |
+| Blizzard  | `blizzard` |
+| K2        | `k2`       |
+| Burton    | `burton`   |
+| Jones     | `jones`    |
+| Lib Tech  | `lib-tech` |
+| GNU       | `gnu`      |
+| CAPiTA    | `capita`   |
+| Ride      | `ride`     |
+| YES.      | `yes`      |
+| Nitro     | `nitro`    |
+| BLASTRACK | 取扱なし   |
 
 ## 注意事項
 

@@ -289,24 +289,13 @@
           "displayOrder": 4
         },
         {
-          "id": "01KM393B4YR46QBSCFVW44SE3M",
-          "lengthCm": 157,
-          "waistWidthMm": 263,
-          "noseWidthMm": 305,
-          "tailWidthMm": 305,
-          "sidecutRadiusM": 8.2,
-          "weightRange": "125+ lbs / 60+ kg",
-          "isWide": true,
-          "displayOrder": 5
-        },
-        {
           "id": "01KM393B4YF8XJY442M97Q2Z80",
           "lengthCm": 159,
           "waistWidthMm": 259,
           "noseWidthMm": 302,
           "tailWidthMm": 302,
           "sidecutRadiusM": 8.3,
-          "displayOrder": 6
+          "displayOrder": 5
         },
         {
           "id": "01KM393B4YDDEXVZ7KVGCP72ZT",
@@ -315,17 +304,7 @@
           "noseWidthMm": 304,
           "tailWidthMm": 304,
           "sidecutRadiusM": 8.4,
-          "displayOrder": 7
-        },
-        {
-          "id": "01KM393B4YTE46CFQ8R3FV6KEN",
-          "lengthCm": 161,
-          "waistWidthMm": 265,
-          "noseWidthMm": 311,
-          "tailWidthMm": 311,
-          "sidecutRadiusM": 8.4,
-          "isWide": true,
-          "displayOrder": 8
+          "displayOrder": 6
         },
         {
           "id": "01KM393B4YM090952K0J4KWBRW",
@@ -334,17 +313,7 @@
           "noseWidthMm": 310,
           "tailWidthMm": 310,
           "sidecutRadiusM": 8.5,
-          "displayOrder": 9
-        },
-        {
-          "id": "01KM393B4YGY9YARYNCKTT8C4G",
-          "lengthCm": 164,
-          "waistWidthMm": 267,
-          "noseWidthMm": 312,
-          "tailWidthMm": 312,
-          "sidecutRadiusM": 8.5,
-          "isWide": true,
-          "displayOrder": 10
+          "displayOrder": 7
         }
       ]
     },
@@ -645,33 +614,13 @@
           "displayOrder": 3
         },
         {
-          "id": "01KM393B502A1ZPBGRMY4XMMFJ",
-          "lengthCm": 156,
-          "waistWidthMm": 265,
-          "noseWidthMm": 307,
-          "tailWidthMm": 304,
-          "sidecutRadiusM": 8.0,
-          "isWide": true,
-          "displayOrder": 4
-        },
-        {
           "id": "01KM393B508ZY3MS101S1VH9A0",
           "lengthCm": 159,
           "waistWidthMm": 257,
           "noseWidthMm": 300,
           "tailWidthMm": 297,
           "sidecutRadiusM": 8.1,
-          "displayOrder": 5
-        },
-        {
-          "id": "01KM393B50SN23X28QPKW47ASY",
-          "lengthCm": 159,
-          "waistWidthMm": 267,
-          "noseWidthMm": 310,
-          "tailWidthMm": 307,
-          "sidecutRadiusM": 8.1,
-          "isWide": true,
-          "displayOrder": 6
+          "displayOrder": 4
         },
         {
           "id": "01KM393B50PEFQMWDXD5B0P3H3",
@@ -680,27 +629,7 @@
           "noseWidthMm": 303,
           "tailWidthMm": 300,
           "sidecutRadiusM": 8.2,
-          "displayOrder": 7
-        },
-        {
-          "id": "01KM393B50XBCYJJ5Q12DB7K8J",
-          "lengthCm": 162,
-          "waistWidthMm": 268,
-          "noseWidthMm": 313,
-          "tailWidthMm": 311,
-          "sidecutRadiusM": 8.2,
-          "isWide": true,
-          "displayOrder": 8
-        },
-        {
-          "id": "01KM393B50Z0807DW566K5EQDB",
-          "lengthCm": 165,
-          "waistWidthMm": 268,
-          "noseWidthMm": 314,
-          "tailWidthMm": 312,
-          "sidecutRadiusM": 8.3,
-          "isWide": true,
-          "displayOrder": 9
+          "displayOrder": 5
         }
       ]
     },
@@ -750,26 +679,6 @@
           "tailWidthMm": 294,
           "sidecutRadiusM": 8.0,
           "displayOrder": 3
-        },
-        {
-          "id": "01KM393B5021KSGDF4YYVXJQC2",
-          "lengthCm": 159,
-          "waistWidthMm": 264,
-          "noseWidthMm": 312,
-          "tailWidthMm": 304,
-          "sidecutRadiusM": 8.0,
-          "isWide": true,
-          "displayOrder": 4
-        },
-        {
-          "id": "01KM393B50P771MFXF3GK8H7F3",
-          "lengthCm": 162,
-          "waistWidthMm": 265,
-          "noseWidthMm": 317,
-          "tailWidthMm": 306,
-          "sidecutRadiusM": 8.0,
-          "isWide": true,
-          "displayOrder": 5
         }
       ]
     },

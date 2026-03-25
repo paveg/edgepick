@@ -296,16 +296,6 @@
           "tailWidthMm": 296.8,
           "sidecutRadiusM": 7.6,
           "displayOrder": 5
-        },
-        {
-          "id": "01KM397321EVJAGRBWRAPCEWH4",
-          "lengthCm": 160,
-          "waistWidthMm": 263,
-          "noseWidthMm": 311.6,
-          "tailWidthMm": 304.6,
-          "sidecutRadiusM": 7.6,
-          "widthType": "wide",
-          "displayOrder": 6
         }
       ]
     },
@@ -373,26 +363,6 @@
           "tailWidthMm": 303.3,
           "sidecutRadiusM": 7.5,
           "displayOrder": 5
-        },
-        {
-          "id": "01KM397321ZJH3XJXD4MNAH3V6",
-          "lengthCm": 154,
-          "waistWidthMm": 263,
-          "noseWidthMm": 308.1,
-          "tailWidthMm": 303.1,
-          "sidecutRadiusM": 7.0,
-          "widthType": "wide",
-          "displayOrder": 6
-        },
-        {
-          "id": "01KM397321EPB1NX4MPTYYBZNJ",
-          "lengthCm": 159,
-          "waistWidthMm": 266,
-          "noseWidthMm": 313.1,
-          "tailWidthMm": 308.1,
-          "sidecutRadiusM": 7.3,
-          "widthType": "wide",
-          "displayOrder": 7
         }
       ]
     },
@@ -451,36 +421,6 @@
           "tailWidthMm": 297.4,
           "sidecutRadiusM": 7.4,
           "displayOrder": 4
-        },
-        {
-          "id": "01KM3973225YHXVX1KCX8XMJCV",
-          "lengthCm": 155,
-          "waistWidthMm": 260,
-          "noseWidthMm": 304.5,
-          "tailWidthMm": 299.5,
-          "sidecutRadiusM": 7.1,
-          "widthType": "wide",
-          "displayOrder": 5
-        },
-        {
-          "id": "01KM397322BA07WSDBP2R4B6G9",
-          "lengthCm": 160,
-          "waistWidthMm": 265,
-          "noseWidthMm": 311.4,
-          "tailWidthMm": 306.4,
-          "sidecutRadiusM": 7.4,
-          "widthType": "wide",
-          "displayOrder": 6
-        },
-        {
-          "id": "01KM397322X490XXYDPTVWGFZM",
-          "lengthCm": 165,
-          "waistWidthMm": 270,
-          "noseWidthMm": 317.9,
-          "tailWidthMm": 312.9,
-          "sidecutRadiusM": 7.8,
-          "widthType": "wide",
-          "displayOrder": 7
         }
       ]
     },
@@ -557,26 +497,6 @@
           "tailWidthMm": 298.1,
           "sidecutRadiusM": 8.1,
           "displayOrder": 6
-        },
-        {
-          "id": "01KM3973227H4XNDZWERBNQ0P8",
-          "lengthCm": 155,
-          "waistWidthMm": 260,
-          "noseWidthMm": 301.7,
-          "tailWidthMm": 301.7,
-          "sidecutRadiusM": 7.8,
-          "widthType": "wide",
-          "displayOrder": 7
-        },
-        {
-          "id": "01KM397322HVYZK7RTA398SFNV",
-          "lengthCm": 159,
-          "waistWidthMm": 263,
-          "noseWidthMm": 306.1,
-          "tailWidthMm": 306.1,
-          "sidecutRadiusM": 8.1,
-          "widthType": "wide",
-          "displayOrder": 8
         }
       ]
     },
@@ -644,46 +564,6 @@
           "tailWidthMm": 301.8,
           "sidecutRadiusM": 8.4,
           "displayOrder": 5
-        },
-        {
-          "id": "01KM39732256E540GZ5B0T37A5",
-          "lengthCm": 155,
-          "waistWidthMm": 256,
-          "noseWidthMm": 298.2,
-          "tailWidthMm": 298.2,
-          "sidecutRadiusM": 7.9,
-          "widthType": "wide",
-          "displayOrder": 6
-        },
-        {
-          "id": "01KM397322TX9GEC2X6TQX6W6X",
-          "lengthCm": 157,
-          "waistWidthMm": 257,
-          "noseWidthMm": 299.9,
-          "tailWidthMm": 299.9,
-          "sidecutRadiusM": 8.1,
-          "widthType": "wide",
-          "displayOrder": 7
-        },
-        {
-          "id": "01KM397322MAGDXQ6SER37H1Z5",
-          "lengthCm": 159,
-          "waistWidthMm": 260,
-          "noseWidthMm": 303.6,
-          "tailWidthMm": 303.6,
-          "sidecutRadiusM": 8.2,
-          "widthType": "wide",
-          "displayOrder": 8
-        },
-        {
-          "id": "01KM397322MBW42BB4BDW8ECTN",
-          "lengthCm": 162,
-          "waistWidthMm": 262,
-          "noseWidthMm": 306.8,
-          "tailWidthMm": 306.8,
-          "sidecutRadiusM": 8.4,
-          "widthType": "wide",
-          "displayOrder": 9
         }
       ]
     }
