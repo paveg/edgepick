@@ -3,6 +3,7 @@ import Layout from "../../../../layouts/Layout.astro";
 import Header from "../../../../components/Header.astro";
 import Footer from "../../../../components/Footer.astro";
 import { apiFetch } from "../../../../lib/api";
+import { getAffiliateLinks } from "../../../../lib/affiliate";
 
 const { brandSlug, modelSlug, season } = Astro.params;
 
@@ -62,6 +63,10 @@ const levelLabel: Record<string, string> = {
   advanced: "上級",
   expert: "エキスパート",
 };
+
+const affiliateLinks = model
+  ? getAffiliateLinks({ brandName: model.brandName, name: model.name, season: model.season, sport: model.sport })
+  : [];
 ---
 
 <Layout title={model ? `${model.brandName} ${model.name} ${model.season} — Edgepick` : "モデル詳細 — Edgepick"}>
@@ -126,6 +131,23 @@ const levelLabel: Record<string, string> = {
           <p class="mt-4 text-sm text-muted-foreground leading-relaxed">
             {model.description}
           </p>
+        )}
+
+        {affiliateLinks.length > 0 && (
+          <div class="mt-4 flex flex-wrap items-center gap-3">
+            <span class="text-xs text-muted-foreground">購入:</span>
+            {affiliateLinks.map((link) => (
+              <a
+                href={link.url}
+                target="_blank"
+                rel="nofollow sponsored noopener"
+                class="inline-flex items-center gap-1 rounded-full border border-border px-3 py-1 text-xs font-medium text-muted-foreground transition-colors hover:border-primary/40 hover:text-foreground"
+              >
+                {link.label}
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            ))}
+          </div>
         )}
 
         {/* Specs */}

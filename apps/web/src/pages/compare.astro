@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { apiFetch } from "../lib/api";
+import { getAffiliateLinks } from "../lib/affiliate";
 
 
 type SkiSpecs = {
@@ -316,6 +317,23 @@ const sizeSummaries: SizeSummary[] = models.map((m) => {
                   {model.season}
                 </span>
               </div>
+              {(() => {
+                const links = getAffiliateLinks({ brandName: model.brandName, name: model.name, season: model.season, sport: model.sport });
+                return links.length > 0 ? (
+                  <div class="mt-2 flex flex-wrap gap-2">
+                    {links.map((link) => (
+                      <a
+                        href={link.url}
+                        target="_blank"
+                        rel="nofollow sponsored noopener"
+                        class="text-[11px] text-muted-foreground underline-offset-2 hover:text-foreground hover:underline"
+                      >
+                        {link.label}
+                      </a>
+                    ))}
+                  </div>
+                ) : null;
+              })()}
             </div>
           ))}
         </div>
