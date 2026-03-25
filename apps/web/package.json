@@ -21,6 +21,7 @@
     "react": "catalog:",
     "react-dom": "catalog:",
     "shadcn": "catalog:",
+    "shared": "workspace:*",
     "tailwind-merge": "catalog:",
     "tailwindcss": "catalog:",
     "tw-animate-css": "catalog:"
