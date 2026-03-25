@@ -7,6 +7,7 @@ export type AffiliateLink = {
 export type AffiliateConfig = {
   amazonTag?: string;
   rakutenAffiliateId?: string;
+  rakutenMeasurementId?: string;
   yahooPid?: string;
   yahooSid?: string;
 };
@@ -37,11 +38,12 @@ export function generateAffiliateLinks(config: AffiliateConfig, model: ModelInfo
   }
 
   if (config.rakutenAffiliateId) {
+    const measurementPath = config.rakutenMeasurementId ? `/${config.rakutenMeasurementId}` : "";
     const searchUrl = `https://search.rakuten.co.jp/search/mall/${encoded}/`;
     links.push({
       provider: "rakuten",
       label: "楽天市場",
-      url: `https://hb.afl.rakuten.co.jp/ichiba/${config.rakutenAffiliateId}/?pc=${encodeURIComponent(searchUrl)}&link_type=hybrid_url`,
+      url: `https://hb.afl.rakuten.co.jp/ichiba/${config.rakutenAffiliateId}${measurementPath}?pc=${encodeURIComponent(searchUrl)}&link_type=hybrid_url`,
     });
   }
 

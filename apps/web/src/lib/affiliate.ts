@@ -13,6 +13,8 @@ function getConfig(): AffiliateConfig {
   return {
     amazonTag: e.AMAZON_ASSOCIATE_TAG || import.meta.env.AMAZON_ASSOCIATE_TAG || undefined,
     rakutenAffiliateId: e.RAKUTEN_AFFILIATE_ID || import.meta.env.RAKUTEN_AFFILIATE_ID || undefined,
+    rakutenMeasurementId:
+      e.RAKUTEN_MEASUREMENT_ID || import.meta.env.RAKUTEN_MEASUREMENT_ID || undefined,
     yahooSid: e.YAHOO_VC_SID || import.meta.env.YAHOO_VC_SID || undefined,
     yahooPid: e.YAHOO_VC_PID || import.meta.env.YAHOO_VC_PID || undefined,
   };
