@@ -1,5 +1,6 @@
 ---
 import "@/styles/globals.css";
+import { getYahooVcPid } from "../lib/affiliate";
 
 interface Props {
   title: string;
@@ -10,6 +11,8 @@ const {
   title,
   description = "スキー・スノーボードのスペックを横並びで比較。カタログ情報を一箇所に集約したレビュープラットフォーム。",
 } = Astro.props;
+
+const yahooVcPid = getYahooVcPid();
 ---
 
 <!doctype html>
@@ -22,5 +25,11 @@ const {
   </head>
   <body class="flex min-h-dvh flex-col">
     <slot />
+    {yahooVcPid && (
+      <script is:inline define:vars={{ yahooVcPid }}>
+        var vc_pid = yahooVcPid;
+      </script>
+      <script is:inline src="//aml.valuecommerce.com/vcdal.js" async></script>
+    )}
   </body>
 </html>

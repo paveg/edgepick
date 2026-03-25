@@ -15,9 +15,14 @@ function getConfig(): AffiliateConfig {
     rakutenAffiliateId: e.RAKUTEN_AFFILIATE_ID || import.meta.env.RAKUTEN_AFFILIATE_ID || undefined,
     rakutenMeasurementId:
       e.RAKUTEN_MEASUREMENT_ID || import.meta.env.RAKUTEN_MEASUREMENT_ID || undefined,
-    yahooSid: e.YAHOO_VC_SID || import.meta.env.YAHOO_VC_SID || undefined,
-    yahooPid: e.YAHOO_VC_PID || import.meta.env.YAHOO_VC_PID || undefined,
+    yahooLinkSwitch: !!(e.YAHOO_VC_PID || import.meta.env.YAHOO_VC_PID),
   };
+}
+
+/** Yahoo LinkSwitch vc_pid (for script tag in Layout) */
+export function getYahooVcPid(): string | undefined {
+  const e = env as Record<string, string | undefined>;
+  return e.YAHOO_VC_PID || import.meta.env.YAHOO_VC_PID || undefined;
 }
 
 export function getAffiliateLinks(model: ModelInfo): AffiliateLink[] {

@@ -8,8 +8,7 @@ export type AffiliateConfig = {
   amazonTag?: string;
   rakutenAffiliateId?: string;
   rakutenMeasurementId?: string;
-  yahooPid?: string;
-  yahooSid?: string;
+  yahooLinkSwitch?: boolean;
 };
 
 type ModelInfo = {
@@ -47,12 +46,11 @@ export function generateAffiliateLinks(config: AffiliateConfig, model: ModelInfo
     });
   }
 
-  if (config.yahooSid && config.yahooPid) {
-    const searchUrl = `https://shopping.yahoo.co.jp/search?p=${encoded}`;
+  if (config.yahooLinkSwitch) {
     links.push({
       provider: "yahoo",
       label: "Yahoo!",
-      url: `https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=${encodeURIComponent(config.yahooSid)}&pid=${encodeURIComponent(config.yahooPid)}&vc_url=${encodeURIComponent(searchUrl)}`,
+      url: `https://shopping.yahoo.co.jp/search?p=${encoded}`,
     });
   }
 
